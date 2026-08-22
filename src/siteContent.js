@@ -1,23 +1,13 @@
-import agentsLandscape from '../assets/img/AI-agents-landscape.jpg'
-import aiEcosystem from '../assets/img/ai_ecosystem.png'
 import aiFramework from '../assets/img/ai_framework.png'
-import bestAi from '../assets/img/bestAI.png'
-import litReview from '../assets/img/litrev.png'
-import paidFree from '../assets/img/paid_free.jpg'
 
 export const images = {
-  agentsLandscape,
-  aiEcosystem,
   aiFramework,
-  bestAi,
-  litReview,
-  paidFree,
 }
 
 export const navItems = [
   { id: 'home', label: 'Home' },
   { id: 'agents', label: 'Agent Apps' },
-  { id: 'guild', label: 'AI Guild' },
+  { id: 'guild', label: 'AI Guide' },
   { id: 'portfolio', label: 'Portfolio' },
   { id: 'research', label: 'Research' },
 ]
@@ -117,76 +107,234 @@ export const capabilities = [
 export const roadmap = [
   {
     stage: '01',
-    title: 'Foundations',
-    detail: 'Python, statistics, linear algebra, product thinking, and core machine learning concepts.',
+    title: 'AI foundations',
+    detail:
+      'Build Python and TypeScript fluency, data literacy, product thinking, and model basics before adding agents.',
   },
   {
     stage: '02',
-    title: 'Core AI engineering',
-    detail: 'LLM APIs, retrieval, prompt systems, model evaluation, and structured outputs.',
+    title: 'Model interface',
+    detail:
+      'Use current APIs for multimodal input, structured outputs, prompt templates, model settings, cost control, and evaluation traces.',
   },
   {
     stage: '03',
-    title: 'Agent systems',
-    detail: 'Tool use, routing, memory, planning, human approval, observability, and multi-agent patterns.',
+    title: 'Context engineering',
+    detail:
+      'Design retrieval, vector stores, source citations, memory, skills, and MCP connectors so models receive the right context at the right time.',
   },
   {
     stage: '04',
-    title: 'Production platforms',
-    detail: 'Authentication, data pipelines, deployment, monitoring, cost controls, and security reviews.',
+    title: 'Agent orchestration',
+    detail:
+      'Compose tools, handoffs, subagents, guardrails, approvals, and sandboxed execution for workflows that can plan and act safely.',
   },
   {
     stage: '05',
+    title: 'Production reliability',
+    detail:
+      'Add observability, regression evals, permissions, retries, workflow queues, human review, and deployment monitoring.',
+  },
+  {
+    stage: '06',
     title: 'Domain products',
-    detail: 'Research, healthcare, analytics, education, and operational systems with clear user outcomes.',
+    detail:
+      'Package research, healthcare, analytics, education, and operations workflows into focused apps with measurable outcomes.',
   },
 ]
 
 export const resources = [
   {
-    group: 'AI agent platforms',
-    items: ['OpenAI', 'Anthropic', 'Google Gemini', 'Hugging Face', 'LangChain', 'LlamaIndex'],
+    group: 'Agent platforms',
+    items: [
+      'OpenAI Responses API and Agents SDK',
+      'Anthropic Claude Agent SDK',
+      'Google Gemini managed agents',
+      'Vercel AI SDK 7',
+      'LangGraph and Deep Agents',
+      'LlamaIndex Workflows',
+      'CrewAI Flows',
+    ],
   },
   {
-    group: 'Development stack',
-    items: ['React', 'Vite', 'Node.js', 'Python', 'FastAPI', 'PostgreSQL'],
+    group: 'Prompt and context layer',
+    items: [
+      'Prompt templates',
+      'Structured outputs',
+      'Context engineering',
+      'Skills and memory',
+      'Subagents and handoffs',
+      'Source citation UX',
+    ],
   },
   {
-    group: 'Data and visualisation',
-    items: ['Pandas', 'Polars', 'Plotly', 'D3', 'R Shiny', 'Quarto'],
+    group: 'Data and retrieval',
+    items: [
+      'Vector stores',
+      'Hybrid search',
+      'RAG pipelines',
+      'LlamaIndex connectors',
+      'PostgreSQL and pgvector',
+      'Document parsing',
+    ],
   },
   {
-    group: 'Operations',
-    items: ['Docker', 'MLOps', 'Monitoring', 'Evaluation suites', 'Access control', 'Audit logs'],
+    group: 'Production app stack',
+    items: [
+      'React, Vite, and Next.js',
+      'Node.js and FastAPI',
+      'Workflow queues',
+      'Sandboxed execution',
+      'OpenTelemetry tracing',
+      'Cost monitoring',
+    ],
+  },
+  {
+    group: 'Evaluation and safety',
+    items: [
+      'Golden datasets',
+      'Regression evals',
+      'Guardrails',
+      'Human approvals',
+      'Permission scopes',
+      'Audit logs',
+    ],
+  },
+  {
+    group: 'Automation connectors',
+    items: ['MCP servers', 'Hosted tools', 'File search', 'Web search', 'Code interpreter', 'API tools'],
   },
 ]
 
-export const projects = [
+export const toolCatalog = [
   {
-    title: 'Kidney Allocation Decision Support Platform',
-    role: 'Lead Developer',
-    summary:
-      'Interactive decision support platform for kidney allocation scenario modelling and patient-clinician shared decisions.',
-    technologies: ['R', 'Shiny', 'React', 'Data visualisation'],
-    href: 'https://sydneybiox.github.io/KTSS_v2/',
+    group: 'General AI assistants',
+    items: ['ChatGPT', 'Claude', 'Google Gemini', 'Microsoft Copilot', 'Perplexity', 'Grok'],
   },
   {
-    title: 'Single-Cell Benchmarking Dashboard',
-    role: 'Designer and Developer',
-    summary:
-      'Interactive resource for comparing single-cell analysis methods and exploring benchmark results dynamically.',
-    technologies: ['R', 'Shiny', 'Quarto', 'Benchmarking'],
-    href: 'https://sydneybiox.github.io/sc_bench_benchmark_dashboard/',
+    group: 'Agent platforms',
+    items: [
+      'OpenAI Responses API',
+      'OpenAI Agents SDK',
+      'Claude Agent SDK',
+      'Gemini managed agents',
+      'Google ADK',
+      'Vercel AI SDK 7',
+    ],
   },
   {
-    title: 'SpatialSimBench Website',
-    role: 'Research Software',
-    summary:
-      'Research site and companion app ecosystem for spatially resolved gene expression simulation benchmarking.',
-    technologies: ['Research UX', 'Spatial omics', 'Web apps'],
-    href: 'https://sydneybiox.github.io/SpatialSimbench_website',
+    group: 'Agent frameworks',
+    items: ['LangGraph', 'Deep Agents', 'LangChain', 'LlamaIndex', 'CrewAI', 'Hugging Face'],
+  },
+  {
+    group: 'Coding and app builders',
+    items: ['Codex', 'Claude Code', 'Cursor', 'Windsurf', 'Replit', 'v0', 'Bolt.new', 'Lovable', 'Base44'],
+  },
+  {
+    group: 'Browser and autonomous agents',
+    items: [
+      'OpenAI Operator',
+      'Browser Use',
+      'Manus',
+      'Genspark',
+      'ChatDev',
+      'Beam',
+      'IBM watsonx Orchestrate',
+      'Agentforce',
+    ],
+  },
+  {
+    group: 'Research and knowledge',
+    items: ['NotebookLM', 'Elicit', 'Consensus', 'SciSpace', 'Semantic Scholar', 'Zotero', 'LlamaParse'],
+  },
+  {
+    group: 'Customer support agents',
+    items: ["Tidio's Lyro", "Intercom's Fin", 'Kore.AI Agent', 'Sierra', 'Ema', 'Cognosys'],
+  },
+  {
+    group: 'Productivity and media',
+    items: ['Otter.ai', 'HeyGen', 'ElevenLabs', 'FigJam AI', 'Canva AI', 'Runway'],
+  },
+  {
+    group: 'Retrieval and data tools',
+    items: ['Vector stores', 'Hybrid search', 'pgvector', 'Pinecone', 'Weaviate', 'Qdrant', 'PostgreSQL'],
+  },
+  {
+    group: 'Agent tool interfaces',
+    items: ['MCP servers', 'Web search', 'File search', 'Code interpreter', 'Function calling', 'Computer use'],
+  },
+  {
+    group: 'Evaluation and operations',
+    items: ['OpenTelemetry', 'LangSmith', 'Promptfoo', 'Ragas', 'Guardrails', 'Human approvals', 'Audit logs'],
   },
 ]
+
+export const promptCheatsheet = [
+  {
+    group: 'Core modifiers',
+    copy: 'Use these short codes at the top of a prompt to shape behavior fast.',
+    items: [
+      { code: '/role: senior AI product architect', use: 'Sets the model perspective and decision criteria.' },
+      {
+        code: '/goal: design a production agent workflow',
+        use: 'States the outcome so responses optimize for the right finish line.',
+      },
+      {
+        code: '/context: audience=founder, domain=healthcare, constraints=privacy',
+        use: 'Injects audience, domain, and constraints without burying them in prose.',
+      },
+      { code: '/depth: scan | explain | implement | audit', use: 'Controls how far the assistant should go.' },
+      { code: '/output: table | checklist | JSON | code patch', use: 'Locks the answer shape before generation.' },
+      { code: '/evidence: cite sources, mark assumptions', use: 'Pushes current facts and uncertainty into the response.' },
+    ],
+  },
+  {
+    group: 'Agent build modifiers',
+    copy: 'Good for coding agents, data agents, and workflow assistants.',
+    items: [
+      { code: '/tools: web, files, shell, database', use: 'Names the allowed tool surface before the agent plans.' },
+      {
+        code: '/guardrails: ask before writes or external sends',
+        use: 'Defines approval points for risky actions.',
+      },
+      {
+        code: '/memory: use project conventions and user preferences',
+        use: 'Tells the assistant what durable context matters.',
+      },
+      {
+        code: '/handoff: research -> planner -> builder -> reviewer',
+        use: 'Defines specialist roles for multi-agent flows.',
+      },
+      { code: '/eval: compare against acceptance tests', use: 'Asks for verification criteria and pass/fail checks.' },
+    ],
+  },
+  {
+    group: 'Code prompt templates',
+    copy: 'Drop these into developer prompts when you need structured code output.',
+    items: [
+      { code: '/patch-only', use: 'Return only the code changes or diff.' },
+      { code: '/explain-first', use: 'Summarize approach before editing or generating code.' },
+      {
+        code: '/typed-output: zod | pydantic | json_schema',
+        use: 'Require a schema for tool calls, API responses, or extraction.',
+      },
+      { code: '/security-review', use: 'Check auth, permissions, secrets, and data exposure.' },
+      { code: '/perf-pass', use: 'Look for latency, caching, batching, and token-cost improvements.' },
+    ],
+  },
+  {
+    group: 'Copy-ready prompt block',
+    copy: 'A compact starting point for app, agent, or research workflows.',
+    template: `ROLE: You are a <specific expert>.
+GOAL: <one concrete outcome>.
+CONTEXT: <audience, domain, constraints, source material>.
+TOOLS: <allowed tools and approval rules>.
+OUTPUT: <format, schema, or acceptance criteria>.
+QUALITY BAR: cite sources, state assumptions, verify before final.`,
+  },
+]
+
+export const projects = []
 
 export const publications = [
   {

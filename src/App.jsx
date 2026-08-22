@@ -5,14 +5,15 @@ import {
   images,
   metrics,
   navItems,
-  projects,
+  promptCheatsheet,
   publications,
   resources,
   roadmap,
+  toolCatalog,
 } from './siteContent'
 
 const agentTypes = ['All', 'Research', 'Healthcare', 'Analytics', 'Operations', 'Knowledge', 'Studio']
-const guildTabs = ['Roadmap', 'Resources', 'Tools', 'Case Study']
+const guildTabs = ['Roadmap', 'Resources', 'Tools', 'Cheatsheet', 'Case Study']
 
 function App() {
   const [activePage, setActivePage] = useState('home')
@@ -81,12 +82,7 @@ function Header({ activePage, onNavigate }) {
 function Home({ onNavigate }) {
   return (
     <>
-      <section
-        className="hero-section"
-        style={{
-          backgroundImage: `linear-gradient(90deg, rgba(10, 26, 22, 0.86), rgba(10, 26, 22, 0.58)), url(${images.agentsLandscape})`,
-        }}
-      >
+      <section className="hero-section">
         <div className="hero-content">
           <p className="eyebrow">AI company and product lab</p>
           <h1>Marniera AI</h1>
@@ -219,11 +215,11 @@ function Guild({ activeGuildTab, onGuildTabChange }) {
   return (
     <section className="page-section">
       <SectionHeader
-        eyebrow="AI Guild"
-        title="Learning system for applied AI engineering"
-        copy="A living reference for building stronger foundations, agent systems, product architecture, and responsible production workflows."
+        eyebrow="AI Guide"
+        title="2026 applied AI engineering guide"
+        copy="Updated for the current agent stack: Responses-style APIs, managed agents, context engineering, MCP, evaluations, and production deployment."
       />
-      <div className="segmented-control guild-tabs" role="tablist" aria-label="AI Guild sections">
+      <div className="segmented-control guild-tabs" role="tablist" aria-label="AI Guide sections">
         {guildTabs.map((tab) => (
           <button
             key={tab}
@@ -268,23 +264,17 @@ function Guild({ activeGuildTab, onGuildTabChange }) {
       )}
 
       {activeGuildTab === 'Tools' && (
-        <div className="image-gallery">
-          <figure>
-            <img src={images.aiEcosystem} alt="AI ecosystem overview" />
-            <figcaption>AI ecosystem map</figcaption>
-          </figure>
-          <figure>
-            <img src={images.bestAi} alt="AI product comparison board" />
-            <figcaption>AI product comparison</figcaption>
-          </figure>
-          <figure>
-            <img src={images.paidFree} alt="Paid and free AI tools comparison" />
-            <figcaption>Paid and free AI tools</figcaption>
-          </figure>
-          <figure>
-            <img src={images.litReview} alt="Literature review workflow reference" />
-            <figcaption>Literature review workflow</figcaption>
-          </figure>
+        <div className="resource-grid">
+          {toolCatalog.map((group) => (
+            <article className="resource-card" key={group.group}>
+              <h3>{group.group}</h3>
+              <ul>
+                {group.items.map((item) => (
+                  <li key={item}>{item}</li>
+                ))}
+              </ul>
+            </article>
+          ))}
         </div>
       )}
 
@@ -298,37 +288,38 @@ function Guild({ activeGuildTab, onGuildTabChange }) {
           </p>
         </div>
       )}
+
+      {activeGuildTab === 'Cheatsheet' && (
+        <div className="cheatsheet-grid">
+          {promptCheatsheet.map((section) => (
+            <article className="cheatsheet-card" key={section.group}>
+              <h3>{section.group}</h3>
+              <p>{section.copy}</p>
+              {section.items && (
+                <div className="modifier-list">
+                  {section.items.map((item) => (
+                    <div className="modifier-item" key={item.code}>
+                      <code>{item.code}</code>
+                      <span>{item.use}</span>
+                    </div>
+                  ))}
+                </div>
+              )}
+              {section.template && (
+                <pre>
+                  <code>{section.template}</code>
+                </pre>
+              )}
+            </article>
+          ))}
+        </div>
+      )}
     </section>
   )
 }
 
 function Portfolio() {
-  return (
-    <section className="page-section">
-      <SectionHeader
-        eyebrow="Proof of work"
-        title="Research apps, dashboards, and decision systems"
-        copy="Marniera AI grows from hands-on experience building data products that help researchers and clinicians understand complex systems."
-      />
-      <div className="project-grid">
-        {projects.map((project) => (
-          <article className="project-card" key={project.title}>
-            <p className="eyebrow">{project.role}</p>
-            <h2>{project.title}</h2>
-            <p>{project.summary}</p>
-            <ul className="tag-list">
-              {project.technologies.map((technology) => (
-                <li key={technology}>{technology}</li>
-              ))}
-            </ul>
-            <a className="text-link" href={project.href} target="_blank" rel="noreferrer">
-              Visit project
-            </a>
-          </article>
-        ))}
-      </div>
-    </section>
-  )
+  return <section className="page-section" aria-label="Portfolio" />
 }
 
 function Research() {

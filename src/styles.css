@@ -150,9 +150,8 @@ img {
   gap: clamp(28px, 5vw, 72px);
   align-items: end;
   padding: clamp(64px, 8vw, 108px) clamp(18px, 5vw, 72px) clamp(44px, 6vw, 70px);
-  color: #ffffff;
-  background-position: center;
-  background-size: cover;
+  color: var(--ink);
+  background: transparent;
 }
 
 .hero-content {
@@ -167,10 +166,16 @@ img {
   text-transform: uppercase;
 }
 
-.hero-section .eyebrow,
-.hero-dashboard span,
+.hero-section .eyebrow {
+  color: var(--teal);
+}
+
+.hero-dashboard span {
+  color: var(--muted);
+}
+
 .hero-dashboard strong {
-  color: #ffffff;
+  color: var(--ink);
 }
 
 .hero-content h1 {
@@ -184,7 +189,7 @@ img {
 .hero-copy {
   max-width: 650px;
   margin: 24px 0 0;
-  color: rgba(255, 255, 255, 0.88);
+  color: var(--muted);
   font-size: 1.15rem;
   line-height: 1.7;
 }
@@ -223,9 +228,9 @@ img {
 }
 
 .button.secondary {
-  color: #ffffff;
-  border-color: rgba(255, 255, 255, 0.44);
-  background: rgba(255, 255, 255, 0.12);
+  color: var(--ink);
+  border-color: rgba(0, 124, 118, 0.22);
+  background: var(--surface);
 }
 
 .button.compact {
@@ -239,18 +244,17 @@ img {
   display: grid;
   gap: 16px;
   padding: 18px;
-  border: 1px solid rgba(255, 255, 255, 0.24);
+  border: 1px solid var(--line);
   border-radius: 8px;
-  background: rgba(9, 20, 17, 0.54);
-  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.28);
-  backdrop-filter: blur(18px);
+  background: var(--surface);
+  box-shadow: var(--shadow);
 }
 
 .dashboard-row {
   display: grid;
   gap: 4px;
   padding-bottom: 14px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+  border-bottom: 1px solid var(--line);
 }
 
 .dashboard-row span,
@@ -268,10 +272,10 @@ img {
 .dashboard-grid span,
 .pipeline span {
   min-height: 38px;
-  border: 1px solid rgba(255, 255, 255, 0.16);
+  border: 1px solid rgba(0, 124, 118, 0.16);
   border-radius: 6px;
   padding: 9px 10px;
-  background: rgba(255, 255, 255, 0.08);
+  background: var(--surface-strong);
 }
 
 .pipeline {
@@ -351,7 +355,8 @@ img {
 .capability-grid,
 .agent-grid,
 .project-grid,
-.resource-grid {
+.resource-grid,
+.cheatsheet-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 16px;
@@ -366,11 +371,16 @@ img {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.cheatsheet-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .capability-card,
 .agent-card,
 .project-card,
 .resource-card,
-.education-panel {
+.education-panel,
+.cheatsheet-card {
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--surface);
@@ -399,7 +409,9 @@ img {
 .resource-card li,
 .education-panel li,
 .publication-year li,
-.roadmap-item p {
+.roadmap-item p,
+.cheatsheet-card p,
+.modifier-item span {
   color: var(--muted);
   line-height: 1.62;
 }
@@ -450,11 +462,62 @@ figcaption {
 
 .agent-card,
 .project-card,
-.resource-card {
+.resource-card,
+.cheatsheet-card {
   display: flex;
   min-height: 320px;
   flex-direction: column;
   padding: 22px;
+}
+
+.cheatsheet-card h3 {
+  margin: 0;
+  letter-spacing: 0;
+}
+
+.cheatsheet-card p {
+  margin: 12px 0 0;
+}
+
+.modifier-list {
+  display: grid;
+  gap: 0;
+  margin-top: 18px;
+}
+
+.modifier-item {
+  display: grid;
+  grid-template-columns: minmax(170px, 0.42fr) minmax(0, 1fr);
+  gap: 14px;
+  align-items: start;
+  padding: 12px 0;
+  border-top: 1px solid var(--line);
+}
+
+.modifier-item code,
+.cheatsheet-card pre {
+  border-radius: 6px;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  font-size: 0.88rem;
+}
+
+.modifier-item code {
+  color: var(--sea);
+  overflow-wrap: anywhere;
+  white-space: normal;
+}
+
+.cheatsheet-card pre {
+  overflow-x: auto;
+  margin: 18px 0 0;
+  padding: 16px;
+  color: #f6f5ef;
+  background: var(--ink);
+  line-height: 1.65;
+}
+
+.cheatsheet-card pre code {
+  white-space: pre;
 }
 
 .card-topline {
@@ -657,7 +720,8 @@ figcaption {
   .agent-grid,
   .project-grid,
   .resource-grid,
-  .image-gallery {
+  .image-gallery,
+  .cheatsheet-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
@@ -711,7 +775,9 @@ figcaption {
   .agent-grid,
   .project-grid,
   .resource-grid,
-  .image-gallery {
+  .image-gallery,
+  .cheatsheet-grid,
+  .modifier-item {
     grid-template-columns: 1fr;
   }
 
