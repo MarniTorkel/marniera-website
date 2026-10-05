@@ -1,0 +1,2 @@
+import { useId } from 'react'
+export default function CheatsheetSearch({value,onChange,label='Search this cheatsheet'}) {const id=useId();return <div className="prompt-search"><label htmlFor={id}>{label}</label><input id={id} type="search" value={value} placeholder={label} onChange={event=>onChange(event.target.value)}/>{value&&<button className="button secondary" onClick={()=>onChange('')}>Clear search</button>}</div>}

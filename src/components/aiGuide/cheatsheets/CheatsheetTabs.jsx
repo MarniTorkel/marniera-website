@@ -1,0 +1,2 @@
+import { cheatSheets, cheatSheetHref } from '../../../data/aiGuide/cheatsheets'
+export default function CheatsheetTabs({selected}) {return <nav className="cheatsheet-tabs" aria-label="AI Cheatsheets"><a href="#/ai-lab/guide/cheatsheet" aria-current={!selected?'page':undefined}>Overview</a>{cheatSheets.map(sheet=><a key={sheet.id} href={cheatSheetHref(sheet.id)} aria-current={selected===sheet.id?'page':undefined}>{sheet.title}</a>)}</nav>}

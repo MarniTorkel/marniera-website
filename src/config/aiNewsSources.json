@@ -1,0 +1,167 @@
+[
+  {
+    "id": "openai",
+    "name": "OpenAI",
+    "url": "https://openai.com/news/",
+    "feedUrl": "https://openai.com/news/rss.xml",
+    "type": "rss",
+    "categories": [
+      "Models",
+      "Agents",
+      "Coding",
+      "Multimodal"
+    ],
+    "priority": 1,
+    "enabled": true,
+    "allowedHosts": [
+      "openai.com"
+    ]
+  },
+  {
+    "id": "google",
+    "name": "Google",
+    "url": "https://blog.google/",
+    "feedUrl": "https://blog.google/rss/",
+    "type": "rss",
+    "categories": [
+      "Models",
+      "Research",
+      "Multimodal"
+    ],
+    "priority": 2,
+    "enabled": true,
+    "allowedHosts": [
+      "blog.google"
+    ]
+  },
+  {
+    "id": "nvidia",
+    "name": "NVIDIA Developer",
+    "url": "https://developer.nvidia.com/blog/",
+    "feedUrl": "https://developer.nvidia.com/blog/feed/",
+    "type": "rss",
+    "categories": [
+      "Models",
+      "Research",
+      "Agents"
+    ],
+    "priority": 3,
+    "enabled": true,
+    "allowedHosts": [
+      "developer.nvidia.com"
+    ]
+  },
+  {
+    "id": "huggingface",
+    "name": "Hugging Face",
+    "url": "https://huggingface.co/blog",
+    "feedUrl": "https://huggingface.co/blog/feed.xml",
+    "type": "rss",
+    "categories": [
+      "Models",
+      "Research",
+      "Evaluation"
+    ],
+    "priority": 3,
+    "enabled": true,
+    "allowedHosts": [
+      "huggingface.co"
+    ]
+  },
+  {
+    "id": "mcp",
+    "name": "Model Context Protocol",
+    "url": "https://blog.modelcontextprotocol.io/",
+    "feedUrl": "https://blog.modelcontextprotocol.io/index.xml",
+    "type": "rss",
+    "categories": [
+      "Protocols"
+    ],
+    "priority": 1,
+    "enabled": true,
+    "allowedHosts": [
+      "blog.modelcontextprotocol.io"
+    ]
+  },
+  {
+    "id": "microsoft",
+    "name": "Microsoft Research",
+    "url": "https://www.microsoft.com/en-us/research/blog/",
+    "feedUrl": "https://www.microsoft.com/en-us/research/feed/",
+    "type": "rss",
+    "categories": [
+      "Research",
+      "Models"
+    ],
+    "priority": 2,
+    "enabled": true,
+    "allowedHosts": [
+      "www.microsoft.com",
+      "microsoft.com"
+    ]
+  },
+  {
+    "id": "anthropic",
+    "name": "Anthropic",
+    "url": "https://www.anthropic.com/news",
+    "type": "html",
+    "categories": [
+      "Agents",
+      "Research"
+    ],
+    "priority": 2,
+    "enabled": false,
+    "allowedHosts": [
+      "www.anthropic.com"
+    ],
+    "disabledReason": "HTML fallback is disabled until feed/API availability and site access rules are reviewed. No automatic crawling."
+  },
+  {
+    "id": "deepmind",
+    "name": "Google DeepMind",
+    "url": "https://deepmind.google/discover/blog/",
+    "type": "html",
+    "categories": [
+      "Agents",
+      "Research"
+    ],
+    "priority": 2,
+    "enabled": false,
+    "allowedHosts": [
+      "deepmind.google"
+    ],
+    "disabledReason": "HTML fallback is disabled until feed/API availability and site access rules are reviewed. No automatic crawling."
+  },
+  {
+    "id": "meta",
+    "name": "Meta AI",
+    "url": "https://ai.meta.com/blog/",
+    "type": "html",
+    "categories": [
+      "Agents",
+      "Research"
+    ],
+    "priority": 2,
+    "enabled": false,
+    "allowedHosts": [
+      "ai.meta.com"
+    ],
+    "disabledReason": "HTML fallback is disabled until feed/API availability and site access rules are reviewed. No automatic crawling."
+  },
+  {
+    "id": "vercel",
+    "name": "Vercel",
+    "url": "https://vercel.com/blog",
+    "type": "html",
+    "categories": [
+      "Agents",
+      "Research"
+    ],
+    "priority": 2,
+    "enabled": false,
+    "allowedHosts": [
+      "vercel.com"
+    ],
+    "disabledReason": "HTML fallback is disabled until feed/API availability and site access rules are reviewed. No automatic crawling."
+  }
+]

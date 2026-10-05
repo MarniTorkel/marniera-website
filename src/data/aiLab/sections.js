@@ -1,0 +1,8 @@
+export const aiLabSections=[
+{title:'AI Guide',purpose:'Learn',path:'ai-lab/guide',description:'A living reference covering models, prompting, context engineering, agents, evaluation, safety, research workflows and deployment.',action:'Explore guide'},
+{title:'AI Agents',purpose:'Build',path:'ai-lab/agents',description:'Working prototypes and agentic applications that use tools, workflows and specialised AI capabilities.',action:'Explore agents'},
+{title:'AI Projects',purpose:'Explore',path:'ai-lab/projects',description:'AI applications, prototypes and concepts exploring practical uses of modern models and intelligent systems.',action:'Explore projects'},
+{title:'Evaluation Lab',purpose:'Evaluate',path:'ai-lab/evaluations',description:'Reproducible tests comparing models, agents, retrieval methods and AI workflows.',action:'Explore evaluations'},
+{title:'AI Strategy',purpose:'Lead',path:'ai-lab/strategy',description:'AI strategy, governance, adoption and Chief AI Officer thinking for moving from experiments to responsible organisational use.',action:'Explore AI strategy'}
+]
+export const leaderTrack=[['AI Landscape','ai-lab/guide/topics/foundations'],['AI Strategy','ai-lab/strategy/ai-strategy'],['Opportunity Discovery','ai-lab/projects'],['Use-Case Prioritisation','ai-lab/strategy/prioritisation'],['Technology Selection','ai-lab/strategy/vendor-selection'],['Governance & Risk','ai-lab/strategy/governance'],['Operating Model','ai-lab/strategy/operating-model'],['Adoption','ai-lab/strategy/adoption'],['Value Measurement','ai-lab/strategy/value'],['Portfolio Management','ai-lab/strategy/prioritisation']]

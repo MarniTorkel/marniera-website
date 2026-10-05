@@ -1,8 +1,4 @@
-import aiFramework from '../assets/img/ai_framework.png'
 
-export const images = {
-  aiFramework,
-}
 
 export const navItems = [
   { id: 'home', label: 'Home' },
@@ -15,10 +11,21 @@ export const navItems = [
 export const metrics = [
   { value: '7+', label: 'years in data science and research systems' },
   { value: '10+', label: 'scientific apps and decision platforms shipped' },
-  { value: '2026', label: 'multi-agent product studio roadmap' },
+  { value: '2026', label: 'research ideas and creative exploration' },
 ]
 
 export const agentProducts = [
+  {
+    id: 'research-startup-ideas', type: 'Research', status: 'Exploring',
+    title: 'AI Research Startup Ideas', subtitle: 'Research ideas → prototypes → applications',
+    summary: 'Exploring AI-enabled tools for health research, data science, scientific visualisation and research workflows.',
+    stack: ['Research software', 'AI-assisted analysis'], action: 'Explore Ideas', href: '#/research-startup-ideas',
+  },
+  {
+    id: 'geometry-art', type: 'Studio', status: 'Exploring', title: 'Geometry Art',
+    summary: 'Exploring geometry, mathematics and code through generative visual art.',
+    stack: ['Creative coding', 'Generative design'], action: 'Explore gallery', href: '#/geometry-art',
+  },
   {
     id: 'research-agent',
     type: 'Research',
@@ -83,7 +90,7 @@ export const agentProducts = [
 
 export const capabilities = [
   {
-    title: 'Agentic product strategy',
+    title: 'AI research & applications',
     copy:
       'Define the right human approval points, tool boundaries, memory model, and product surface before writing the system prompt.',
   },
@@ -269,128 +276,7 @@ export const toolCatalog = [
   },
 ]
 
-export const promptCheatsheet = [
-  {
-    group: 'Core modifiers',
-    copy: 'Use these short codes at the top of a prompt to shape behavior fast.',
-    items: [
-      { code: '/role: senior AI product architect', use: 'Sets the model perspective and decision criteria.' },
-      {
-        code: '/goal: design a production agent workflow',
-        use: 'States the outcome so responses optimize for the right finish line.',
-      },
-      {
-        code: '/context: audience=founder, domain=healthcare, constraints=privacy',
-        use: 'Injects audience, domain, and constraints without burying them in prose.',
-      },
-      { code: '/depth: scan | explain | implement | audit', use: 'Controls how far the assistant should go.' },
-      { code: '/output: table | checklist | JSON | code patch', use: 'Locks the answer shape before generation.' },
-      { code: '/evidence: cite sources, mark assumptions', use: 'Pushes current facts and uncertainty into the response.' },
-    ],
-  },
-  {
-    group: 'Agent build modifiers',
-    copy: 'Good for coding agents, data agents, and workflow assistants.',
-    items: [
-      { code: '/tools: web, files, shell, database', use: 'Names the allowed tool surface before the agent plans.' },
-      {
-        code: '/guardrails: ask before writes or external sends',
-        use: 'Defines approval points for risky actions.',
-      },
-      {
-        code: '/memory: use project conventions and user preferences',
-        use: 'Tells the assistant what durable context matters.',
-      },
-      {
-        code: '/handoff: research -> planner -> builder -> reviewer',
-        use: 'Defines specialist roles for multi-agent flows.',
-      },
-      { code: '/eval: compare against acceptance tests', use: 'Asks for verification criteria and pass/fail checks.' },
-    ],
-  },
-  {
-    group: 'Code prompt templates',
-    copy: 'Drop these into developer prompts when you need structured code output.',
-    items: [
-      { code: '/patch-only', use: 'Return only the code changes or diff.' },
-      { code: '/explain-first', use: 'Summarize approach before editing or generating code.' },
-      {
-        code: '/typed-output: zod | pydantic | json_schema',
-        use: 'Require a schema for tool calls, API responses, or extraction.',
-      },
-      { code: '/security-review', use: 'Check auth, permissions, secrets, and data exposure.' },
-      { code: '/perf-pass', use: 'Look for latency, caching, batching, and token-cost improvements.' },
-    ],
-  },
-  {
-    group: 'Copy-ready prompt block',
-    copy: 'A compact starting point for app, agent, or research workflows.',
-    template: `ROLE: You are a <specific expert>.
-GOAL: <one concrete outcome>.
-CONTEXT: <audience, domain, constraints, source material>.
-TOOLS: <allowed tools and approval rules>.
-OUTPUT: <format, schema, or acceptance criteria>.
-QUALITY BAR: cite sources, state assumptions, verify before final.`,
-  },
-]
-
 export const projects = []
 
-export const publications = [
-  {
-    year: '2025',
-    items: [
-      {
-        title: 'Multi-task benchmarking of spatially resolved gene expression simulation models',
-        href: 'https://genomebiology.biomedcentral.com/articles/10.1186/s13059-025-03505-w',
-      },
-      {
-        title: 'A Kidney Transplant Support System for Patient-Clinician Shared Decision-Making',
-        href: 'https://link.springer.com/article/10.1007/s10916-025-02175-2',
-      },
-      {
-        title: 'The current landscape and emerging challenges of benchmarking single-cell methods',
-        href: 'https://www.biorxiv.org/content/10.1101/2023.12.19.572303v1',
-      },
-    ],
-  },
-  {
-    year: '2024',
-    items: [
-      {
-        title: 'A Message Passing Framework for Precise Cell State Identification with scClassify2',
-        href: 'https://www.biorxiv.org/content/10.1101/2024.06.26.600770v1',
-      },
-    ],
-  },
-  {
-    year: '2023',
-    items: [
-      {
-        title: 'Thinking process templates for constructing data stories with SCDNEY',
-        href: 'https://pubmed.ncbi.nlm.nih.gov/38434622/',
-      },
-      {
-        title: 'SubLinearForce: Fully Sublinear-Time Force Computation for Large Complex Graph Drawing',
-        href: 'https://ieeexplore.ieee.org/document/10005087',
-      },
-    ],
-  },
-  {
-    year: '2021',
-    items: [
-      {
-        title: 'GDot: Drawing Graphs with Dots and Circles',
-        href: 'https://ieeexplore.ieee.org/document/9438759',
-      },
-      {
-        title: 'BC tree-based spectral sampling for big complex network visualization',
-        href: 'https://appliednetsci.springeropen.com/articles/10.1007/s41109-021-00405-3',
-      },
-      {
-        title: 'Louvain-based Multi-level Graph Drawing',
-        href: 'https://ieeexplore.ieee.org/document/9438796',
-      },
-    ],
-  },
-]
+// Academic works are maintained in the central Research catalogue.
+export { publications } from './data/research/publications'

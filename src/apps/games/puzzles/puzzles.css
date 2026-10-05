@@ -1,0 +1,15 @@
+
+.mosaic-board,.sudoku-board{display:grid;grid-template-columns:repeat(var(--size),minmax(0,1fr));width:100%;max-width:540px;margin:20px auto;aspect-ratio:1}
+.mosaic-board{gap:3px;background:var(--ink);padding:3px;border-radius:8px;overflow:hidden}
+.mosaic-board button{position:relative;padding:0;border:0;background:#263f3b;cursor:pointer;min-width:0;overflow:hidden}
+.mosaic-board svg{display:block;width:100%;height:100%}.mosaic-board button[aria-pressed=true]{outline:4px solid #fff;outline-offset:-5px}
+.mosaic-board button:disabled{opacity:1;cursor:default}.mosaic-board button span{position:absolute;bottom:4px;left:4px;background:#fff;color:#10231f;border-radius:3px;padding:2px 5px;font-size:.75rem}
+.puzzle-preview{max-width:300px;margin:20px auto}.puzzle-preview summary{padding:12px;cursor:pointer}.puzzle-preview svg{width:100%;display:block}
+.sudoku-board{border:2px solid var(--ink);gap:0}.sudoku-board button{position:relative;border:1px solid #738d87;background:var(--surface);color:var(--ink);padding:0;font:inherit;font-size:clamp(1rem,3vw,1.65rem);min-width:0;cursor:pointer;aspect-ratio:1}
+.sudoku-board .given{font-weight:800;background:#e5eeea}.sudoku-board .editable{text-decoration:underline;text-underline-offset:4px;color:#075e59}
+.sudoku-board .chosen{background:#f5e3b8;outline:3px solid #075e59;outline-offset:-3px}.sudoku-board .conflict{background:#f5d8d0;color:#762b23}.sudoku-board small{position:absolute;right:2px;top:0;font-size:.65rem;font-weight:bold}
+.sudoku-keypad{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;max-width:540px;margin:20px auto}.sudoku-keypad button{min-width:44px;min-height:44px}
+.tile-puzzle :focus-visible,.sudoku-game :focus-visible{outline:3px solid var(--gold);outline-offset:-3px}
+.tile-puzzle .game-toolbar,.sudoku-game .game-toolbar{flex-wrap:wrap}.tile-puzzle select,.sudoku-game select{max-width:100%}
+
+.games-hub .sudoku-keypad .button{width:auto;flex:0 0 44px;padding:10px}.tile-puzzle input[type=checkbox]{width:18px;min-height:18px}.game-panel .mosaic-board button:disabled{opacity:1}
