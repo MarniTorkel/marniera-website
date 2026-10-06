@@ -1,33 +1,33 @@
 {
   "version": 1,
-  "lastUpdated": "2026-09-11T05:11:26Z",
-  "lastAttempt": "2026-09-11T05:11:26Z",
+  "lastUpdated": "2026-10-06T01:46:33Z",
+  "lastAttempt": "2026-10-06T01:46:33Z",
   "status": "ok",
   "sourceStatus": [
     {
       "id": "openai",
       "status": "ok",
-      "items": 247
+      "items": 246
     },
     {
       "id": "mcp",
       "status": "ok",
-      "items": 16
+      "items": 15
     },
     {
       "id": "google",
       "status": "ok",
-      "items": 4
+      "items": 3
     },
     {
       "id": "microsoft",
       "status": "ok",
-      "items": 8
+      "items": 9
     },
     {
       "id": "nvidia",
       "status": "ok",
-      "items": 50
+      "items": 53
     },
     {
       "id": "huggingface",
@@ -36,6 +36,726 @@
     }
   ],
   "items": [
+    {
+      "id": "d7640ece796db4a2",
+      "title": "I replaced traditional coding tests with real conversations about how my students solve problems using AI.",
+      "date": "2026-10-05",
+      "discoveredAt": "2026-10-06T01:46:33.104168Z",
+      "category": "Evaluation",
+      "summary": "Replace coding tests with AI-driven interviews using Google Gemini in Colab. See how this professor evaluates student judgment.…",
+      "whyItMatters": "Useful context when reviewing evaluation methods; check the original announcement for scope and limitations.",
+      "sourceName": "Google",
+      "sourceUrl": "https://blog.google/",
+      "articleUrl": "https://blog.google/products-and-platforms/products/education/gemini-google-colab",
+      "relatedTopicSlugs": [
+        "evaluation"
+      ]
+    },
+    {
+      "id": "57bb81d3a538c716",
+      "title": "Building advertising for the way people use AI",
+      "date": "2026-10-05",
+      "discoveredAt": "2026-10-06T01:46:33.104168Z",
+      "category": "Models",
+      "summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability…",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "dae74581fd5e22f3",
+      "title": "A model guide for the GPT-6 family",
+      "date": "2026-10-02",
+      "discoveredAt": "2026-10-06T01:46:33.104168Z",
+      "category": "Models",
+      "summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare…",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/practical-guide-building-gpt-6",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "73506d2172e7f1d2",
+      "title": "The latest AI news we announced in September 2026",
+      "date": "2026-10-02",
+      "discoveredAt": "2026-10-06T01:46:33.104168Z",
+      "category": "Models",
+      "summary": "Here are Google’s latest AI updates from September 2026",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "Google",
+      "sourceUrl": "https://blog.google/",
+      "articleUrl": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "2424f4f97cd01a2d",
+      "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+      "date": "2026-10-02",
+      "discoveredAt": "2026-10-06T01:46:33.104168Z",
+      "category": "Models",
+      "summary": "An official source announcement. Read the original for details.",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "Hugging Face",
+      "sourceUrl": "https://huggingface.co/blog",
+      "articleUrl": "https://huggingface.co/blog/allenai/astabrief",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "ef174fcec51dd633",
+      "title": "Build Local AI Apps with C++ and NVIDIA TensorRT RTX Samples",
+      "date": "2026-10-01",
+      "discoveredAt": "2026-10-06T01:46:33.104168Z",
+      "category": "Models",
+      "summary": "Adding AI models to local applications requires a portable model format, a reliable runtime, and acceleration that works…",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "NVIDIA Developer",
+      "sourceUrl": "https://developer.nvidia.com/blog/",
+      "articleUrl": "https://developer.nvidia.com/blog/build-local-ai-apps-with-c-and-nvidia-tensorrt-rtx-samples",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "ec9fcf622222154b",
+      "title": "Forecasting space weather risks on power grids",
+      "date": "2026-09-30",
+      "discoveredAt": "2026-10-06T01:46:33.104168Z",
+      "category": "Research",
+      "summary": "Extreme space-weather events can damage power systems on Earth and degrade GPS accuracy and satellite operations. A new…",
+      "whyItMatters": "Useful context when reviewing research directions; check the original announcement for scope and limitations.",
+      "sourceName": "Microsoft Research",
+      "sourceUrl": "https://www.microsoft.com/en-us/research/blog/",
+      "articleUrl": "https://www.microsoft.com/en-us/research/blog/forecasting-space-weather-risks-on-power-grids",
+      "relatedTopicSlugs": [
+        "research"
+      ]
+    },
+    {
+      "id": "b6ba55dc3def8855",
+      "title": "Helping small businesses put AI to work",
+      "date": "2026-09-30",
+      "discoveredAt": "2026-10-06T01:46:33.104168Z",
+      "category": "Models",
+      "summary": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside…",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "8bd106e1bf51ab43",
+      "title": "Google's AI ranks #1 for predicting flu hospitalizations.",
+      "date": "2026-09-30",
+      "discoveredAt": "2026-10-06T01:46:33.104168Z",
+      "category": "Models",
+      "summary": "Google’s science AI model was the best at forecasting flu-related hospital admissions, the Centers for Disease Control announced.",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "Google",
+      "sourceUrl": "https://blog.google/",
+      "articleUrl": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-science-ai-flu-forecasts",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "769b091e9e4a65f5",
+      "title": "Disrupting a coordinated model-distillation campaign",
+      "date": "2026-09-30",
+      "discoveredAt": "2026-10-06T01:46:33.104168Z",
+      "category": "Models",
+      "summary": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "ec6bee6d34361f8d",
+      "title": "Introducing Quine: An AI research system designed for the complexity of biology",
+      "date": "2026-09-29",
+      "discoveredAt": "2026-10-06T01:46:33.104168Z",
+      "category": "Multimodal",
+      "summary": "Biology doesn't operate in silos, and neither should the AI representation of it. Quine is an early-stage research…",
+      "whyItMatters": "Useful context when reviewing multimodal workflows; check the original announcement for scope and limitations.",
+      "sourceName": "Microsoft Research",
+      "sourceUrl": "https://www.microsoft.com/en-us/research/blog/",
+      "articleUrl": "https://www.microsoft.com/en-us/research/blog/introducing-quine-an-ai-research-system-designed-for-the-complexity-of-biology",
+      "relatedTopicSlugs": [
+        "multimodal"
+      ]
+    },
+    {
+      "id": "77806d163920d1cd",
+      "title": "Lower the Cost of Building and Running Visual AI Agents with NVIDIA VSS Blueprint 3.3",
+      "date": "2026-09-29",
+      "discoveredAt": "2026-10-06T01:46:33.104168Z",
+      "category": "Multimodal",
+      "summary": "Vision-language models have made it possible to build visual AI agents that understand video at production scale. The…",
+      "whyItMatters": "Useful context when reviewing multimodal workflows; check the original announcement for scope and limitations.",
+      "sourceName": "NVIDIA Developer",
+      "sourceUrl": "https://developer.nvidia.com/blog/",
+      "articleUrl": "https://developer.nvidia.com/blog/lower-the-cost-of-building-and-running-visual-ai-agents-with-nvidia-vss-blueprint-3-3",
+      "relatedTopicSlugs": [
+        "multimodal"
+      ]
+    },
+    {
+      "id": "4926436b304adba1",
+      "title": "AI Native by Design: Lessons Learned from Building NVIDIA TensorRT Model Connect",
+      "date": "2026-09-29",
+      "discoveredAt": "2026-10-06T01:46:33.104168Z",
+      "category": "Coding",
+      "summary": "Parallel work, model-family isolation, reversible changes, and GPU-backed validation shaped an open source project designed around coding agents…",
+      "whyItMatters": "Useful context when reviewing coding workflows; check the original announcement for scope and limitations.",
+      "sourceName": "NVIDIA Developer",
+      "sourceUrl": "https://developer.nvidia.com/blog/",
+      "articleUrl": "https://developer.nvidia.com/blog/ai-native-by-design-lessons-learned-from-building-nvidia-tensorrt-model-connect",
+      "relatedTopicSlugs": [
+        "tools-actions"
+      ]
+    },
+    {
+      "id": "8004da34b378c83f",
+      "title": "Add Runtime Controls to AI Agents with NVIDIA OpenShell",
+      "date": "2026-09-28",
+      "discoveredAt": "2026-10-06T01:46:33.104168Z",
+      "category": "Agents",
+      "summary": "AI agents can be given a goal, write code, use tools, and keep working as new information becomes…",
+      "whyItMatters": "Useful context when reviewing agent workflows; check the original announcement for scope and limitations.",
+      "sourceName": "NVIDIA Developer",
+      "sourceUrl": "https://developer.nvidia.com/blog/",
+      "articleUrl": "https://developer.nvidia.com/blog/add-runtime-controls-to-ai-agents-with-nvidia-openshell",
+      "relatedTopicSlugs": [
+        "agents"
+      ]
+    },
+    {
+      "id": "44bd9695c2b594b6",
+      "title": "NVIDIA Open Agent Safety Platform: A Reference for Continuous In-Silicon Agent Monitoring",
+      "date": "2026-09-28",
+      "discoveredAt": "2026-10-06T01:46:33.104168Z",
+      "category": "Safety",
+      "summary": "To understand where agentic AI stands today, consider the last seismic shift in technology: the rise of the…",
+      "whyItMatters": "Useful context when reviewing system safeguards; check the original announcement for scope and limitations.",
+      "sourceName": "NVIDIA Developer",
+      "sourceUrl": "https://developer.nvidia.com/blog/",
+      "articleUrl": "https://developer.nvidia.com/blog/nvidia-open-agent-safety-platform-a-reference-for-continuous-in-silicon-agent-monitoring",
+      "relatedTopicSlugs": [
+        "safety"
+      ]
+    },
+    {
+      "id": "e0aba156b9ba0388",
+      "title": "Wayfair boosts catalog accuracy and support speed with OpenAI",
+      "date": "2026-09-25",
+      "discoveredAt": "2026-10-06T01:46:33.104168Z",
+      "category": "Models",
+      "summary": "Wayfair uses OpenAI models to improve ecommerce support and product catalog accuracy, automating ticket triage and enhancing millions…",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/wayfair",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "f5dbb73965844059",
+      "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
+      "date": "2026-09-24",
+      "discoveredAt": "2026-10-06T01:46:33.104168Z",
+      "category": "Models",
+      "summary": "An official source announcement. Read the original for details.",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "Hugging Face",
+      "sourceUrl": "https://huggingface.co/blog",
+      "articleUrl": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "2a37bfbd333f8402",
+      "title": "Efficient MoE Training for Biological Foundation Models",
+      "date": "2026-09-24",
+      "discoveredAt": "2026-10-06T01:46:33.104168Z",
+      "category": "Models",
+      "summary": "As language models grow, scaling dense architectures becomes increasingly expensive. In a dense transformer, every token passes through…",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "NVIDIA Developer",
+      "sourceUrl": "https://developer.nvidia.com/blog/",
+      "articleUrl": "https://developer.nvidia.com/blog/efficient-moe-training-for-biological-foundation-models",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "eca70179c8f92a94",
+      "title": "Grab and OpenAI bring practical AI skills to Southeast Asia",
+      "date": "2026-09-23",
+      "discoveredAt": "2026-10-06T01:46:33.104168Z",
+      "category": "Models",
+      "summary": "OpenAI and Grab launch GO Forward with AI, a regional programme helping 30,000 partners build practical AI skills…",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "dc3016f48bd62dc7",
+      "title": "Sam Altman’s remarks at the United Nations Security Council",
+      "date": "2026-09-23",
+      "discoveredAt": "2026-10-06T01:46:33.104168Z",
+      "category": "Safety",
+      "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations…",
+      "whyItMatters": "Useful context when reviewing system safeguards; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/sam-altman-un-security-council-remarks",
+      "relatedTopicSlugs": [
+        "safety"
+      ]
+    },
+    {
+      "id": "cf36c36f73da1bab",
+      "title": "Introducing NV-Reason-CT Open 3D CT VLM for Radiologist Chain-of-Thought Reasoning",
+      "date": "2026-09-23",
+      "discoveredAt": "2026-10-06T01:46:33.104168Z",
+      "category": "Models",
+      "summary": "Radiology AI has made remarkable strides in detecting abnormalities across chest X-rays, pathology slides, and 2D scans. Yet…",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "NVIDIA Developer",
+      "sourceUrl": "https://developer.nvidia.com/blog/",
+      "articleUrl": "https://developer.nvidia.com/blog/introducing-nv-reason-ct-open-3d-ct-vlm-for-radiologist-chain-of-thought-reasoning",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "ce68d26eab350cb9",
+      "title": "Introducing MentalHealthBench",
+      "date": "2026-09-23",
+      "discoveredAt": "2026-10-06T01:46:33.104168Z",
+      "category": "Evaluation",
+      "summary": "MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations.",
+      "whyItMatters": "Useful context when reviewing evaluation methods; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/introducing-mentalhealthbench",
+      "relatedTopicSlugs": [
+        "evaluation"
+      ]
+    },
+    {
+      "id": "ce3c4530cf7b9799",
+      "title": "Manage Kubernetes Node Fleets with NodeWright",
+      "date": "2026-09-23",
+      "discoveredAt": "2026-10-06T01:46:33.104168Z",
+      "category": "Safety",
+      "summary": "Kubernetes manages what runs on your nodes. Managing the nodes themselves is the challenge: kernel settings, system packages,…",
+      "whyItMatters": "Useful context when reviewing system safeguards; check the original announcement for scope and limitations.",
+      "sourceName": "NVIDIA Developer",
+      "sourceUrl": "https://developer.nvidia.com/blog/",
+      "articleUrl": "https://developer.nvidia.com/blog/manage-kubernetes-node-fleets-with-nodewright",
+      "relatedTopicSlugs": [
+        "safety"
+      ]
+    },
+    {
+      "id": "7b30b232a41e5719",
+      "title": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
+      "date": "2026-09-23",
+      "discoveredAt": "2026-10-06T01:46:33.104168Z",
+      "category": "Models",
+      "summary": "Learn how Airbnb is expanding access to GPT-6 Astra and OpenAI frontier models to help engineering teams solve…",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/airbnb-gpt-6-astra",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "435d43e96c75ca8a",
+      "title": "How SWE-Serve Exposes the Gap Between Local Tests and Live Serving",
+      "date": "2026-09-23",
+      "discoveredAt": "2026-10-06T01:46:33.104168Z",
+      "category": "Evaluation",
+      "summary": "An AI coding agent’s patch can pass tests yet fail when the server loads a real model and…",
+      "whyItMatters": "Useful context when reviewing evaluation methods; check the original announcement for scope and limitations.",
+      "sourceName": "NVIDIA Developer",
+      "sourceUrl": "https://developer.nvidia.com/blog/",
+      "articleUrl": "https://developer.nvidia.com/blog/how-swe-serve-exposes-the-gap-between-local-tests-and-live-serving",
+      "relatedTopicSlugs": [
+        "evaluation"
+      ]
+    },
+    {
+      "id": "1bbe59b57dbe5602",
+      "title": "Offloaded inference for real-world physical AI robotics",
+      "date": "2026-09-23",
+      "discoveredAt": "2026-10-06T01:46:33.104168Z",
+      "category": "Research",
+      "summary": "Robots are getting smarter, but how can their hardware match that growth? New Microsoft Research findings show that…",
+      "whyItMatters": "Useful context when reviewing research directions; check the original announcement for scope and limitations.",
+      "sourceName": "Microsoft Research",
+      "sourceUrl": "https://www.microsoft.com/en-us/research/blog/",
+      "articleUrl": "https://www.microsoft.com/en-us/research/blog/offloaded-inference-for-real-world-physical-ai-robotics",
+      "relatedTopicSlugs": [
+        "research"
+      ]
+    },
+    {
+      "id": "efc173aba8fa5118",
+      "title": "What’s New for Game Developers: DLSS 5 with 3D-Guided Neural Rendering, NVIDIA ACE Updates, and New RTX Kit Capabilities",
+      "date": "2026-09-22",
+      "discoveredAt": "2026-10-06T01:46:33.104168Z",
+      "category": "Coding",
+      "summary": "NVIDIA DLSS 5 introduces DLSS 3D-Guided Neural Rendering and granular controls that help game developers add lifelike lighting…",
+      "whyItMatters": "Useful context when reviewing coding workflows; check the original announcement for scope and limitations.",
+      "sourceName": "NVIDIA Developer",
+      "sourceUrl": "https://developer.nvidia.com/blog/",
+      "articleUrl": "https://developer.nvidia.com/blog/whats-new-for-game-developers-dlss-5-with-3d-guided-neural-rendering-nvidia-ace-updates-and-new-rtx-kit-capabilities",
+      "relatedTopicSlugs": [
+        "tools-actions"
+      ]
+    },
+    {
+      "id": "aae93c4df65dcaf2",
+      "title": "Priorities and principles for effective third party assessments",
+      "date": "2026-09-22",
+      "discoveredAt": "2026-10-06T01:46:33.104168Z",
+      "category": "Safety",
+      "summary": "OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and…",
+      "whyItMatters": "Useful context when reviewing system safeguards; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/priorities-principles-third-party-assessments",
+      "relatedTopicSlugs": [
+        "safety"
+      ]
+    },
+    {
+      "id": "9ef04b38325438c5",
+      "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
+      "date": "2026-09-22",
+      "discoveredAt": "2026-10-06T01:46:33.104168Z",
+      "category": "Agents",
+      "summary": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half…",
+      "whyItMatters": "Useful context when reviewing agent workflows; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
+      "relatedTopicSlugs": [
+        "agents"
+      ]
+    },
+    {
+      "id": "5e0c0725477e62ec",
+      "title": "Enabling Private High-Performance Production AI Inference with NVIDIA Confidential Computing",
+      "date": "2026-09-22",
+      "discoveredAt": "2026-10-06T01:46:33.104168Z",
+      "category": "AI Strategy",
+      "summary": "As large language model (LLM) inference increasingly processes sensitive information and proprietary model context across personal, enterprise, and…",
+      "whyItMatters": "Useful context when reviewing AI adoption and governance; check the original announcement for scope and limitations.",
+      "sourceName": "NVIDIA Developer",
+      "sourceUrl": "https://developer.nvidia.com/blog/",
+      "articleUrl": "https://developer.nvidia.com/blog/enabling-private-high-performance-production-ai-inference-with-nvidia-confidential-computing",
+      "relatedTopicSlugs": [
+        "production"
+      ]
+    },
+    {
+      "id": "3617f29d12c64790",
+      "title": "Introducing GPT-6 Sol and Luna",
+      "date": "2026-09-22",
+      "discoveredAt": "2026-10-06T01:46:33.104168Z",
+      "category": "Models",
+      "summary": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of…",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "b9a971bba5a9a909",
+      "title": "Building standards for the next phase of AI",
+      "date": "2026-09-21",
+      "discoveredAt": "2026-10-06T01:46:33.104168Z",
+      "category": "Safety",
+      "summary": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve…",
+      "whyItMatters": "Useful context when reviewing system safeguards; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/building-standards-next-phase-ai",
+      "relatedTopicSlugs": [
+        "safety"
+      ]
+    },
+    {
+      "id": "a8fddc819ced0a16",
+      "title": "How to Evaluate AI Agents From Tool Calls to Task Completion",
+      "date": "2026-09-21",
+      "discoveredAt": "2026-10-06T01:46:33.104168Z",
+      "category": "Evaluation",
+      "summary": "When you ship an AI agent, the key question is whether it can execute a chain of work…",
+      "whyItMatters": "Useful context when reviewing evaluation methods; check the original announcement for scope and limitations.",
+      "sourceName": "NVIDIA Developer",
+      "sourceUrl": "https://developer.nvidia.com/blog/",
+      "articleUrl": "https://developer.nvidia.com/blog/how-to-evaluate-ai-agents-from-tool-calls-to-task-completion",
+      "relatedTopicSlugs": [
+        "evaluation"
+      ]
+    },
+    {
+      "id": "840b7f95584cdc2c",
+      "title": "Expanding OpenAI Academy with new learning paths",
+      "date": "2026-09-21",
+      "discoveredAt": "2026-10-06T01:46:33.104168Z",
+      "category": "Coding",
+      "summary": "Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical…",
+      "whyItMatters": "Useful context when reviewing coding workflows; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
+      "relatedTopicSlugs": [
+        "tools-actions"
+      ]
+    },
+    {
+      "id": "6e231a94e23ef7a3",
+      "title": "Simplifying Model Serving Across Multiple GPUs with NVIDIA TensorRT Multi-Device Integration in NVIDIA Dynamo-Triton",
+      "date": "2026-09-21",
+      "discoveredAt": "2026-10-06T01:46:33.104168Z",
+      "category": "Models",
+      "summary": "The compute and memory demands of generative AI increasingly exceed what a single GPU can provide. NVIDIA TensorRT…",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "NVIDIA Developer",
+      "sourceUrl": "https://developer.nvidia.com/blog/",
+      "articleUrl": "https://developer.nvidia.com/blog/simplifying-model-serving-across-multiple-gpus-with-nvidia-tensorrt-multi-device-integration-in-nvidia-dynamo-triton",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "20bc4b14fff339a7",
+      "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+      "date": "2026-09-21",
+      "discoveredAt": "2026-10-06T01:46:33.104168Z",
+      "category": "Multimodal",
+      "summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools…",
+      "whyItMatters": "Useful context when reviewing multimodal workflows; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+      "relatedTopicSlugs": [
+        "multimodal"
+      ]
+    },
+    {
+      "id": "164896b1cddd2fb2",
+      "title": "Improving synthesis prediction of small molecules at scale with RetroChimera",
+      "date": "2026-09-21",
+      "discoveredAt": "2026-10-06T01:46:33.104168Z",
+      "category": "Models",
+      "summary": "Custom-made molecules are advancing medicine, materials, and agriculture, but producing them is slow and expensive. A new Nature…",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "Microsoft Research",
+      "sourceUrl": "https://www.microsoft.com/en-us/research/blog/",
+      "articleUrl": "https://www.microsoft.com/en-us/research/blog/improving-synthesis-prediction-of-small-molecules-at-scale-with-retrochimera",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "78d4ea376212d963",
+      "title": "Introducing the Australian Youth Safety Blueprint",
+      "date": "2026-09-18",
+      "discoveredAt": "2026-10-06T01:46:33.104168Z",
+      "category": "Safety",
+      "summary": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower…",
+      "whyItMatters": "Useful context when reviewing system safeguards; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/australian-youth-safety-blueprint",
+      "relatedTopicSlugs": [
+        "safety"
+      ]
+    },
+    {
+      "id": "786db77eec6368a5",
+      "title": "Benchmarking LLM Inference at Scale with AIPerf",
+      "date": "2026-09-18",
+      "discoveredAt": "2026-10-06T01:46:33.104168Z",
+      "category": "Evaluation",
+      "summary": "You’re deploying a model on a system. It starts up, prompts are getting responses. Now the hard question:…",
+      "whyItMatters": "Useful context when reviewing evaluation methods; check the original announcement for scope and limitations.",
+      "sourceName": "NVIDIA Developer",
+      "sourceUrl": "https://developer.nvidia.com/blog/",
+      "articleUrl": "https://developer.nvidia.com/blog/benchmarking-llm-inference-at-scale-with-aiperf",
+      "relatedTopicSlugs": [
+        "evaluation"
+      ]
+    },
+    {
+      "id": "e9e0e71f58eacdf0",
+      "title": "TensorRT Edge-LLM Completes the MLPerf Edge Agentic Benchmark 6.4x Faster on Jetson AGX Thor",
+      "date": "2026-09-16",
+      "discoveredAt": "2026-10-06T01:46:33.104168Z",
+      "category": "Evaluation",
+      "summary": "AI agents are moving from cloud data centers to vehicles, robots, and other edge devices. Unlike a chatbot…",
+      "whyItMatters": "Useful context when reviewing evaluation methods; check the original announcement for scope and limitations.",
+      "sourceName": "NVIDIA Developer",
+      "sourceUrl": "https://developer.nvidia.com/blog/",
+      "articleUrl": "https://developer.nvidia.com/blog/tensorrt-edge-llm-completes-the-mlperf-edge-agentic-benchmark-6-4x-faster-on-jetson-agx-thor",
+      "relatedTopicSlugs": [
+        "evaluation"
+      ]
+    },
+    {
+      "id": "d92874996a8836d5",
+      "title": "Reimagining advertising with AI",
+      "date": "2026-09-16",
+      "discoveredAt": "2026-10-06T01:46:33.104168Z",
+      "category": "Agents",
+      "summary": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and…",
+      "whyItMatters": "Useful context when reviewing agent workflows; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/reimagining-advertising-with-ai",
+      "relatedTopicSlugs": [
+        "agents"
+      ]
+    },
+    {
+      "id": "c3839c37d106a5e4",
+      "title": "How workers are unlocking new ways of working",
+      "date": "2026-09-16",
+      "discoveredAt": "2026-10-06T01:46:33.104168Z",
+      "category": "Research",
+      "summary": "New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become recurring…",
+      "whyItMatters": "Useful context when reviewing research directions; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/unlocking-new-ways-of-working",
+      "relatedTopicSlugs": [
+        "research"
+      ]
+    },
+    {
+      "id": "26c64eae3d801954",
+      "title": "Translating CUDA Tile Operations from Python to Rust Using Agentic AI",
+      "date": "2026-09-16",
+      "discoveredAt": "2026-10-06T01:46:33.104168Z",
+      "category": "Agents",
+      "summary": "cuTile Rust (cutile-rs) is a tile-based system for safe, idiomatic GPU kernel authoring in the Rust programming language.…",
+      "whyItMatters": "Useful context when reviewing agent workflows; check the original announcement for scope and limitations.",
+      "sourceName": "NVIDIA Developer",
+      "sourceUrl": "https://developer.nvidia.com/blog/",
+      "articleUrl": "https://developer.nvidia.com/blog/translating-cuda-tile-operations-from-python-to-rust-using-agentic-ai",
+      "relatedTopicSlugs": [
+        "agents"
+      ]
+    },
+    {
+      "id": "0a364d5d05a36c38",
+      "title": "Our framework for reporting model misalignment",
+      "date": "2026-09-16",
+      "discoveredAt": "2026-10-06T01:46:33.104168Z",
+      "category": "Models",
+      "summary": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning…",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/model-misalignment-reporting-framework",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "cc74158a13e9093b",
+      "title": "Dense vs. MoE Models: Active Parameters, Throughput, and When to Choose Each",
+      "date": "2026-09-15",
+      "discoveredAt": "2026-10-06T01:46:33.104168Z",
+      "category": "Models",
+      "summary": "How can a 30B-parameter model activate only 3B parameters per token, and still use the capacity of the…",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "NVIDIA Developer",
+      "sourceUrl": "https://developer.nvidia.com/blog/",
+      "articleUrl": "https://developer.nvidia.com/blog/dense-vs-moe-models-active-parameters-throughput-and-when-to-choose-each",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "418119ce5902761a",
+      "title": "How Fyxer built an AI executive assistant people trust",
+      "date": "2026-09-14",
+      "discoveredAt": "2026-10-06T01:46:33.104168Z",
+      "category": "Models",
+      "summary": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each…",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/fyxer",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "3adf94be95651110",
+      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+      "date": "2026-09-14",
+      "discoveredAt": "2026-10-06T01:46:33.104168Z",
+      "category": "Models",
+      "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently…",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "302156994711dbe8",
+      "title": "Accelerating Dropless MoE Training in JAX with NVIDIA Transformer Engine",
+      "date": "2026-09-14",
+      "discoveredAt": "2026-10-06T01:46:33.104168Z",
+      "category": "Models",
+      "summary": "Mixture of experts (MoE) has become one of the defining architectural trends in large-scale AI model training. DeepSeek,…",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "NVIDIA Developer",
+      "sourceUrl": "https://developer.nvidia.com/blog/",
+      "articleUrl": "https://developer.nvidia.com/blog/accelerating-dropless-moe-training-in-jax-with-nvidia-transformer-engine",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
     {
       "id": "771eebf2a0415351",
       "title": "How Full-Stack NIM Optimizations Deliver 2.5x More Users on Nemotron 3 Ultra",
@@ -853,6 +1573,21 @@
       ]
     },
     {
+      "id": "950575ac686e6c0a",
+      "title": "Asana completed a years-long code migration in 2 weeks with Codex",
+      "date": "2026-08-18",
+      "discoveredAt": "2026-10-06T01:46:33.104168Z",
+      "category": "Models",
+      "summary": "Asana used OpenAI Codex to replace an outdated testing system in two weeks, with about $12K in model…",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/asana",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
       "id": "7f191d9e6df48e8e",
       "title": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
       "date": "2026-08-18",
@@ -1553,744 +2288,6 @@
       "sourceName": "OpenAI",
       "sourceUrl": "https://openai.com/news/",
       "articleUrl": "https://openai.com/index/introducing-chatgpt-small-business-program",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "58f39db70be00cd2",
-      "title": "Setting a World Record for MoE Pre-Training on NVIDIA GB300 NVL72",
-      "date": "2026-07-21",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Models",
-      "summary": "Frontier model pre-training has converged on mixture of experts (MoE), which is fundamentally changing what limits large-scale AI…",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/setting-a-world-record-for-moe-pre-training-on-nvidia-gb300-nvl72",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "24936ef1ad46af45",
-      "title": "Inside NVIDIA Rubin GPU Architecture: Powering the Era of Agentic AI",
-      "date": "2026-07-21",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Agents",
-      "summary": "What began as discrete AI model training and human-facing chat interfaces has evolved into always-on AI factories dedicated…",
-      "whyItMatters": "Useful context when reviewing agent workflows; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/inside-nvidia-rubin-gpu-architecture-powering-the-era-of-agentic-ai",
-      "relatedTopicSlugs": [
-        "agents"
-      ]
-    },
-    {
-      "id": "a483263f74d73873",
-      "title": "Safety and alignment in an era of long-horizon models",
-      "date": "2026-07-20",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Safety",
-      "summary": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through…",
-      "whyItMatters": "Useful context when reviewing system safeguards; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/safety-alignment-long-horizon-models",
-      "relatedTopicSlugs": [
-        "safety"
-      ]
-    },
-    {
-      "id": "159245c626d61d57",
-      "title": "NVIDIA NVLink: The Scale-Up Network for AI Factories",
-      "date": "2026-07-20",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Models",
-      "summary": "The demand for AI continues to accelerate. Workloads are getting larger, models are becoming more complex, and there…",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/nvidia-nvlink-the-scale-up-network-for-ai-factories",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "81acf332e32163fe",
-      "title": "A scorecard for the AI age",
-      "date": "2026-07-17",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Models",
-      "summary": "Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per…",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/a-scorecard-for-the-ai-age",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "754c800a70497ac6",
-      "title": "Newer Models, Same Advantage",
-      "date": "2026-07-16",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Models",
-      "summary": "An official source announcement. Read the original for details.",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "Hugging Face",
-      "sourceUrl": "https://huggingface.co/blog",
-      "articleUrl": "https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "5dbb2860d6585513",
-      "title": "Scaling Agentic AI Factories Through Extreme Co-Design with NVIDIA BlueField",
-      "date": "2026-07-16",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "AI Strategy",
-      "summary": "Agentic AI changes the infrastructure pattern for AI factories. One request can trigger many model calls, tool calls,…",
-      "whyItMatters": "Useful context when reviewing AI adoption and governance; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/scaling-agentic-ai-factories-through-extreme-co-design-with-nvidia-bluefield",
-      "relatedTopicSlugs": [
-        "production"
-      ]
-    },
-    {
-      "id": "e956f77e6cf198e8",
-      "title": "Model Routing Is Simple. Until It Isn’t.",
-      "date": "2026-07-15",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Models",
-      "summary": "An official source announcement. Read the original for details.",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "Hugging Face",
-      "sourceUrl": "https://huggingface.co/blog",
-      "articleUrl": "https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "41c3843f0f79b80b",
-      "title": "Introducing Real World VoiceEQ: Measuring the human quality of voice AI",
-      "date": "2026-07-15",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Models",
-      "summary": "An official source announcement. Read the original for details.",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "Hugging Face",
-      "sourceUrl": "https://huggingface.co/blog",
-      "articleUrl": "https://huggingface.co/blog/real-world-voiceeq",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "1a235973f1c1039b",
-      "title": "The US is advancing AI safety through state and federal action",
-      "date": "2026-07-15",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Safety",
-      "summary": "OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for…",
-      "whyItMatters": "Useful context when reviewing system safeguards; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
-      "relatedTopicSlugs": [
-        "safety"
-      ]
-    },
-    {
-      "id": "fa87991cf86b45ad",
-      "title": "How to Run an Autoresearch Workflow with RL Agent Skills and NVIDIA NeMo",
-      "date": "2026-07-14",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Coding",
-      "summary": "Coding AI agents are becoming practical operators for long-running machine learning (ML) workflows. They can inspect repositories, set…",
-      "whyItMatters": "Useful context when reviewing coding workflows; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/how-to-run-an-autoresearch-workflow-with-rl-agent-skills-and-nvidia-nemo",
-      "relatedTopicSlugs": [
-        "tools-actions"
-      ]
-    },
-    {
-      "id": "8068f5508ba381d8",
-      "title": "Post-Train NVIDIA Cosmos 3 in One Day Using Agent Skills",
-      "date": "2026-07-14",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Coding",
-      "summary": "What if autonomous coding AI agents could push your vision reasoning models above 90% accuracy with almost no…",
-      "whyItMatters": "Useful context when reviewing coding workflows; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/post-train-nvidia-cosmos-3-in-one-day-using-agent-skills",
-      "relatedTopicSlugs": [
-        "tools-actions"
-      ]
-    },
-    {
-      "id": "0fd0e1b450ddfa20",
-      "title": "Lessons From the Leaderboard: What 5,000+ Kagglers Taught Us About Improving AI Reasoning",
-      "date": "2026-07-14",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Models",
-      "summary": "The NVIDIA Nemotron Model Reasoning Challenge invited the Kaggle community to explore a focused question: What techniques can…",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/lessons-from-the-leaderboard-what-5000-kagglers-taught-us-about-improving-ai-reasoning",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "953a7561447e32d0",
-      "title": "Extreme Event Likelihoods with Guided Generative Models",
-      "date": "2026-07-13",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Models",
-      "summary": "Across science, engineering, and finance, many of the most important risks come from low-likelihood, high-impact events. Estimating the…",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/extreme-event-likelihoods-with-guided-generative-models",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "020193d838d0a737",
-      "title": "How to Evaluate General-Purpose Robot Policies for Real-World Deployment",
-      "date": "2026-07-12",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Evaluation",
-      "summary": "Robotics foundation models have made remarkable progress. Today's best systems can follow natural language instructions to pick, place,…",
-      "whyItMatters": "Useful context when reviewing evaluation methods; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/how-to-evaluate-general-purpose-robot-policies-for-real-world-deployment",
-      "relatedTopicSlugs": [
-        "evaluation"
-      ]
-    },
-    {
-      "id": "5f7bfa90e3ebd395",
-      "title": "Reducing High-Bandwidth Memory Bottlenecks in JAX-Based LLM Training with Host Offloading",
-      "date": "2026-07-10",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Models",
-      "summary": "Large language model (LLM) training workloads increasingly run into GPU memory limits before compute is fully used. Model…",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/reducing-high-bandwidth-memory-bottlenecks-in-jax-based-llm-training-with-host-offloading",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "57b68c5e9e50509f",
-      "title": "AI Model Co-Design: Hardware-Friendly LLM Design",
-      "date": "2026-07-10",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Models",
-      "summary": "AI performance comes down to three dimensions: Accuracy: How well the model reasons and produces outputs Throughput: How…",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/ai-model-co-design-hardware-friendly-llm-design",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "02b5c092caa267b7",
-      "title": "Accelerating End-to-End Co-Folding Performance with NVIDIA BioNeMo Agent Toolkit",
-      "date": "2026-07-10",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Agents",
-      "summary": "Biomolecular structure prediction and co-folding with models like OpenFold3 are now mainstream, large-scale workloads powering drug discovery and…",
-      "whyItMatters": "Useful context when reviewing agent workflows; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/accelerating-end-to-end-co-folding-performance-with-nvidia-bionemo-agent-toolkit",
-      "relatedTopicSlugs": [
-        "agents"
-      ]
-    },
-    {
-      "id": "5b923ab58e49c05e",
-      "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
-      "date": "2026-07-09",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Models",
-      "summary": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork…",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "51b4b43226951f3d",
-      "title": "Synthetic Data Generation for Financial AI Research with NVIDIA NeMo",
-      "date": "2026-07-09",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Research",
-      "summary": "Fine-tuning LLMs for financial natural language processing (NLP) is constrained by limited, imbalanced data. Real-world financial news overrepresents…",
-      "whyItMatters": "Useful context when reviewing research directions; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/synthetic-data-generation-for-financial-ai-research-with-nvidia-nemo",
-      "relatedTopicSlugs": [
-        "research"
-      ]
-    },
-    {
-      "id": "30ec2c7817b4eac2",
-      "title": "Aurora 1.5: Extending open foundation models for weather and Earth-system applications",
-      "date": "2026-07-09",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Models",
-      "summary": "Aurora 1.5 adds 22 more variables, hourly temporal resolution, and probabilistic ensemble forecasting to the Aurora foundation model,…",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "Microsoft Research",
-      "sourceUrl": "https://www.microsoft.com/en-us/research/blog/",
-      "articleUrl": "https://www.microsoft.com/en-us/research/blog/aurora-1-5-extending-open-foundation-models-for-weather-and-earth-system-applications",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "a1f240b1b8a0f00f",
-      "title": "Separating signal from noise in coding evaluations",
-      "date": "2026-07-08",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Evaluation",
-      "summary": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability…",
-      "whyItMatters": "Useful context when reviewing evaluation methods; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
-      "relatedTopicSlugs": [
-        "evaluation"
-      ]
-    },
-    {
-      "id": "68e6c33e06ada3cd",
-      "title": "Native-speed vLLM transformers modeling backend",
-      "date": "2026-07-08",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Models",
-      "summary": "An official source announcement. Read the original for details.",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "Hugging Face",
-      "sourceUrl": "https://huggingface.co/blog",
-      "articleUrl": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "5debaa8880883248",
-      "title": "Create a LangChain Deep Agents Harness Profile for NVIDIA Nemotron 3 Ultra to Improve Performance",
-      "date": "2026-07-08",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Agents",
-      "summary": "Agentic systems often face a trade-off between accuracy and cost. The highest-performing proprietary frontier models and harnesses provide…",
-      "whyItMatters": "Useful context when reviewing agent workflows; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/create-a-langchain-deep-agents-harness-profile-for-nvidia-nemotron-3-ultra-to-improve-performance",
-      "relatedTopicSlugs": [
-        "agents"
-      ]
-    },
-    {
-      "id": "21e31e342b2a9530",
-      "title": "Introducing GPT-Live",
-      "date": "2026-07-08",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Models",
-      "summary": "A new generation of voice models for natural human-AI interaction, now powering ChatGPT Voice.",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/introducing-gpt-live",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "0b6f34e0baa27966",
-      "title": "Flint: A visualization language for the AI era",
-      "date": "2026-07-08",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Agents",
-      "summary": "Short chart specifications are easy to write, but often produce uninspiring results. Flint is an open-source visualization language…",
-      "whyItMatters": "Useful context when reviewing agent workflows; check the original announcement for scope and limitations.",
-      "sourceName": "Microsoft Research",
-      "sourceUrl": "https://www.microsoft.com/en-us/research/blog/",
-      "articleUrl": "https://www.microsoft.com/en-us/research/blog/flint-a-visualization-language-for-the-ai-era",
-      "relatedTopicSlugs": [
-        "agents"
-      ]
-    },
-    {
-      "id": "cee8ecd29e379596",
-      "title": "Hugging Face Models on Foundry Managed Compute",
-      "date": "2026-07-07",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Models",
-      "summary": "An official source announcement. Read the original for details.",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "Hugging Face",
-      "sourceUrl": "https://huggingface.co/blog",
-      "articleUrl": "https://huggingface.co/blog/microsoft/foundry-managed-compute",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "760cbc5699155a40",
-      "title": "NVIDIA Vera CPU Boosts AI Factory Throughput to Accelerate Agentic Workloads",
-      "date": "2026-07-07",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Evaluation",
-      "summary": "Agentic systems turn model reasoning into action through multi-step workflows that combine inference, tool use, code execution, retrieval,…",
-      "whyItMatters": "Useful context when reviewing evaluation methods; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/nvidia-vera-cpu-boosts-ai-factory-throughput-to-accelerate-agentic-workloads",
-      "relatedTopicSlugs": [
-        "evaluation"
-      ]
-    },
-    {
-      "id": "4d061ba4bcdcecf1",
-      "title": "MUFG aims to become AI-native with OpenAI",
-      "date": "2026-07-07",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Models",
-      "summary": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at…",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/mufg",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "7c0c6163c3e4660c",
-      "title": "Hardware-Rooted AI Security That Won’t Slow You Down",
-      "date": "2026-07-02",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Safety",
-      "summary": "AI has transformed how organizations operate, driving unprecedented levels of productivity and innovation. However, AI adoption can be…",
-      "whyItMatters": "Useful context when reviewing system safeguards; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/hardware-rooted-ai-security-that-wont-slow-you-down",
-      "relatedTopicSlugs": [
-        "safety"
-      ]
-    },
-    {
-      "id": "665c2673d70b06dd",
-      "title": "Mastering Agentic Techniques: AI Agent Reinforcement Learning",
-      "date": "2026-07-01",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Agents",
-      "summary": "Reinforcement learning (RL) is central to aligning language models, from reinforcement learning with human feedback (RLHF) within AI…",
-      "whyItMatters": "Useful context when reviewing agent workflows; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/mastering-agentic-techniques-ai-agent-reinforcement-learning",
-      "relatedTopicSlugs": [
-        "agents"
-      ]
-    },
-    {
-      "id": "f4393f575936a82e",
-      "title": "Featuring Every Eval Ever Results on Hugging Face Model Pages",
-      "date": "2026-06-30",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Evaluation",
-      "summary": "An official source announcement. Read the original for details.",
-      "whyItMatters": "Useful context when reviewing evaluation methods; check the original announcement for scope and limitations.",
-      "sourceName": "Hugging Face",
-      "sourceUrl": "https://huggingface.co/blog",
-      "articleUrl": "https://huggingface.co/blog/eee-community-evals",
-      "relatedTopicSlugs": [
-        "evaluation"
-      ]
-    },
-    {
-      "id": "a89cf6cafa53bf3f",
-      "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
-      "date": "2026-06-30",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Evaluation",
-      "summary": "An official source announcement. Read the original for details.",
-      "whyItMatters": "Useful context when reviewing evaluation methods; check the original announcement for scope and limitations.",
-      "sourceName": "Hugging Face",
-      "sourceUrl": "https://huggingface.co/blog",
-      "articleUrl": "https://huggingface.co/blog/ibm-research/scarfbench",
-      "relatedTopicSlugs": [
-        "evaluation"
-      ]
-    },
-    {
-      "id": "43224e37adc85862",
-      "title": "Introducing GeneBench-Pro",
-      "date": "2026-06-30",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Evaluation",
-      "summary": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
-      "whyItMatters": "Useful context when reviewing evaluation methods; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/introducing-genebench-pro",
-      "relatedTopicSlugs": [
-        "evaluation"
-      ]
-    },
-    {
-      "id": "b14eca29c648fc67",
-      "title": "Mapping Europe’s AI Workforce Opportunity",
-      "date": "2026-06-29",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Models",
-      "summary": "A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face…",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/mapping-ai-jobs-transition-eu",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "5f0aa59b2ca28d8c",
-      "title": "Beta SDKs for the 2026-07-28 MCP Spec Release Candidate Are Here",
-      "date": "2026-06-29",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Protocols",
-      "summary": "Beta releases of the Python, TypeScript, Go, and C# SDKs are now available with support for the 2026-07-28…",
-      "whyItMatters": "Useful context when reviewing interoperability; check the original announcement for scope and limitations.",
-      "sourceName": "Model Context Protocol",
-      "sourceUrl": "https://blog.modelcontextprotocol.io/",
-      "articleUrl": "https://blog.modelcontextprotocol.io/posts/sdk-betas-2026-07-28",
-      "relatedTopicSlugs": [
-        "protocols"
-      ]
-    },
-    {
-      "id": "99613520159a4835",
-      "title": "Previewing GPT-5.6 Sol: a next-generation model",
-      "date": "2026-06-26",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Safety",
-      "summary": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its…",
-      "whyItMatters": "Useful context when reviewing system safeguards; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/previewing-gpt-5-6-sol",
-      "relatedTopicSlugs": [
-        "safety"
-      ]
-    },
-    {
-      "id": "0097ad8556f56d22",
-      "title": "Deploy a Production-Ready NVIDIA AI-Q Blueprint on Oracle Cloud Infrastructure",
-      "date": "2026-06-26",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Agents",
-      "summary": "AI agents have changed a lot in the last two years. The first could only answer one question…",
-      "whyItMatters": "Useful context when reviewing agent workflows; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/deploy-a-production-ready-nvidia-ai-q-blueprint-on-oracle-cloud-infrastructure",
-      "relatedTopicSlugs": [
-        "agents"
-      ]
-    },
-    {
-      "id": "sdk7",
-      "title": "Vercel releases AI SDK 7",
-      "date": "2026-06-25",
-      "discoveredAt": "2026-09-10T00:00:00Z",
-      "category": "Agents",
-      "summary": "AI SDK 7 expands agent runtime controls, tool approvals and observability. The release also introduces broader support for agent harnesses and multimodal workflows.",
-      "whyItMatters": "Builders can compare its workflow primitives with the infrastructure they would otherwise maintain themselves.",
-      "sourceName": "Vercel",
-      "sourceUrl": "https://vercel.com/blog/ai-sdk-7",
-      "articleUrl": "https://vercel.com/blog/ai-sdk-7",
-      "relatedTopicSlugs": [
-        "agents",
-        "production",
-        "multimodal"
-      ],
-      "curated": true
-    },
-    {
-      "id": "37406ca1d7eadae7",
-      "title": "How agents are transforming work",
-      "date": "2026-06-25",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Agents",
-      "summary": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and…",
-      "whyItMatters": "Useful context when reviewing agent workflows; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/how-agents-are-transforming-work",
-      "relatedTopicSlugs": [
-        "agents"
-      ]
-    },
-    {
-      "id": "efed0c3c344b0674",
-      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
-      "date": "2026-06-24",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Models",
-      "summary": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and…",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "2f4d7fa2ad9b696a",
-      "title": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
-      "date": "2026-06-24",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Models",
-      "summary": "An official source announcement. Read the original for details.",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "Hugging Face",
-      "sourceUrl": "https://huggingface.co/blog",
-      "articleUrl": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "c4b0bf7b7c20d1d4",
-      "title": "Helping build shared standards for advanced AI",
-      "date": "2026-06-23",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Safety",
-      "summary": "OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the…",
-      "whyItMatters": "Useful context when reviewing system safeguards; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
-      "relatedTopicSlugs": [
-        "safety"
-      ]
-    },
-    {
-      "id": "8f2e6a28beebccf9",
-      "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
-      "date": "2026-06-22",
-      "discoveredAt": "2026-09-11T05:11:26.044010Z",
-      "category": "Safety",
-      "summary": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI…",
-      "whyItMatters": "Useful context when reviewing system safeguards; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/patch-the-planet",
-      "relatedTopicSlugs": [
-        "safety"
-      ]
-    },
-    {
-      "id": "252c71bf6ef9adef",
-      "title": "We got local models to triage the OpenClaw repo for FREE!*",
-      "date": "2026-06-22",
-      "discoveredAt": "2026-09-11T05:11:26.044010Z",
-      "category": "Models",
-      "summary": "An official source announcement. Read the original for details.",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "Hugging Face",
-      "sourceUrl": "https://huggingface.co/blog",
-      "articleUrl": "https://huggingface.co/blog/local-models-pr-triage",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "f7c72c2f6afb3515",
-      "title": "New usage analytics and updated spend controls for enterprises",
-      "date": "2026-06-18",
-      "discoveredAt": "2026-09-11T05:11:26.044010Z",
-      "category": "Models",
-      "summary": "OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI…",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/chatgpt-enterprise-spend-controls",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "9d54b19533127ef2",
-      "title": "Is it agentic enough? Benchmarking open models on your own tooling",
-      "date": "2026-06-18",
-      "discoveredAt": "2026-09-11T05:11:26.044010Z",
-      "category": "Evaluation",
-      "summary": "An official source announcement. Read the original for details.",
-      "whyItMatters": "Useful context when reviewing evaluation methods; check the original announcement for scope and limitations.",
-      "sourceName": "Hugging Face",
-      "sourceUrl": "https://huggingface.co/blog",
-      "articleUrl": "https://huggingface.co/blog/is-it-agentic-enough",
-      "relatedTopicSlugs": [
-        "evaluation"
-      ]
-    },
-    {
-      "id": "92e2dd9aa6c69b1d",
-      "title": "MosaicLeaks: Can your research agent keep a secret?",
-      "date": "2026-06-18",
-      "discoveredAt": "2026-09-11T05:11:26.044010Z",
-      "category": "Agents",
-      "summary": "An official source announcement. Read the original for details.",
-      "whyItMatters": "Useful context when reviewing agent workflows; check the original announcement for scope and limitations.",
-      "sourceName": "Hugging Face",
-      "sourceUrl": "https://huggingface.co/blog",
-      "articleUrl": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
-      "relatedTopicSlugs": [
-        "agents"
-      ]
-    },
-    {
-      "id": "76a88f0f11dc1d31",
-      "title": "Using AI to help physicians diagnose rare genetic diseases affecting children",
-      "date": "2026-06-18",
-      "discoveredAt": "2026-09-11T05:11:26.044010Z",
-      "category": "Models",
-      "summary": "Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved…",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/diagnose-rare-childhood-diseases",
       "relatedTopicSlugs": [
         "foundations"
       ]
