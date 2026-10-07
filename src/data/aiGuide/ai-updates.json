@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "lastUpdated": "2026-10-06T01:46:33Z",
-  "lastAttempt": "2026-10-06T01:46:33Z",
+  "lastUpdated": "2026-10-07T00:45:56Z",
+  "lastAttempt": "2026-10-07T00:45:56Z",
   "status": "ok",
   "sourceStatus": [
     {
       "id": "openai",
       "status": "ok",
-      "items": 246
+      "items": 249
     },
     {
       "id": "mcp",
@@ -27,7 +27,7 @@
     {
       "id": "nvidia",
       "status": "ok",
-      "items": 53
+      "items": 51
     },
     {
       "id": "huggingface",
@@ -36,6 +36,96 @@
     }
   ],
   "items": [
+    {
+      "id": "f9b3751a43e58eb7",
+      "title": "Sharing AI progress in mathematics",
+      "date": "2026-10-06",
+      "discoveredAt": "2026-10-07T00:45:56.334455Z",
+      "category": "Models",
+      "summary": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof…",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "dc672e13f64e044c",
+      "title": "Advancing computer use with Ironclad",
+      "date": "2026-10-06",
+      "discoveredAt": "2026-10-07T00:45:56.334455Z",
+      "category": "Evaluation",
+      "summary": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer…",
+      "whyItMatters": "Useful context when reviewing evaluation methods; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/advancing-computer-use-with-ironclad",
+      "relatedTopicSlugs": [
+        "evaluation"
+      ]
+    },
+    {
+      "id": "ca71809eec04f753",
+      "title": "Ask a Scientist: How are researchers using AI to help pregnant women access ultrasounds?",
+      "date": "2026-10-06",
+      "discoveredAt": "2026-10-07T00:45:56.334455Z",
+      "category": "Research",
+      "summary": "By pairing AI with “blind sweep” ultrasounds, Google researchers found a way to get more people the prenatal…",
+      "whyItMatters": "Useful context when reviewing research directions; check the original announcement for scope and limitations.",
+      "sourceName": "Google",
+      "sourceUrl": "https://blog.google/",
+      "articleUrl": "https://blog.google/innovation-and-ai/models-and-research/google-research/blind-sweep-ultrasounds-ai",
+      "relatedTopicSlugs": [
+        "research"
+      ]
+    },
+    {
+      "id": "941c348b1cb79b3e",
+      "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+      "date": "2026-10-06",
+      "discoveredAt": "2026-10-07T00:45:56.334455Z",
+      "category": "Multimodal",
+      "summary": "Introducing EmbeddingGemma 2, an open multimodal embedding model optimized for privacy-first use cases",
+      "whyItMatters": "Useful context when reviewing multimodal workflows; check the original announcement for scope and limitations.",
+      "sourceName": "Google",
+      "sourceUrl": "https://blog.google/",
+      "articleUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2",
+      "relatedTopicSlugs": [
+        "multimodal"
+      ]
+    },
+    {
+      "id": "74402636edbf3de1",
+      "title": "What AI gets wrong and what failure teaches us",
+      "date": "2026-10-06",
+      "discoveredAt": "2026-10-07T00:45:56.334455Z",
+      "category": "Research",
+      "summary": "Jennifer Neville did not want to go into computer science—but that’s exactly where she landed. Neville discusses the…",
+      "whyItMatters": "Useful context when reviewing research directions; check the original announcement for scope and limitations.",
+      "sourceName": "Microsoft Research",
+      "sourceUrl": "https://www.microsoft.com/en-us/research/blog/",
+      "articleUrl": "https://www.microsoft.com/en-us/research/podcast/what-ai-gets-wrong-and-what-failure-teaches-us",
+      "relatedTopicSlugs": [
+        "research"
+      ]
+    },
+    {
+      "id": "6173a8eccf3ab935",
+      "title": "How Jump Trading is scaling quant research with ChatGPT",
+      "date": "2026-10-06",
+      "discoveredAt": "2026-10-07T00:45:56.334455Z",
+      "category": "Research",
+      "summary": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with…",
+      "whyItMatters": "Useful context when reviewing research directions; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/jump-trading",
+      "relatedTopicSlugs": [
+        "research"
+      ]
+    },
     {
       "id": "d7640ece796db4a2",
       "title": "I replaced traditional coding tests with real conversations about how my students solve problems using AI.",
@@ -2198,96 +2288,6 @@
       "sourceName": "NVIDIA Developer",
       "sourceUrl": "https://developer.nvidia.com/blog/",
       "articleUrl": "https://developer.nvidia.com/blog/modelexpress-distributing-model-artifacts-at-the-speed-of-light",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "451ac17da94e5d50",
-      "title": "Start Customizing NVIDIA Nemotron 3 Nano with Prime Intellect Lab in Minutes",
-      "date": "2026-07-23",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Coding",
-      "summary": "Customization is what enables developers to take a general model and tailor it to use cases, domains, languages,…",
-      "whyItMatters": "Useful context when reviewing coding workflows; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/start-customizing-nvidia-nemotron-3-nano-with-prime-intellect-lab-in-minutes",
-      "relatedTopicSlugs": [
-        "tools-actions"
-      ]
-    },
-    {
-      "id": "c3fc43c4989e17aa",
-      "title": "Introducing OpenAI Presence",
-      "date": "2026-07-22",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Agents",
-      "summary": "Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents…",
-      "whyItMatters": "Useful context when reviewing agent workflows; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/introducing-openai-presence",
-      "relatedTopicSlugs": [
-        "agents"
-      ]
-    },
-    {
-      "id": "946af4143d8d2171",
-      "title": "Building AI infrastructure with the Effingham County community",
-      "date": "2026-07-22",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Models",
-      "summary": "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access…",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "76eac953303cba84",
-      "title": "Make Long-Running NVIDIA TensorRT Engine Builds Observable and Cancelable in Python or C++",
-      "date": "2026-07-22",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Models",
-      "summary": "A TensorRT engine build can take seconds to many minutes. Large strongly typed models, deep tactic search, and…",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/make-long-running-nvidia-tensorrt-engine-builds-observable-and-cancelable-in-python-or-c",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "be1c6333449ad935",
-      "title": "OpenAI and Hugging Face partner to address security incident during model evaluation",
-      "date": "2026-07-21",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Safety",
-      "summary": "OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, highlighting advanced cyber…",
-      "whyItMatters": "Useful context when reviewing system safeguards; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
-      "relatedTopicSlugs": [
-        "safety"
-      ]
-    },
-    {
-      "id": "78d9e5dfa00aace4",
-      "title": "Introducing the ChatGPT for small business program",
-      "date": "2026-07-21",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Models",
-      "summary": "OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with…",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/introducing-chatgpt-small-business-program",
       "relatedTopicSlugs": [
         "foundations"
       ]
