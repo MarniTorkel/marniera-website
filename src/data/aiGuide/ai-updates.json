@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "lastUpdated": "2026-10-07T00:45:56Z",
-  "lastAttempt": "2026-10-07T00:45:56Z",
+  "lastUpdated": "2026-10-08T01:02:40Z",
+  "lastAttempt": "2026-10-08T01:02:40Z",
   "status": "ok",
   "sourceStatus": [
     {
       "id": "openai",
       "status": "ok",
-      "items": 249
+      "items": 250
     },
     {
       "id": "mcp",
@@ -17,7 +17,7 @@
     {
       "id": "google",
       "status": "ok",
-      "items": 3
+      "items": 4
     },
     {
       "id": "microsoft",
@@ -27,15 +27,90 @@
     {
       "id": "nvidia",
       "status": "ok",
-      "items": 51
+      "items": 48
     },
     {
       "id": "huggingface",
       "status": "ok",
-      "items": 54
+      "items": 55
     }
   ],
   "items": [
+    {
+      "id": "d448f52872601062",
+      "title": "Multimodal open d1 decision models for the edge",
+      "date": "2026-10-07",
+      "discoveredAt": "2026-10-08T01:02:40.856267Z",
+      "category": "Multimodal",
+      "summary": "An official source announcement. Read the original for details.",
+      "whyItMatters": "Useful context when reviewing multimodal workflows; check the original announcement for scope and limitations.",
+      "sourceName": "Hugging Face",
+      "sourceUrl": "https://huggingface.co/blog",
+      "articleUrl": "https://huggingface.co/blog/LiquidAI/open-d1",
+      "relatedTopicSlugs": [
+        "multimodal"
+      ]
+    },
+    {
+      "id": "bb6028e6466a3c0b",
+      "title": "We're making it easier to identify AI-generated content globally.",
+      "date": "2026-10-07",
+      "discoveredAt": "2026-10-08T01:02:40.856267Z",
+      "category": "Models",
+      "summary": "We’re launching a standalone platform to help you easily identify whether online content was created using Google AI…",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "Google",
+      "sourceUrl": "https://blog.google/",
+      "articleUrl": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "a9eecb82a9f99423",
+      "title": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
+      "date": "2026-10-07",
+      "discoveredAt": "2026-10-08T01:02:40.856267Z",
+      "category": "Models",
+      "summary": "An official source announcement. Read the original for details.",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "Hugging Face",
+      "sourceUrl": "https://huggingface.co/blog",
+      "articleUrl": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "8f0785dceb339722",
+      "title": "Agent Lightning v1.0: A 3,500-Line Lightweight Agentic RL Framework for Training Agents with Real Harnesses",
+      "date": "2026-10-07",
+      "discoveredAt": "2026-10-08T01:02:40.856267Z",
+      "category": "Agents",
+      "summary": "Training AI agents with reinforcement learning can be challenging because their tools, context, and decision-making are managed by…",
+      "whyItMatters": "Useful context when reviewing agent workflows; check the original announcement for scope and limitations.",
+      "sourceName": "Microsoft Research",
+      "sourceUrl": "https://www.microsoft.com/en-us/research/blog/",
+      "articleUrl": "https://www.microsoft.com/en-us/research/blog/agent-lightning-v1-0-a-3500-line-lightweight-agentic-rl-framework-for-training-agents-with-real-harnesses",
+      "relatedTopicSlugs": [
+        "agents"
+      ]
+    },
+    {
+      "id": "08e1711c5a9a7140",
+      "title": "Helping teens learn, plan, and shape the future of AI",
+      "date": "2026-10-07",
+      "discoveredAt": "2026-10-08T01:02:40.856267Z",
+      "category": "Models",
+      "summary": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes,…",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/teens-learn-and-plan",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
     {
       "id": "f9b3751a43e58eb7",
       "title": "Sharing AI progress in mathematics",
@@ -2215,81 +2290,6 @@
       "articleUrl": "https://developer.nvidia.com/blog/six-agent-harness-capabilities-for-higher-model-performance",
       "relatedTopicSlugs": [
         "agents"
-      ]
-    },
-    {
-      "id": "8de9c110b3ed3ad8",
-      "title": "How AI is expanding what people do at work",
-      "date": "2026-07-27",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Research",
-      "summary": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across…",
-      "whyItMatters": "Useful context when reviewing research directions; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
-      "relatedTopicSlugs": [
-        "research"
-      ]
-    },
-    {
-      "id": "7bd944acf7598fb5",
-      "title": "NVIDIA Ising Enables Fully Automated Quantum Computer Calibration with Enhanced In-Context Learning",
-      "date": "2026-07-27",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Models",
-      "summary": "NVIDIA Ising Calibration is an open source vision language model (VLM) designed to interpret diagnostic outputs from quantum…",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/nvidia-ising-enables-fully-automated-quantum-computer-calibration-with-enhanced-in-context-learning",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "780d3f0a8bcd4018",
-      "title": "NVIDIA Nemotron 3 Ultra Leads Open Models on Accuracy and Efficiency in Agentic RTL Coding",
-      "date": "2026-07-27",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Coding",
-      "summary": "Modern chip design is increasingly limited by engineering time. Register transfer level (RTL) development and verification require specialized…",
-      "whyItMatters": "Useful context when reviewing coding workflows; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/nvidia-nemotron-3-ultra-leads-open-models-on-accuracy-and-efficiency-in-agentic-rtl-coding",
-      "relatedTopicSlugs": [
-        "tools-actions"
-      ]
-    },
-    {
-      "id": "5f81a5d0ca2925a6",
-      "title": "The Official Ruby SDK for MCP Reaches 1.0",
-      "date": "2026-07-27",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Protocols",
-      "summary": "The official Ruby SDK for the Model Context Protocol has reached version 1.0 with a stable public API…",
-      "whyItMatters": "Useful context when reviewing interoperability; check the original announcement for scope and limitations.",
-      "sourceName": "Model Context Protocol",
-      "sourceUrl": "https://blog.modelcontextprotocol.io/",
-      "articleUrl": "https://blog.modelcontextprotocol.io/posts/ruby-sdk-1-0",
-      "relatedTopicSlugs": [
-        "protocols"
-      ]
-    },
-    {
-      "id": "0a0ff755652ba13f",
-      "title": "ModelExpress: Distributing Model Artifacts at the Speed of Light",
-      "date": "2026-07-24",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Models",
-      "summary": "Every byte moved has a cost. As model checkpoints grow to hundreds of gigabytes or even a terabyte,…",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/modelexpress-distributing-model-artifacts-at-the-speed-of-light",
-      "relatedTopicSlugs": [
-        "foundations"
       ]
     }
   ]
