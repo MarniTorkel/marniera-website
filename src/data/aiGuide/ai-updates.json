@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastUpdated": "2026-10-08T01:02:40Z",
-  "lastAttempt": "2026-10-08T01:02:40Z",
+  "lastUpdated": "2026-10-09T01:15:14Z",
+  "lastAttempt": "2026-10-09T01:15:14Z",
   "status": "ok",
   "sourceStatus": [
     {
@@ -17,7 +17,7 @@
     {
       "id": "google",
       "status": "ok",
-      "items": 4
+      "items": 5
     },
     {
       "id": "microsoft",
@@ -27,15 +27,75 @@
     {
       "id": "nvidia",
       "status": "ok",
-      "items": 48
+      "items": 47
     },
     {
       "id": "huggingface",
       "status": "ok",
-      "items": 55
+      "items": 56
     }
   ],
   "items": [
+    {
+      "id": "b97fbe8e35de9dd0",
+      "title": "The model that didn't exist, so you made it yourself",
+      "date": "2026-10-08",
+      "discoveredAt": "2026-10-09T01:15:14.188010Z",
+      "category": "Models",
+      "summary": "An official source announcement. Read the original for details.",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "Hugging Face",
+      "sourceUrl": "https://huggingface.co/blog",
+      "articleUrl": "https://huggingface.co/blog/building-with-ml-intern",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "635ae7f8f34bff53",
+      "title": "Study in The Lancet suggests AI could improve patient-physician relationships.",
+      "date": "2026-10-08",
+      "discoveredAt": "2026-10-09T01:15:14.188010Z",
+      "category": "Evaluation",
+      "summary": "A peer-reviewed study in The Lancet evaluates Google's AMIE medical AI in a real-world primary care clinic.",
+      "whyItMatters": "Useful context when reviewing evaluation methods; check the original announcement for scope and limitations.",
+      "sourceName": "Google",
+      "sourceUrl": "https://blog.google/",
+      "articleUrl": "https://blog.google/innovation-and-ai/technology/health/amie-clinical-study-lancet",
+      "relatedTopicSlugs": [
+        "evaluation"
+      ]
+    },
+    {
+      "id": "58740319c4c05d93",
+      "title": "5 Steps to Create SimReady Assets for Robotics with Frontier AI Models",
+      "date": "2026-10-08",
+      "discoveredAt": "2026-10-09T01:15:14.188010Z",
+      "category": "Coding",
+      "summary": "Preparing CAD assets for robotics simulation requires more than converting geometry to OpenUSD: developers must configure and validate…",
+      "whyItMatters": "Useful context when reviewing coding workflows; check the original announcement for scope and limitations.",
+      "sourceName": "NVIDIA Developer",
+      "sourceUrl": "https://developer.nvidia.com/blog/",
+      "articleUrl": "https://developer.nvidia.com/blog/5-steps-to-create-simready-assets-for-robotics-with-frontier-ai-models",
+      "relatedTopicSlugs": [
+        "tools-actions"
+      ]
+    },
+    {
+      "id": "12f3c83d0c03d76b",
+      "title": "Google Cloud introduces the Gemini agent.",
+      "date": "2026-10-08",
+      "discoveredAt": "2026-10-09T01:15:14.188010Z",
+      "category": "Agents",
+      "summary": "Google Cloud’s new Gemini agent automates workflows by connecting to your business systems. See how it streamlines enterprise…",
+      "whyItMatters": "Useful context when reviewing agent workflows; check the original announcement for scope and limitations.",
+      "sourceName": "Google",
+      "sourceUrl": "https://blog.google/",
+      "articleUrl": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-at-work",
+      "relatedTopicSlugs": [
+        "agents"
+      ]
+    },
     {
       "id": "d448f52872601062",
       "title": "Multimodal open d1 decision models for the edge",
@@ -2228,66 +2288,6 @@
       "sourceName": "OpenAI",
       "sourceUrl": "https://openai.com/news/",
       "articleUrl": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
-      "relatedTopicSlugs": [
-        "agents"
-      ]
-    },
-    {
-      "id": "0a8f4714312bfa9d",
-      "title": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
-      "date": "2026-07-29",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Models",
-      "summary": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research,…",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/chatgpt-for-academic-researchers",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "f8690f0b07db1050",
-      "title": "The 2026-07-28 Specification",
-      "date": "2026-07-28",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Protocols",
-      "summary": "The 2026-07-28 Model Context Protocol specification is out, bringing a stateless protocol core, Multi Round-Trip Requests, header-based routing,…",
-      "whyItMatters": "Useful context when reviewing interoperability; check the original announcement for scope and limitations.",
-      "sourceName": "Model Context Protocol",
-      "sourceUrl": "https://blog.modelcontextprotocol.io/",
-      "articleUrl": "https://blog.modelcontextprotocol.io/posts/2026-07-28",
-      "relatedTopicSlugs": [
-        "protocols"
-      ]
-    },
-    {
-      "id": "5f2a8e25902cb7de",
-      "title": "Scientific computing in the age of agentic AI",
-      "date": "2026-07-28",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Coding",
-      "summary": "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development…",
-      "whyItMatters": "Useful context when reviewing coding workflows; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/scientific-computing-agentic-ai",
-      "relatedTopicSlugs": [
-        "tools-actions"
-      ]
-    },
-    {
-      "id": "e13b769cf088bb9a",
-      "title": "Six Agent Harness Capabilities for Higher Model Performance",
-      "date": "2026-07-27",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Agents",
-      "summary": "Building a great AI agent isn’t just about choosing the right models. The harness is the architecture surrounding…",
-      "whyItMatters": "Useful context when reviewing agent workflows; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/six-agent-harness-capabilities-for-higher-model-performance",
       "relatedTopicSlugs": [
         "agents"
       ]
