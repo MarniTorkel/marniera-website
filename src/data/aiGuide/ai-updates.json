@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "lastUpdated": "2026-10-09T01:15:14Z",
-  "lastAttempt": "2026-10-09T01:15:14Z",
+  "lastUpdated": "2026-10-10T00:56:06Z",
+  "lastAttempt": "2026-10-10T00:56:06Z",
   "status": "ok",
   "sourceStatus": [
     {
       "id": "openai",
       "status": "ok",
-      "items": 250
+      "items": 254
     },
     {
       "id": "mcp",
@@ -32,10 +32,25 @@
     {
       "id": "huggingface",
       "status": "ok",
-      "items": 56
+      "items": 55
     }
   ],
   "items": [
+    {
+      "id": "385d92e7b0f96749",
+      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+      "date": "2026-10-09",
+      "discoveredAt": "2026-10-10T00:56:06.950762Z",
+      "category": "Agents",
+      "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to…",
+      "whyItMatters": "Useful context when reviewing agent workflows; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/asana-browser-agent",
+      "relatedTopicSlugs": [
+        "agents"
+      ]
+    },
     {
       "id": "b97fbe8e35de9dd0",
       "title": "The model that didn't exist, so you made it yourself",
@@ -497,6 +512,21 @@
       "sourceName": "OpenAI",
       "sourceUrl": "https://openai.com/news/",
       "articleUrl": "https://openai.com/index/wayfair",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "681593dd6f53419c",
+      "title": "Lowe’s answers millions of home improvement questions with OpenAI",
+      "date": "2026-09-25",
+      "discoveredAt": "2026-10-10T00:56:06.950762Z",
+      "category": "Models",
+      "summary": "Lowe’s uses OpenAI models to power Mylow and Mylow Companion, helping customers and associates answer 25M+ questions and…",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/lowes",
       "relatedTopicSlugs": [
         "foundations"
       ]
@@ -2260,36 +2290,6 @@
       "articleUrl": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
       "relatedTopicSlugs": [
         "foundations"
-      ]
-    },
-    {
-      "id": "5e08b757c416866e",
-      "title": "Echoverse: Deep, evolving environments for computer-use agents",
-      "date": "2026-07-30",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Agents",
-      "summary": "Computer-use AI agents struggle with multi-step workflows like email and customer support. Echoverse trains agents in realistic environments…",
-      "whyItMatters": "Useful context when reviewing agent workflows; check the original announcement for scope and limitations.",
-      "sourceName": "Microsoft Research",
-      "sourceUrl": "https://www.microsoft.com/en-us/research/blog/",
-      "articleUrl": "https://www.microsoft.com/en-us/research/blog/echoverse-deep-evolving-environments-for-computer-use-agents",
-      "relatedTopicSlugs": [
-        "agents"
-      ]
-    },
-    {
-      "id": "b97501d957fd78b6",
-      "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
-      "date": "2026-07-29",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Agents",
-      "summary": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
-      "whyItMatters": "Useful context when reviewing agent workflows; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
-      "relatedTopicSlugs": [
-        "agents"
       ]
     }
   ]
