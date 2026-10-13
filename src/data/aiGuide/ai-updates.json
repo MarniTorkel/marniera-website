@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastUpdated": "2026-10-12T00:36:23Z",
-  "lastAttempt": "2026-10-12T00:36:23Z",
+  "lastUpdated": "2026-10-13T02:36:00Z",
+  "lastAttempt": "2026-10-13T02:36:00Z",
   "status": "ok",
   "sourceStatus": [
     {
@@ -36,6 +36,36 @@
     }
   ],
   "items": [
+    {
+      "id": "f31f8f506dba29ad",
+      "title": "ReplaySSM: Rethinking State Storage for Faster Hybrid-Model Decoding",
+      "date": "2026-10-12",
+      "discoveredAt": "2026-10-13T02:36:00.511500Z",
+      "category": "Coding",
+      "summary": "Hybrid models interleave state-space model (SSM) layers with a few attention layers. NVIDIA Nemotron 3, Qwen3.5 through Qwen3.8,…",
+      "whyItMatters": "Useful context when reviewing coding workflows; check the original announcement for scope and limitations.",
+      "sourceName": "NVIDIA Developer",
+      "sourceUrl": "https://developer.nvidia.com/blog/",
+      "articleUrl": "https://developer.nvidia.com/blog/replayssm-rethinking-state-storage-for-faster-hybrid-model-decoding",
+      "relatedTopicSlugs": [
+        "tools-actions"
+      ]
+    },
+    {
+      "id": "d62b5ff681103c30",
+      "title": "Simulating student learning for better AI tutoring",
+      "date": "2026-10-12",
+      "discoveredAt": "2026-10-13T02:36:00.511500Z",
+      "category": "Evaluation",
+      "summary": "StudentSim is a research system for evaluating and improving AI tutoring tools before they are tested with learners.…",
+      "whyItMatters": "Useful context when reviewing evaluation methods; check the original announcement for scope and limitations.",
+      "sourceName": "Microsoft Research",
+      "sourceUrl": "https://www.microsoft.com/en-us/research/blog/",
+      "articleUrl": "https://www.microsoft.com/en-us/research/blog/simulating-student-learning-for-better-ai-tutoring",
+      "relatedTopicSlugs": [
+        "evaluation"
+      ]
+    },
     {
       "id": "385d92e7b0f96749",
       "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
@@ -2260,36 +2290,6 @@
       "articleUrl": "https://openai.com/index/unive",
       "relatedTopicSlugs": [
         "production"
-      ]
-    },
-    {
-      "id": "aa39d58e632a12e6",
-      "title": "EvoLib: Turning experience into evolving knowledge",
-      "date": "2026-07-30",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Models",
-      "summary": "LLMs do not get smarter just by remembering more. EvoLib turns experience into evolving knowledge, taking reusable skills…",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "Microsoft Research",
-      "sourceUrl": "https://www.microsoft.com/en-us/research/blog/",
-      "articleUrl": "https://www.microsoft.com/en-us/research/blog/evolib-turning-experience-into-evolving-knowledge",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "639f2d19126ab85f",
-      "title": "Advancing the price-performance frontier with GPT-5.6",
-      "date": "2026-07-30",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Models",
-      "summary": "Explore lower GPT‑5.6 pricing for Luna and Terra—and how OpenAI’s more efficient models help enterprises deploy AI workflows…",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
-      "relatedTopicSlugs": [
-        "foundations"
       ]
     }
   ]
