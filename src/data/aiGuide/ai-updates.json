@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "lastUpdated": "2026-10-14T00:20:05Z",
-  "lastAttempt": "2026-10-14T00:20:05Z",
+  "lastUpdated": "2026-10-14T23:57:33Z",
+  "lastAttempt": "2026-10-14T23:57:33Z",
   "status": "ok",
   "sourceStatus": [
     {
       "id": "openai",
       "status": "ok",
-      "items": 253
+      "items": 256
     },
     {
       "id": "mcp",
@@ -17,7 +17,7 @@
     {
       "id": "google",
       "status": "ok",
-      "items": 3
+      "items": 4
     },
     {
       "id": "microsoft",
@@ -36,6 +36,111 @@
     }
   ],
   "items": [
+    {
+      "id": "f56801956d5133c7",
+      "title": "Enabling an AI-first European economy",
+      "date": "2026-10-14",
+      "discoveredAt": "2026-10-14T23:57:33.078446Z",
+      "category": "Models",
+      "summary": "Announcing Google’s European Economic Impact Report",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "Google",
+      "sourceUrl": "https://blog.google/",
+      "articleUrl": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/european-economic-impact-report",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "f14df44e660ce130",
+      "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
+      "date": "2026-10-14",
+      "discoveredAt": "2026-10-14T23:57:33.078446Z",
+      "category": "Safety",
+      "summary": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus…",
+      "whyItMatters": "Useful context when reviewing system safeguards; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/third-moment-research",
+      "relatedTopicSlugs": [
+        "safety"
+      ]
+    },
+    {
+      "id": "d6d22107f86de4c5",
+      "title": "Amp puts AI agents to work beyond code with OpenAI models",
+      "date": "2026-10-14",
+      "discoveredAt": "2026-10-14T23:57:33.078446Z",
+      "category": "Agents",
+      "summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign…",
+      "whyItMatters": "Useful context when reviewing agent workflows; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/amp-beyond-coding",
+      "relatedTopicSlugs": [
+        "agents"
+      ]
+    },
+    {
+      "id": "cdf617aca160fad4",
+      "title": "Research@ 2026: Novel capabilities and intelligence",
+      "date": "2026-10-14",
+      "discoveredAt": "2026-10-14T23:57:33.078446Z",
+      "category": "Research",
+      "summary": "We’re sharing our latest milestones and some of the advanced AI capabilities and intelligence that we’re putting in…",
+      "whyItMatters": "Useful context when reviewing research directions; check the original announcement for scope and limitations.",
+      "sourceName": "Google",
+      "sourceUrl": "https://blog.google/",
+      "articleUrl": "https://blog.google/innovation-and-ai/technology/research/research-capabilities-intelligence-2026",
+      "relatedTopicSlugs": [
+        "research"
+      ]
+    },
+    {
+      "id": "9124cb921076b9d1",
+      "title": "We’re powering European scientific discovery with advanced AI compute and frontier models.",
+      "date": "2026-10-14",
+      "discoveredAt": "2026-10-14T23:57:33.078446Z",
+      "category": "Models",
+      "summary": "Google DeepMind and Google Cloud are providing up to 200 top European scientific researchers with direct access to…",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "Google",
+      "sourceUrl": "https://blog.google/",
+      "articleUrl": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/were-powering-european-scientific-discovery-with-advanced-ai-compute-and-frontier-models",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "2723fbe0cc717b4a",
+      "title": "The EU’s next chapter in AI is agentic",
+      "date": "2026-10-14",
+      "discoveredAt": "2026-10-14T23:57:33.078446Z",
+      "category": "AI Strategy",
+      "summary": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use…",
+      "whyItMatters": "Useful context when reviewing AI adoption and governance; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+      "relatedTopicSlugs": [
+        "production"
+      ]
+    },
+    {
+      "id": "0ff4a192cee99dfe",
+      "title": "How Block is building AI-powered security with OpenAI technology",
+      "date": "2026-10-14",
+      "discoveredAt": "2026-10-14T23:57:33.078446Z",
+      "category": "Safety",
+      "summary": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
+      "whyItMatters": "Useful context when reviewing system safeguards; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/block-ai-powered-security",
+      "relatedTopicSlugs": [
+        "safety"
+      ]
+    },
     {
       "id": "785febb99300deaa",
       "title": "Gemini 4 Argon: Built to solve your hardest problems",
@@ -2185,111 +2290,6 @@
       "articleUrl": "https://openai.com/index/model-ml",
       "relatedTopicSlugs": [
         "foundations"
-      ]
-    },
-    {
-      "id": "bd9c75da3e6305ab",
-      "title": "Beyond VLAs: How World Action Models Reshape Robot Manipulation",
-      "date": "2026-08-04",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "AI Strategy",
-      "summary": "A central challenge in robotics is building policies that generalize beyond the demonstrations they’re trained on. A policy…",
-      "whyItMatters": "Useful context when reviewing AI adoption and governance; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/beyond-vlas-how-world-action-models-reshape-robot-manipulation",
-      "relatedTopicSlugs": [
-        "production"
-      ]
-    },
-    {
-      "id": "65cc62fba5dddd9c",
-      "title": "Third-party cyber evaluations involving OpenAI models",
-      "date": "2026-08-04",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Safety",
-      "summary": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
-      "whyItMatters": "Useful context when reviewing system safeguards; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
-      "relatedTopicSlugs": [
-        "safety"
-      ]
-    },
-    {
-      "id": "5dfa78ac95282dc9",
-      "title": "Generate Trajectories, Reasoning Traces, and Auto-Labels with NVIDIA Alpamayo 2 Super",
-      "date": "2026-08-04",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Models",
-      "summary": "Autonomous vehicle (AV) development often relies on separate models for trajectory generation, high-level intent prediction, scene understanding, and…",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/generate-trajectories-reasoning-traces-and-auto-labels-with-nvidia-alpamayo-2-super",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "d5b53e8b5ec607ee",
-      "title": "How we built a realtime system for responsive voice AI in six months",
-      "date": "2026-08-03",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Multimodal",
-      "summary": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more…",
-      "whyItMatters": "Useful context when reviewing multimodal workflows; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
-      "relatedTopicSlugs": [
-        "multimodal"
-      ]
-    },
-    {
-      "id": "6377a6269a747275",
-      "title": "NVIDIA Vera Storage Benchmarks: Faster Encryption, Compression, Integrity Checking, and Recovery for AI-Native Storage",
-      "date": "2026-08-03",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Evaluation",
-      "summary": "Storage is an active part of every agentic AI workflow. As agents retrieve enterprise knowledge, access persistent memory,…",
-      "whyItMatters": "Useful context when reviewing evaluation methods; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/nvidia-vera-storage-benchmarks-faster-encryption-compression-integrity-checking-and-recovery-for-ai-native-storage",
-      "relatedTopicSlugs": [
-        "evaluation"
-      ]
-    },
-    {
-      "id": "0c5597f139e79e25",
-      "title": "Orchard: An open framework for scalable agentic AI",
-      "date": "2026-08-03",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Evaluation",
-      "summary": "Orchard is an open-source framework for the research community to train and evaluate AI agents across task types.…",
-      "whyItMatters": "Useful context when reviewing evaluation methods; check the original announcement for scope and limitations.",
-      "sourceName": "Microsoft Research",
-      "sourceUrl": "https://www.microsoft.com/en-us/research/blog/",
-      "articleUrl": "https://www.microsoft.com/en-us/research/blog/orchard-an-open-framework-for-scalable-agentic-ai",
-      "relatedTopicSlugs": [
-        "evaluation"
-      ]
-    },
-    {
-      "id": "fa0417e5d1134a35",
-      "title": "Advancing responsible AI across Europe",
-      "date": "2026-07-31",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Safety",
-      "summary": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work…",
-      "whyItMatters": "Useful context when reviewing system safeguards; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/advancing-responsible-ai-across-europe",
-      "relatedTopicSlugs": [
-        "safety"
       ]
     }
   ]
