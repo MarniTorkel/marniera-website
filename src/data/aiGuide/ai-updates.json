@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "lastUpdated": "2026-10-13T02:36:00Z",
-  "lastAttempt": "2026-10-13T02:36:00Z",
+  "lastUpdated": "2026-10-14T00:20:05Z",
+  "lastAttempt": "2026-10-14T00:20:05Z",
   "status": "ok",
   "sourceStatus": [
     {
       "id": "openai",
       "status": "ok",
-      "items": 254
+      "items": 253
     },
     {
       "id": "mcp",
@@ -17,7 +17,7 @@
     {
       "id": "google",
       "status": "ok",
-      "items": 5
+      "items": 3
     },
     {
       "id": "microsoft",
@@ -32,10 +32,40 @@
     {
       "id": "huggingface",
       "status": "ok",
-      "items": 55
+      "items": 54
     }
   ],
   "items": [
+    {
+      "id": "785febb99300deaa",
+      "title": "Gemini 4 Argon: Built to solve your hardest problems",
+      "date": "2026-10-13",
+      "discoveredAt": "2026-10-14T00:20:05.758996Z",
+      "category": "Coding",
+      "summary": "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
+      "whyItMatters": "Useful context when reviewing coding workflows; check the original announcement for scope and limitations.",
+      "sourceName": "Google",
+      "sourceUrl": "https://blog.google/",
+      "articleUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon",
+      "relatedTopicSlugs": [
+        "tools-actions"
+      ]
+    },
+    {
+      "id": "3763e0099ee54891",
+      "title": "NVIDIA Run:ai Is Now Open Source as Part of NVIDIA DSX AI Factory Platform",
+      "date": "2026-10-13",
+      "discoveredAt": "2026-10-14T00:20:05.758996Z",
+      "category": "Coding",
+      "summary": "NVIDIA is making the full NVIDIA Run:ai platform available as open source software, giving customers, developers, and ecosystem…",
+      "whyItMatters": "Useful context when reviewing coding workflows; check the original announcement for scope and limitations.",
+      "sourceName": "NVIDIA Developer",
+      "sourceUrl": "https://developer.nvidia.com/blog/",
+      "articleUrl": "https://developer.nvidia.com/blog/nvidia-runai-is-now-open-source-as-part-of-nvidia-dsx-ai-factory-platform",
+      "relatedTopicSlugs": [
+        "tools-actions"
+      ]
+    },
     {
       "id": "f31f8f506dba29ad",
       "title": "ReplaySSM: Rethinking State Storage for Faster Hybrid-Model Decoding",
@@ -2260,36 +2290,6 @@
       "articleUrl": "https://openai.com/index/advancing-responsible-ai-across-europe",
       "relatedTopicSlugs": [
         "safety"
-      ]
-    },
-    {
-      "id": "d56967b96c3a35d3",
-      "title": "Co-Designing AI Model Attention for Fast, Interactive Long-Context Inference",
-      "date": "2026-07-31",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Agents",
-      "summary": "As agentic and long-context workloads become common, the context lengths increase and attention consumes a larger share of…",
-      "whyItMatters": "Useful context when reviewing agent workflows; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/co-designing-ai-model-attention-for-fast-interactive-long-context-inference",
-      "relatedTopicSlugs": [
-        "agents"
-      ]
-    },
-    {
-      "id": "1c045f3d33f49ea0",
-      "title": "Univé builds an AI-ready workforce",
-      "date": "2026-07-31",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "AI Strategy",
-      "summary": "See how Univé built an AI-ready workforce with ChatGPT Enterprise by combining leadership, responsible governance, and employee-led innovation…",
-      "whyItMatters": "Useful context when reviewing AI adoption and governance; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/unive",
-      "relatedTopicSlugs": [
-        "production"
       ]
     }
   ]
