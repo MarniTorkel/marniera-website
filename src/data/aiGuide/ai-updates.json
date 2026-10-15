@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastUpdated": "2026-10-14T23:57:33Z",
-  "lastAttempt": "2026-10-14T23:57:33Z",
+  "lastUpdated": "2026-10-15T23:42:19Z",
+  "lastAttempt": "2026-10-15T23:42:19Z",
   "status": "ok",
   "sourceStatus": [
     {
@@ -27,15 +27,60 @@
     {
       "id": "nvidia",
       "status": "ok",
-      "items": 47
+      "items": 48
     },
     {
       "id": "huggingface",
       "status": "ok",
-      "items": 54
+      "items": 55
     }
   ],
   "items": [
+    {
+      "id": "9dd8f133cc93ae57",
+      "title": "Scale Agentic Coding Workflows with Meta’s Muse Spark Open on NVIDIA GB300 NVL72",
+      "date": "2026-10-15",
+      "discoveredAt": "2026-10-15T23:42:19.944288Z",
+      "category": "Coding",
+      "summary": "Meta launches Muse Spark Open, a coding-optimized 816B mixture-of-experts (MoE) model with 42B active parameters and a 1M…",
+      "whyItMatters": "Useful context when reviewing coding workflows; check the original announcement for scope and limitations.",
+      "sourceName": "NVIDIA Developer",
+      "sourceUrl": "https://developer.nvidia.com/blog/",
+      "articleUrl": "https://developer.nvidia.com/blog/scale-agentic-coding-workflows-with-metas-muse-spark-open-on-nvidia-gb300-nvl72",
+      "relatedTopicSlugs": [
+        "tools-actions"
+      ]
+    },
+    {
+      "id": "739d2d1e9b8753d7",
+      "title": "Bringing the magic: Google breaks open a bottleneck in quantum computing",
+      "date": "2026-10-15",
+      "discoveredAt": "2026-10-15T23:42:19.944288Z",
+      "category": "Research",
+      "summary": "In a paper published in Science, Google has shown that Magic State Cultivation works on Google Quantum AI…",
+      "whyItMatters": "Useful context when reviewing research directions; check the original announcement for scope and limitations.",
+      "sourceName": "Google",
+      "sourceUrl": "https://blog.google/",
+      "articleUrl": "https://blog.google/innovation-and-ai/models-and-research/quantum-computing/magic-state-cultivation-quantum-computing",
+      "relatedTopicSlugs": [
+        "research"
+      ]
+    },
+    {
+      "id": "5541c106758136b6",
+      "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
+      "date": "2026-10-15",
+      "discoveredAt": "2026-10-15T23:42:19.944288Z",
+      "category": "Multimodal",
+      "summary": "An official source announcement. Read the original for details.",
+      "whyItMatters": "Useful context when reviewing multimodal workflows; check the original announcement for scope and limitations.",
+      "sourceName": "Hugging Face",
+      "sourceUrl": "https://huggingface.co/blog",
+      "articleUrl": "https://huggingface.co/blog/meta-muse-spark-open",
+      "relatedTopicSlugs": [
+        "multimodal"
+      ]
+    },
     {
       "id": "f56801956d5133c7",
       "title": "Enabling an AI-first European economy",
@@ -2245,51 +2290,6 @@
       "articleUrl": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
       "relatedTopicSlugs": [
         "safety"
-      ]
-    },
-    {
-      "id": "76db3aee0b1a19bc",
-      "title": "Expanding Daybreak as the Cyber Defense Window Narrows",
-      "date": "2026-08-10",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Safety",
-      "summary": "Meet GPT-5.6-Cyber, OpenAI’s cybersecurity-specific model available through Daybreak Red for authorized vulnerability research, exploit validation, and security testing.",
-      "whyItMatters": "Useful context when reviewing system safeguards; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
-      "relatedTopicSlugs": [
-        "safety"
-      ]
-    },
-    {
-      "id": "49dd4865534d0016",
-      "title": "Run Local Agentic AI Workflows with Meta’s Muse Glimmer on NVIDIA",
-      "date": "2026-08-10",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Agents",
-      "summary": "Meta returns to the open source ecosystem with the release of Muse Glimmer, a 30B open-weight dense model…",
-      "whyItMatters": "Useful context when reviewing agent workflows; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/run-local-agentic-ai-workflows-with-metas-muse-glimmer-on-nvidia",
-      "relatedTopicSlugs": [
-        "agents"
-      ]
-    },
-    {
-      "id": "208faca09107853d",
-      "title": "Model ML completes finance work more efficiently with GPT-5.6 Sol",
-      "date": "2026-08-10",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Models",
-      "summary": "Model ML uses GPT-5.6 Sol to carry finance work from research and analysis through editable, traceable PowerPoint decks…",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/model-ml",
-      "relatedTopicSlugs": [
-        "foundations"
       ]
     }
   ]
