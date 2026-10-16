@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "lastUpdated": "2026-10-15T23:42:19Z",
-  "lastAttempt": "2026-10-15T23:42:19Z",
+  "lastUpdated": "2026-10-16T23:38:53Z",
+  "lastAttempt": "2026-10-16T23:38:53Z",
   "status": "ok",
   "sourceStatus": [
     {
       "id": "openai",
       "status": "ok",
-      "items": 256
+      "items": 257
     },
     {
       "id": "mcp",
@@ -36,6 +36,36 @@
     }
   ],
   "items": [
+    {
+      "id": "ae9836f28b55e0c2",
+      "title": "How Itaú is building generative AI for its entire customer base",
+      "date": "2026-10-16",
+      "discoveredAt": "2026-10-16T23:38:53.579519Z",
+      "category": "AI Strategy",
+      "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to…",
+      "whyItMatters": "Useful context when reviewing AI adoption and governance; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/itau-generative-ai",
+      "relatedTopicSlugs": [
+        "production"
+      ]
+    },
+    {
+      "id": "89d55e3977bbdc73",
+      "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
+      "date": "2026-10-16",
+      "discoveredAt": "2026-10-16T23:38:53.579519Z",
+      "category": "Models",
+      "summary": "An official source announcement. Read the original for details.",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "Hugging Face",
+      "sourceUrl": "https://huggingface.co/blog",
+      "articleUrl": "https://huggingface.co/blog/reflection-beam",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
     {
       "id": "9dd8f133cc93ae57",
       "title": "Scale Agentic Coding Workflows with Meta’s Muse Spark Open on NVIDIA GB300 NVL72",
@@ -2258,36 +2288,6 @@
       "sourceName": "OpenAI",
       "sourceUrl": "https://openai.com/news/",
       "articleUrl": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
-      "relatedTopicSlugs": [
-        "safety"
-      ]
-    },
-    {
-      "id": "9eb98c2b95d984bd",
-      "title": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
-      "date": "2026-08-10",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Multimodal",
-      "summary": "An official source announcement. Read the original for details.",
-      "whyItMatters": "Useful context when reviewing multimodal workflows; check the original announcement for scope and limitations.",
-      "sourceName": "Hugging Face",
-      "sourceUrl": "https://huggingface.co/blog",
-      "articleUrl": "https://huggingface.co/blog/muse-glimmer",
-      "relatedTopicSlugs": [
-        "multimodal"
-      ]
-    },
-    {
-      "id": "80485e3935ea2ad2",
-      "title": "Putting frontier cyber models in more trusted hands",
-      "date": "2026-08-10",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Safety",
-      "summary": "Approved Daybreak partners can use OpenAI’s frontier cyber models to deliver authorized, governed cybersecurity services to customers.",
-      "whyItMatters": "Useful context when reviewing system safeguards; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
       "relatedTopicSlugs": [
         "safety"
       ]
