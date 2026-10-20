@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "lastUpdated": "2026-10-20T00:24:27Z",
-  "lastAttempt": "2026-10-20T00:24:27Z",
+  "lastUpdated": "2026-10-20T23:56:15Z",
+  "lastAttempt": "2026-10-20T23:56:15Z",
   "status": "ok",
   "sourceStatus": [
     {
       "id": "openai",
       "status": "ok",
-      "items": 257
+      "items": 258
     },
     {
       "id": "mcp",
@@ -17,12 +17,12 @@
     {
       "id": "google",
       "status": "ok",
-      "items": 2
+      "items": 1
     },
     {
       "id": "microsoft",
       "status": "ok",
-      "items": 9
+      "items": 8
     },
     {
       "id": "nvidia",
@@ -32,10 +32,55 @@
     {
       "id": "huggingface",
       "status": "ok",
-      "items": 56
+      "items": 59
     }
   ],
   "items": [
+    {
+      "id": "d08330b5b1d1d2e4",
+      "title": "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms",
+      "date": "2026-10-20",
+      "discoveredAt": "2026-10-20T23:56:15.426942Z",
+      "category": "Models",
+      "summary": "An official source announcement. Read the original for details.",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "Hugging Face",
+      "sourceUrl": "https://huggingface.co/blog",
+      "articleUrl": "https://huggingface.co/blog/anylanguagemodel-1-0",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "aff453099470f9da",
+      "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
+      "date": "2026-10-20",
+      "discoveredAt": "2026-10-20T23:56:15.426942Z",
+      "category": "Models",
+      "summary": "An official source announcement. Read the original for details.",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "Hugging Face",
+      "sourceUrl": "https://huggingface.co/blog",
+      "articleUrl": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "883f752ffd7b48c4",
+      "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
+      "date": "2026-10-20",
+      "discoveredAt": "2026-10-20T23:56:15.426942Z",
+      "category": "Evaluation",
+      "summary": "An official source announcement. Read the original for details.",
+      "whyItMatters": "Useful context when reviewing evaluation methods; check the original announcement for scope and limitations.",
+      "sourceName": "Hugging Face",
+      "sourceUrl": "https://huggingface.co/blog",
+      "articleUrl": "https://huggingface.co/blog/allenai/fairstress",
+      "relatedTopicSlugs": [
+        "evaluation"
+      ]
+    },
     {
       "id": "32d85231fd7b1f08",
       "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
@@ -2245,51 +2290,6 @@
       "articleUrl": "https://www.microsoft.com/en-us/research/blog/mindtopo-reveals-vlms-spatial-reasoning-abilities",
       "relatedTopicSlugs": [
         "evaluation"
-      ]
-    },
-    {
-      "id": "376f3fb5ec451d16",
-      "title": "From assistance to execution: How enterprises put AI to work",
-      "date": "2026-08-12",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "AI Strategy",
-      "summary": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are…",
-      "whyItMatters": "Useful context when reviewing AI adoption and governance; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/how-enterprises-put-ai-to-work",
-      "relatedTopicSlugs": [
-        "production"
-      ]
-    },
-    {
-      "id": "0ff007a47edfa87a",
-      "title": "Serve Qwen3.8-2.4T-A95B, a 2.4T-Parameter Model, with Configurable Reasoning on NVIDIA GB300 NVL72",
-      "date": "2026-08-12",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Models",
-      "summary": "Alibaba released the open weights for Qwen3.8-2.4T-A95B (Qwen3.8-Max), its largest open-weight model, bringing near-frontier capabilities to the open...",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/serve-qwen3-8-2-4t-a95b-a-2-4t-parameter-model-with-configurable-reasoning-on-nvidia-gb300-nvl72",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "39d543cefb3e2b81",
-      "title": "Route AI Agent Workloads Across Models with NVIDIA NeMo Switchyard",
-      "date": "2026-08-11",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Agents",
-      "summary": "Building an AI agent does not end with choosing a single model. Each model has its own strengths,…",
-      "whyItMatters": "Useful context when reviewing agent workflows; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/route-ai-agent-workloads-across-models-with-nvidia-nemo-switchyard",
-      "relatedTopicSlugs": [
-        "agents"
       ]
     }
   ]
