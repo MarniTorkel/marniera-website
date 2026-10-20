@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastUpdated": "2026-10-18T23:18:12Z",
-  "lastAttempt": "2026-10-18T23:18:12Z",
+  "lastUpdated": "2026-10-20T00:24:27Z",
+  "lastAttempt": "2026-10-20T00:24:27Z",
   "status": "ok",
   "sourceStatus": [
     {
@@ -17,7 +17,7 @@
     {
       "id": "google",
       "status": "ok",
-      "items": 4
+      "items": 2
     },
     {
       "id": "microsoft",
@@ -27,15 +27,45 @@
     {
       "id": "nvidia",
       "status": "ok",
-      "items": 48
+      "items": 49
     },
     {
       "id": "huggingface",
       "status": "ok",
-      "items": 55
+      "items": 56
     }
   ],
   "items": [
+    {
+      "id": "32d85231fd7b1f08",
+      "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
+      "date": "2026-10-19",
+      "discoveredAt": "2026-10-20T00:24:27.411326Z",
+      "category": "Models",
+      "summary": "An official source announcement. Read the original for details.",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "Hugging Face",
+      "sourceUrl": "https://huggingface.co/blog",
+      "articleUrl": "https://huggingface.co/blog/hf-torchneuron",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "226282fc0b3b3a10",
+      "title": "Accelerating Mamba-2 with High-Performance Forward Pass Kernels in NVIDIA CUDA Tile",
+      "date": "2026-10-19",
+      "discoveredAt": "2026-10-20T00:24:27.411326Z",
+      "category": "Models",
+      "summary": "NVIDIA CUDA Tile (cuTile) is a Python-based DSL and parallel programming model for NVIDIA GPUs that automatically leverages…",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "NVIDIA Developer",
+      "sourceUrl": "https://developer.nvidia.com/blog/",
+      "articleUrl": "https://developer.nvidia.com/blog/accelerating-mamba-2-with-high-performance-forward-pass-kernels-in-nvidia-cuda-tile",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
     {
       "id": "ae9836f28b55e0c2",
       "title": "How Itaú is building generative AI for its entire customer base",
@@ -2260,36 +2290,6 @@
       "articleUrl": "https://developer.nvidia.com/blog/route-ai-agent-workloads-across-models-with-nvidia-nemo-switchyard",
       "relatedTopicSlugs": [
         "agents"
-      ]
-    },
-    {
-      "id": "32ec33aa17a1e9cc",
-      "title": "Introducing CARE-X: Towards Clinically Useful Radiology VLMs with Auxiliary Supervision, Reward-Aligned Learning, and Tool-Augmented Measurement",
-      "date": "2026-08-11",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Research",
-      "summary": "Radiology AI is evolving beyond report generation. CARE-X explores a unified approach that combines flexible reasoning, calibrated predictions,…",
-      "whyItMatters": "Useful context when reviewing research directions; check the original announcement for scope and limitations.",
-      "sourceName": "Microsoft Research",
-      "sourceUrl": "https://www.microsoft.com/en-us/research/blog/",
-      "articleUrl": "https://www.microsoft.com/en-us/research/blog/introducing-care-x-towards-clinically-useful-radiology-vlms-with-auxiliary-supervision-reward-aligned-learning-and-tool-augmented-measurement",
-      "relatedTopicSlugs": [
-        "research"
-      ]
-    },
-    {
-      "id": "08e9d6ac5f2a2a90",
-      "title": "Daybreak models are now available on AWS",
-      "date": "2026-08-11",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Safety",
-      "summary": "OpenAI and AWS are making Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows.",
-      "whyItMatters": "Useful context when reviewing system safeguards; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
-      "relatedTopicSlugs": [
-        "safety"
       ]
     }
   ]
