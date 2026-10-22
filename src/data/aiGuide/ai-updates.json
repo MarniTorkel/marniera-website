@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "lastUpdated": "2026-10-20T23:56:15Z",
-  "lastAttempt": "2026-10-20T23:56:15Z",
+  "lastUpdated": "2026-10-22T00:01:27Z",
+  "lastAttempt": "2026-10-22T00:01:27Z",
   "status": "ok",
   "sourceStatus": [
     {
       "id": "openai",
       "status": "ok",
-      "items": 258
+      "items": 262
     },
     {
       "id": "mcp",
@@ -22,20 +22,110 @@
     {
       "id": "microsoft",
       "status": "ok",
-      "items": 8
+      "items": 7
     },
     {
       "id": "nvidia",
       "status": "ok",
-      "items": 49
+      "items": 47
     },
     {
       "id": "huggingface",
       "status": "ok",
-      "items": 59
+      "items": 57
     }
   ],
   "items": [
+    {
+      "id": "e6ce5a12e5b73c7f",
+      "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+      "date": "2026-10-21",
+      "discoveredAt": "2026-10-22T00:01:27.302134Z",
+      "category": "Safety",
+      "summary": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
+      "whyItMatters": "Useful context when reviewing system safeguards; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+      "relatedTopicSlugs": [
+        "safety"
+      ]
+    },
+    {
+      "id": "91c5f0279d564ace",
+      "title": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
+      "date": "2026-10-21",
+      "discoveredAt": "2026-10-22T00:01:27.302134Z",
+      "category": "Safety",
+      "summary": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient…",
+      "whyItMatters": "Useful context when reviewing system safeguards; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/empowering-cyber-defenders",
+      "relatedTopicSlugs": [
+        "safety"
+      ]
+    },
+    {
+      "id": "91950d38b21a29b2",
+      "title": "Using thousands of AI agents to uncover new leads in biological data",
+      "date": "2026-10-21",
+      "discoveredAt": "2026-10-22T00:01:27.302134Z",
+      "category": "Agents",
+      "summary": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data…",
+      "whyItMatters": "Useful context when reviewing agent workflows; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+      "relatedTopicSlugs": [
+        "agents"
+      ]
+    },
+    {
+      "id": "8e152648cc62c002",
+      "title": "OpenAI models are coming to Google Cloud",
+      "date": "2026-10-21",
+      "discoveredAt": "2026-10-22T00:01:27.302134Z",
+      "category": "Models",
+      "summary": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google…",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/openai-models-google-cloud",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "779e3ce843fc8823",
+      "title": "Developing an AI Factory Digital Twin with an Agent-Assisted Workflow",
+      "date": "2026-10-21",
+      "discoveredAt": "2026-10-22T00:01:27.302134Z",
+      "category": "Coding",
+      "summary": "Building an AI factory digital twin requires developers to bring site plans, equipment assets, and engineering requirements into…",
+      "whyItMatters": "Useful context when reviewing coding workflows; check the original announcement for scope and limitations.",
+      "sourceName": "NVIDIA Developer",
+      "sourceUrl": "https://developer.nvidia.com/blog/",
+      "articleUrl": "https://developer.nvidia.com/blog/developing-an-ai-factory-digital-twin-with-an-agent-assisted-workflow",
+      "relatedTopicSlugs": [
+        "tools-actions"
+      ]
+    },
+    {
+      "id": "677bdc068ebbaa35",
+      "title": "Inside NVIDIA Sentry: Secure AI Agents at Runtime",
+      "date": "2026-10-21",
+      "discoveredAt": "2026-10-22T00:01:27.302134Z",
+      "category": "Safety",
+      "summary": "An AI agent can complete its assignment and still cross a security boundary. Recent incidents show that agents…",
+      "whyItMatters": "Useful context when reviewing system safeguards; check the original announcement for scope and limitations.",
+      "sourceName": "NVIDIA Developer",
+      "sourceUrl": "https://developer.nvidia.com/blog/",
+      "articleUrl": "https://developer.nvidia.com/blog/inside-nvidia-sentry-secure-ai-agents-at-runtime",
+      "relatedTopicSlugs": [
+        "safety"
+      ]
+    },
     {
       "id": "d08330b5b1d1d2e4",
       "title": "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms",
@@ -2200,96 +2290,6 @@
       "articleUrl": "https://openai.com/index/pacing-model-development-cyber-capabilities",
       "relatedTopicSlugs": [
         "safety"
-      ]
-    },
-    {
-      "id": "faa9d0a6122f5bac",
-      "title": "New policy ideas for the Intelligence Age",
-      "date": "2026-08-17",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "AI Strategy",
-      "summary": "OpenAI funds 14 independent projects exploring new AI policy ideas to expand economic opportunity and strengthen societal resilience…",
-      "whyItMatters": "Useful context when reviewing AI adoption and governance; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
-      "relatedTopicSlugs": [
-        "production"
-      ]
-    },
-    {
-      "id": "f38b9320320bdcec",
-      "title": "Developing Nemotron 3.5 Lightning NVFP4 with QAD Using NVIDIA Model Optimizer",
-      "date": "2026-08-17",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Coding",
-      "summary": "Teams customize their models to hit their targets for latency, speed, memory, and compute. With the open NVIDIA…",
-      "whyItMatters": "Useful context when reviewing coding workflows; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/developing-nemotron-3-5-lightning-nvfp4-with-qad-using-nvidia-model-optimizer",
-      "relatedTopicSlugs": [
-        "tools-actions"
-      ]
-    },
-    {
-      "id": "1bef22cfb35ef1e0",
-      "title": "The Defender’s Window",
-      "date": "2026-08-17",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Safety",
-      "summary": "AI is reshaping cybersecurity for attackers and defenders alike. Learn how OpenAI is strengthening its defenses and what…",
-      "whyItMatters": "Useful context when reviewing system safeguards; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/the-defenders-window",
-      "relatedTopicSlugs": [
-        "safety"
-      ]
-    },
-    {
-      "id": "ef877ee9f6b0257b",
-      "title": "State of Open Models: Summer 2026 Observations",
-      "date": "2026-08-14",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Models",
-      "summary": "An official source announcement. Read the original for details.",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "Hugging Face",
-      "sourceUrl": "https://huggingface.co/blog",
-      "articleUrl": "https://huggingface.co/blog/state-of-open-models-summer-2026",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "241cb0c0bdbba08e",
-      "title": "The builder’s guide to GPT‑5.6",
-      "date": "2026-08-13",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Agents",
-      "summary": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new…",
-      "whyItMatters": "Useful context when reviewing agent workflows; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/builders-guide-to-gpt-5-6",
-      "relatedTopicSlugs": [
-        "agents"
-      ]
-    },
-    {
-      "id": "c52ce467fedad927",
-      "title": "MindTopo reveals VLMs’ spatial reasoning abilities",
-      "date": "2026-08-12",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Evaluation",
-      "summary": "A path, a fence, a knot. MindTopo sets a new benchmark for testing how AI understands topological relationships…",
-      "whyItMatters": "Useful context when reviewing evaluation methods; check the original announcement for scope and limitations.",
-      "sourceName": "Microsoft Research",
-      "sourceUrl": "https://www.microsoft.com/en-us/research/blog/",
-      "articleUrl": "https://www.microsoft.com/en-us/research/blog/mindtopo-reveals-vlms-spatial-reasoning-abilities",
-      "relatedTopicSlugs": [
-        "evaluation"
       ]
     }
   ]
