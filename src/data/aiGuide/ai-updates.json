@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "lastUpdated": "2026-10-23T00:00:11Z",
-  "lastAttempt": "2026-10-23T00:00:11Z",
+  "lastUpdated": "2026-10-23T23:52:30Z",
+  "lastAttempt": "2026-10-23T23:52:30Z",
   "status": "ok",
   "sourceStatus": [
     {
       "id": "openai",
       "status": "ok",
-      "items": 261
+      "items": 262
     },
     {
       "id": "mcp",
@@ -32,10 +32,55 @@
     {
       "id": "huggingface",
       "status": "ok",
-      "items": 55
+      "items": 56
     }
   ],
   "items": [
+    {
+      "id": "965786d86a8ccb06",
+      "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+      "date": "2026-10-23",
+      "discoveredAt": "2026-10-23T23:52:30.993844Z",
+      "category": "Safety",
+      "summary": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support…",
+      "whyItMatters": "Useful context when reviewing system safeguards; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+      "relatedTopicSlugs": [
+        "safety"
+      ]
+    },
+    {
+      "id": "3e591f104244679f",
+      "title": "Securing our frontier model training environment",
+      "date": "2026-10-23",
+      "discoveredAt": "2026-10-23T23:52:30.993844Z",
+      "category": "Evaluation",
+      "summary": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
+      "whyItMatters": "Useful context when reviewing evaluation methods; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/securing-our-frontier-model-training-environment",
+      "relatedTopicSlugs": [
+        "evaluation"
+      ]
+    },
+    {
+      "id": "00080b3d0a889990",
+      "title": "Does Your Model Run on AWS Trainium? Look It Up",
+      "date": "2026-10-23",
+      "discoveredAt": "2026-10-23T23:52:30.993844Z",
+      "category": "Models",
+      "summary": "An official source announcement. Read the original for details.",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "Hugging Face",
+      "sourceUrl": "https://huggingface.co/blog",
+      "articleUrl": "https://huggingface.co/blog/torch-neuronx-model-support",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
     {
       "id": "5a5f502cb999a615",
       "title": "Running Frontier-Class AI Models Across 8 NVIDIA DGX Spark Nodes",
@@ -2243,51 +2288,6 @@
       "sourceName": "NVIDIA Developer",
       "sourceUrl": "https://developer.nvidia.com/blog/",
       "articleUrl": "https://developer.nvidia.com/blog/post-train-nvidia-cosmos-3-edge-for-on-device-robot-control",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "5eeebca2220f1b93",
-      "title": "Offering Zero Data Retention for frontier models",
-      "date": "2026-08-19",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Safety",
-      "summary": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety…",
-      "whyItMatters": "Useful context when reviewing system safeguards; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
-      "relatedTopicSlugs": [
-        "safety"
-      ]
-    },
-    {
-      "id": "e844dbd480a4865b",
-      "title": "Strengthening democratic oversight in national security",
-      "date": "2026-08-18",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Safety",
-      "summary": "OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools,…",
-      "whyItMatters": "Useful context when reviewing system safeguards; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
-      "relatedTopicSlugs": [
-        "safety"
-      ]
-    },
-    {
-      "id": "950575ac686e6c0a",
-      "title": "Asana completed a years-long code migration in 2 weeks with Codex",
-      "date": "2026-08-18",
-      "discoveredAt": "2026-10-06T01:46:33.104168Z",
-      "category": "Models",
-      "summary": "Asana used OpenAI Codex to replace an outdated testing system in two weeks, with about $12K in model…",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/asana",
       "relatedTopicSlugs": [
         "foundations"
       ]
