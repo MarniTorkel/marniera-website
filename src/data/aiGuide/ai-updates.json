@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "lastUpdated": "2026-10-22T00:01:27Z",
-  "lastAttempt": "2026-10-22T00:01:27Z",
+  "lastUpdated": "2026-10-23T00:00:11Z",
+  "lastAttempt": "2026-10-23T00:00:11Z",
   "status": "ok",
   "sourceStatus": [
     {
       "id": "openai",
       "status": "ok",
-      "items": 262
+      "items": 261
     },
     {
       "id": "mcp",
@@ -27,15 +27,60 @@
     {
       "id": "nvidia",
       "status": "ok",
-      "items": 47
+      "items": 46
     },
     {
       "id": "huggingface",
       "status": "ok",
-      "items": 57
+      "items": 55
     }
   ],
   "items": [
+    {
+      "id": "5a5f502cb999a615",
+      "title": "Running Frontier-Class AI Models Across 8 NVIDIA DGX Spark Nodes",
+      "date": "2026-10-22",
+      "discoveredAt": "2026-10-23T00:00:11.854308Z",
+      "category": "Coding",
+      "summary": "AI developers aren’t just running a single model anymore—they’re orchestrating multiple models in parallel, chaining inference calls, and…",
+      "whyItMatters": "Useful context when reviewing coding workflows; check the original announcement for scope and limitations.",
+      "sourceName": "NVIDIA Developer",
+      "sourceUrl": "https://developer.nvidia.com/blog/",
+      "articleUrl": "https://developer.nvidia.com/blog/running-frontier-class-ai-models-across-8-nvidia-dgx-spark-nodes",
+      "relatedTopicSlugs": [
+        "tools-actions"
+      ]
+    },
+    {
+      "id": "5453758f9b5266fa",
+      "title": "Flint-interactive: A language for creating interactive data visualizations",
+      "date": "2026-10-22",
+      "discoveredAt": "2026-10-23T00:00:11.854308Z",
+      "category": "Agents",
+      "summary": "Flint-interactive gives AI agents a language for creating interactive visualizations. Click a chart, filter data, highlight related content,…",
+      "whyItMatters": "Useful context when reviewing agent workflows; check the original announcement for scope and limitations.",
+      "sourceName": "Microsoft Research",
+      "sourceUrl": "https://www.microsoft.com/en-us/research/blog/",
+      "articleUrl": "https://www.microsoft.com/en-us/research/blog/flint-interactive-a-language-for-creating-interactive-data-visualizations",
+      "relatedTopicSlugs": [
+        "agents"
+      ]
+    },
+    {
+      "id": "449c0e71ad7420dc",
+      "title": "Ensemble forecasting with IBM Granite time-series models",
+      "date": "2026-10-22",
+      "discoveredAt": "2026-10-23T00:00:11.854308Z",
+      "category": "Models",
+      "summary": "An official source announcement. Read the original for details.",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "Hugging Face",
+      "sourceUrl": "https://huggingface.co/blog",
+      "articleUrl": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
     {
       "id": "e6ce5a12e5b73c7f",
       "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
@@ -2245,51 +2290,6 @@
       "articleUrl": "https://openai.com/index/asana",
       "relatedTopicSlugs": [
         "foundations"
-      ]
-    },
-    {
-      "id": "7f191d9e6df48e8e",
-      "title": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
-      "date": "2026-08-18",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Models",
-      "summary": "An official source announcement. Read the original for details.",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "Hugging Face",
-      "sourceUrl": "https://huggingface.co/blog",
-      "articleUrl": "https://huggingface.co/blog/multi-vector-encoder",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "45753cb3c6e1a36d",
-      "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
-      "date": "2026-08-18",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Models",
-      "summary": "ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use…",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/chatgpt-for-teens",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "1bd158d36127bb87",
-      "title": "Pacing model development in an era of cyber-critical capabilities",
-      "date": "2026-08-18",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Safety",
-      "summary": "OpenAI is strengthening monitoring, alignment, and security for frontier AI models. See how new safeguards are guiding the…",
-      "whyItMatters": "Useful context when reviewing system safeguards; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/pacing-model-development-cyber-capabilities",
-      "relatedTopicSlugs": [
-        "safety"
       ]
     }
   ]
