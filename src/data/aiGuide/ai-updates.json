@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "lastUpdated": "2026-10-25T23:18:50Z",
-  "lastAttempt": "2026-10-25T23:18:50Z",
+  "lastUpdated": "2026-10-27T00:30:16Z",
+  "lastAttempt": "2026-10-27T00:30:16Z",
   "status": "ok",
   "sourceStatus": [
     {
       "id": "openai",
       "status": "ok",
-      "items": 262
+      "items": 264
     },
     {
       "id": "mcp",
@@ -17,7 +17,7 @@
     {
       "id": "google",
       "status": "ok",
-      "items": 1
+      "items": 0
     },
     {
       "id": "microsoft",
@@ -27,7 +27,7 @@
     {
       "id": "nvidia",
       "status": "ok",
-      "items": 46
+      "items": 45
     },
     {
       "id": "huggingface",
@@ -36,6 +36,51 @@
     }
   ],
   "items": [
+    {
+      "id": "bf8140e2f80c148d",
+      "title": "Working with academic communities to build scientific understanding",
+      "date": "2026-10-26",
+      "discoveredAt": "2026-10-27T00:30:16.652303Z",
+      "category": "Models",
+      "summary": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify…",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "5d31c9a8eef22c00",
+      "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+      "date": "2026-10-26",
+      "discoveredAt": "2026-10-27T00:30:16.652303Z",
+      "category": "Safety",
+      "summary": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings…",
+      "whyItMatters": "Useful context when reviewing system safeguards; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+      "relatedTopicSlugs": [
+        "safety"
+      ]
+    },
+    {
+      "id": "1760323b192b8e65",
+      "title": "How NVIDIA Mission Control 2.5 Brings Autonomous Recovery to Kubernetes",
+      "date": "2026-10-26",
+      "discoveredAt": "2026-10-27T00:30:16.652303Z",
+      "category": "Models",
+      "summary": "Training large-scale AI models on thousands of GPUs is a high-stakes operation where monitoring and automation must be…",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "NVIDIA Developer",
+      "sourceUrl": "https://developer.nvidia.com/blog/",
+      "articleUrl": "https://developer.nvidia.com/blog/how-nvidia-mission-control-2-5-brings-autonomous-recovery-to-kubernetes",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
     {
       "id": "965786d86a8ccb06",
       "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
@@ -2245,51 +2290,6 @@
       "articleUrl": "https://openai.com/index/introducing-intelligence-age",
       "relatedTopicSlugs": [
         "production"
-      ]
-    },
-    {
-      "id": "c493c0bbde28d985",
-      "title": "Building Federated Multimodal AI Workflows with NVIDIA FLARE",
-      "date": "2026-08-19",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Multimodal",
-      "summary": "Modern vision-language models (VLMs) can support tasks such as visual question answering, captioning, and image-text reasoning. In practice,…",
-      "whyItMatters": "Useful context when reviewing multimodal workflows; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/building-federated-multimodal-ai-workflows-with-nvidia-flare",
-      "relatedTopicSlugs": [
-        "multimodal"
-      ]
-    },
-    {
-      "id": "b43879b33c5d3511",
-      "title": "Evaluating AI Agent Skill Performance with NVIDIA SkillEvaluator",
-      "date": "2026-08-19",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Evaluation",
-      "summary": "AI agents are only as effective as the context they receive. Even with capable models and well-documented NVIDIA…",
-      "whyItMatters": "Useful context when reviewing evaluation methods; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/evaluating-ai-agent-skill-performance-with-nvidia-skillevaluator",
-      "relatedTopicSlugs": [
-        "evaluation"
-      ]
-    },
-    {
-      "id": "78f2b24424b7a45c",
-      "title": "Post-Train NVIDIA Cosmos 3 Edge for On-Device Robot Control",
-      "date": "2026-08-19",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Models",
-      "summary": "Robots need policies that can adapt to their sensors, environments, and tasks while running on onboard computing hardware.…",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/post-train-nvidia-cosmos-3-edge-for-on-device-robot-control",
-      "relatedTopicSlugs": [
-        "foundations"
       ]
     }
   ]
