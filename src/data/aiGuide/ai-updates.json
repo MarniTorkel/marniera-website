@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "lastUpdated": "2026-10-27T00:30:16Z",
-  "lastAttempt": "2026-10-27T00:30:16Z",
+  "lastUpdated": "2026-10-28T00:32:59Z",
+  "lastAttempt": "2026-10-28T00:32:59Z",
   "status": "ok",
   "sourceStatus": [
     {
       "id": "openai",
       "status": "ok",
-      "items": 264
+      "items": 267
     },
     {
       "id": "mcp",
@@ -17,7 +17,7 @@
     {
       "id": "google",
       "status": "ok",
-      "items": 0
+      "items": 2
     },
     {
       "id": "microsoft",
@@ -27,15 +27,120 @@
     {
       "id": "nvidia",
       "status": "ok",
-      "items": 45
+      "items": 46
     },
     {
       "id": "huggingface",
       "status": "ok",
-      "items": 56
+      "items": 57
     }
   ],
   "items": [
+    {
+      "id": "fdfe5ac6b2cb264c",
+      "title": "NVIDIA RTX Spark Powers Neural Rendering and AI Characters in Games",
+      "date": "2026-10-27",
+      "discoveredAt": "2026-10-28T00:32:59.572725Z",
+      "category": "Models",
+      "summary": "NVIDIA RTX Spark is a new Windows PC platform for AI development, creation, and gaming in slim laptops…",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "NVIDIA Developer",
+      "sourceUrl": "https://developer.nvidia.com/blog/",
+      "articleUrl": "https://developer.nvidia.com/blog/nvidia-rtx-spark-powers-neural-rendering-and-ai-characters-in-games",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "fbbb2878742104dd",
+      "title": "3 Ways to Boost MoE Inference on NVIDIA DGX Spark",
+      "date": "2026-10-27",
+      "discoveredAt": "2026-10-28T00:32:59.572725Z",
+      "category": "Evaluation",
+      "summary": "Generating tokens faster starts with identifying what limits inference performance. In the batch-size-1 evaluation of Ling-3.0-flash from Inclusion…",
+      "whyItMatters": "Useful context when reviewing evaluation methods; check the original announcement for scope and limitations.",
+      "sourceName": "NVIDIA Developer",
+      "sourceUrl": "https://developer.nvidia.com/blog/",
+      "articleUrl": "https://developer.nvidia.com/blog/3-ways-to-boost-moe-inference-on-nvidia-dgx-spark",
+      "relatedTopicSlugs": [
+        "evaluation"
+      ]
+    },
+    {
+      "id": "f9b1f7e0e8755751",
+      "title": "We’re announcing Genie 4, our new world model for real-time interactive simulation.",
+      "date": "2026-10-27",
+      "discoveredAt": "2026-10-28T00:32:59.572725Z",
+      "category": "Multimodal",
+      "summary": "Today, we’re announcing our research on Genie 4, our new world model that brings unprecedented realism and native…",
+      "whyItMatters": "Useful context when reviewing multimodal workflows; check the original announcement for scope and limitations.",
+      "sourceName": "Google",
+      "sourceUrl": "https://blog.google/",
+      "articleUrl": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-genie-4",
+      "relatedTopicSlugs": [
+        "multimodal"
+      ]
+    },
+    {
+      "id": "eac9535cc398b234",
+      "title": "Fine-Tuning NVIDIA Nemotron to Know Local Rules, Not Just Local Languages",
+      "date": "2026-10-27",
+      "discoveredAt": "2026-10-28T00:32:59.572725Z",
+      "category": "AI Strategy",
+      "summary": "As AI adoption expands globally, people across languages and cultures are using it in more aspects of their…",
+      "whyItMatters": "Useful context when reviewing AI adoption and governance; check the original announcement for scope and limitations.",
+      "sourceName": "NVIDIA Developer",
+      "sourceUrl": "https://developer.nvidia.com/blog/",
+      "articleUrl": "https://developer.nvidia.com/blog/fine-tuning-nvidia-nemotron-to-know-local-rules-not-just-local-languages",
+      "relatedTopicSlugs": [
+        "production"
+      ]
+    },
+    {
+      "id": "c9e8f3642c5a5c0f",
+      "title": "Retell uses OpenAI models to help power 100M monthly calls",
+      "date": "2026-10-27",
+      "discoveredAt": "2026-10-28T00:32:59.572725Z",
+      "category": "Evaluation",
+      "summary": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate…",
+      "whyItMatters": "Useful context when reviewing evaluation methods; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/retell-ai",
+      "relatedTopicSlugs": [
+        "evaluation"
+      ]
+    },
+    {
+      "id": "c9211a9ac5d2775e",
+      "title": "Build specialized multimodal models with LFM3",
+      "date": "2026-10-27",
+      "discoveredAt": "2026-10-28T00:32:59.572725Z",
+      "category": "Multimodal",
+      "summary": "An official source announcement. Read the original for details.",
+      "whyItMatters": "Useful context when reviewing multimodal workflows; check the original announcement for scope and limitations.",
+      "sourceName": "Hugging Face",
+      "sourceUrl": "https://huggingface.co/blog",
+      "articleUrl": "https://huggingface.co/blog/LiquidAI/lfm3",
+      "relatedTopicSlugs": [
+        "multimodal"
+      ]
+    },
+    {
+      "id": "132b68f37d535add",
+      "title": "8 examples of Gemini 4 Argon in action",
+      "date": "2026-10-27",
+      "discoveredAt": "2026-10-28T00:32:59.572725Z",
+      "category": "Models",
+      "summary": "From deep research to interactive design, here are eight examples of what Gemini 4 Argon, our most intelligent…",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "Google",
+      "sourceUrl": "https://blog.google/",
+      "articleUrl": "https://blog.google/products-and-platforms/products/gemini/gemini-4-argon-in-action",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
     {
       "id": "bf8140e2f80c148d",
       "title": "Working with academic communities to build scientific understanding",
@@ -77,6 +182,21 @@
       "sourceName": "NVIDIA Developer",
       "sourceUrl": "https://developer.nvidia.com/blog/",
       "articleUrl": "https://developer.nvidia.com/blog/how-nvidia-mission-control-2-5-brings-autonomous-recovery-to-kubernetes",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "cb845892cce92da4",
+      "title": "Anima helps clinics cut call waits by 75% with GPT-6 and GPT-Live",
+      "date": "2026-10-23",
+      "discoveredAt": "2026-10-28T00:32:59.572725Z",
+      "category": "Models",
+      "summary": "Anima expands what care teams can do with OpenAI models, giving them more capacity to respond to patients.",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/anima",
       "relatedTopicSlugs": [
         "foundations"
       ]
@@ -2170,126 +2290,6 @@
       "articleUrl": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
       "relatedTopicSlugs": [
         "foundations"
-      ]
-    },
-    {
-      "id": "0ce15ea89999c702",
-      "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
-      "date": "2026-08-25",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Models",
-      "summary": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput…",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/jalapeno-first-results",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "aaa80b0bae66a6e1",
-      "title": "NVIDIA BlueField-4 Powers New Scale-In Network Infrastructure for Agentic AI Factories",
-      "date": "2026-08-24",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Agents",
-      "summary": "Traditional cloud infrastructure was designed for predictable, general-purpose workloads and standard interfaces. Agentic AI factories connect diverse users,...",
-      "whyItMatters": "Useful context when reviewing agent workflows; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/nvidia-bluefield-4-powers-new-scale-in-network-infrastructure-for-agentic-ai-factories",
-      "relatedTopicSlugs": [
-        "agents"
-      ]
-    },
-    {
-      "id": "7c971e34cd2c9f64",
-      "title": "Giga-Scale AI and the Ethernet Evolution: How Spectrum-X Ethernet Rewrites the Rules",
-      "date": "2026-08-24",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Models",
-      "summary": "The massive growth of generative AI has fundamentally altered data center design. As distributed model training scales to…",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/giga-scale-ai-ethernet-evolution-spectrum-x-ethernet-rewrites-rules",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "238e087c0483c622",
-      "title": "NVIDIA Vera Rubin and Blackwell Set a New Standard for Agentic AI Performance per Watt",
-      "date": "2026-08-24",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Agents",
-      "summary": "AI agents have expanded inference from single-turn interactions into multi-step workflows that reason, invoke tools, coordinate subagents, and…",
-      "whyItMatters": "Useful context when reviewing agent workflows; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/nvidia-vera-rubin-and-blackwell-set-a-new-standard-for-agentic-ai-performance-per-watt",
-      "relatedTopicSlugs": [
-        "agents"
-      ]
-    },
-    {
-      "id": "61c8d01635cf08d0",
-      "title": "The New MCP Roadmap",
-      "date": "2026-08-22",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Protocols",
-      "summary": "An update on the Model Context Protocol roadmap and focus areas for upcoming specification releases.",
-      "whyItMatters": "Useful context when reviewing interoperability; check the original announcement for scope and limitations.",
-      "sourceName": "Model Context Protocol",
-      "sourceUrl": "https://blog.modelcontextprotocol.io/",
-      "articleUrl": "https://blog.modelcontextprotocol.io/posts/mcp-roadmap",
-      "relatedTopicSlugs": [
-        "protocols"
-      ]
-    },
-    {
-      "id": "72c6370192a8c6b7",
-      "title": "NVIDIA AVO Reaches 100% on ARC-AGI-3, Demonstrating a Frontier-Level General-Purpose Architecture for Long-Horizon Autonomous Agents",
-      "date": "2026-08-21",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Agents",
-      "summary": "A frontier language model is only one component of an AI agent. The surrounding agent system—often called a…",
-      "whyItMatters": "Useful context when reviewing agent workflows; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/nvidia-avo-reaches-100-on-arc-agi-3-demonstrating-a-frontier-level-general-purpose-architecture-for-long-horizon-autonomous-agents",
-      "relatedTopicSlugs": [
-        "agents"
-      ]
-    },
-    {
-      "id": "0440c270d3be8a51",
-      "title": "Where Security Fits in an AI Agent Stack",
-      "date": "2026-08-21",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Safety",
-      "summary": "As AI agents become more capable and operate over longer horizons, building security and trust into the applications…",
-      "whyItMatters": "Useful context when reviewing system safeguards; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/where-security-fits-in-an-ai-agent-stack",
-      "relatedTopicSlugs": [
-        "safety"
-      ]
-    },
-    {
-      "id": "e7df0050edd1a9b6",
-      "title": "Introducing Intelligence Age",
-      "date": "2026-08-20",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "AI Strategy",
-      "summary": "Introducing Intelligence Age, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and…",
-      "whyItMatters": "Useful context when reviewing AI adoption and governance; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/introducing-intelligence-age",
-      "relatedTopicSlugs": [
-        "production"
       ]
     }
   ]
