@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "lastUpdated": "2026-10-28T00:32:59Z",
-  "lastAttempt": "2026-10-28T00:32:59Z",
+  "lastUpdated": "2026-10-29T01:00:44Z",
+  "lastAttempt": "2026-10-29T01:00:44Z",
   "status": "ok",
   "sourceStatus": [
     {
       "id": "openai",
       "status": "ok",
-      "items": 267
+      "items": 265
     },
     {
       "id": "mcp",
@@ -17,7 +17,7 @@
     {
       "id": "google",
       "status": "ok",
-      "items": 2
+      "items": 4
     },
     {
       "id": "microsoft",
@@ -36,6 +36,51 @@
     }
   ],
   "items": [
+    {
+      "id": "ca0cd2c061bb0ee3",
+      "title": "Gemini 4 Carbon: our next frontier model",
+      "date": "2026-10-28",
+      "discoveredAt": "2026-10-29T01:00:44.709200Z",
+      "category": "Safety",
+      "summary": "Gemini 4 Carbon is our strongest model with state-of-the-art cybersecurity and long horizon capabilities.",
+      "whyItMatters": "Useful context when reviewing system safeguards; check the original announcement for scope and limitations.",
+      "sourceName": "Google",
+      "sourceUrl": "https://blog.google/",
+      "articleUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon",
+      "relatedTopicSlugs": [
+        "safety"
+      ]
+    },
+    {
+      "id": "b6f2cfc7501e463f",
+      "title": "Legora is building the agentic operating system for legal work",
+      "date": "2026-10-28",
+      "discoveredAt": "2026-10-29T01:00:44.709200Z",
+      "category": "Agents",
+      "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free…",
+      "whyItMatters": "Useful context when reviewing agent workflows; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/legora",
+      "relatedTopicSlugs": [
+        "agents"
+      ]
+    },
+    {
+      "id": "68e9ba23a1b0356a",
+      "title": "Ads in AI Mode expand to new markets.",
+      "date": "2026-10-28",
+      "discoveredAt": "2026-10-29T01:00:44.709200Z",
+      "category": "Models",
+      "summary": "Google is expanding AI Mode ads to 10 new countries, including Canada and India. See how these relevant…",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "Google",
+      "sourceUrl": "https://blog.google/",
+      "articleUrl": "https://blog.google/products/ads-commerce/ads-in-ai-mode-global",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
     {
       "id": "fdfe5ac6b2cb264c",
       "title": "NVIDIA RTX Spark Powers Neural Rendering and AI Characters in Games",
@@ -2243,51 +2288,6 @@
       "sourceName": "OpenAI",
       "sourceUrl": "https://openai.com/news/",
       "articleUrl": "https://openai.com/index/learning-never-stops",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "7ab58f0024a4abb0",
-      "title": "The full stack behind abundant intelligence",
-      "date": "2026-08-25",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Models",
-      "summary": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful…",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "71f65034f38877a6",
-      "title": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
-      "date": "2026-08-25",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Models",
-      "summary": "An official source announcement. Read the original for details.",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "Hugging Face",
-      "sourceUrl": "https://huggingface.co/blog",
-      "articleUrl": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "2fbcfb47e0f13430",
-      "title": "Disrupting a new covert influence campaign from Russia",
-      "date": "2026-08-25",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Models",
-      "summary": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising…",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
       "relatedTopicSlugs": [
         "foundations"
       ]
