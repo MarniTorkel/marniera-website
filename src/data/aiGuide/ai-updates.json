@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "lastUpdated": "2026-10-29T01:00:44Z",
-  "lastAttempt": "2026-10-29T01:00:44Z",
+  "lastUpdated": "2026-10-30T01:05:54Z",
+  "lastAttempt": "2026-10-30T01:05:54Z",
   "status": "ok",
   "sourceStatus": [
     {
       "id": "openai",
       "status": "ok",
-      "items": 265
+      "items": 266
     },
     {
       "id": "mcp",
@@ -17,7 +17,7 @@
     {
       "id": "google",
       "status": "ok",
-      "items": 4
+      "items": 6
     },
     {
       "id": "microsoft",
@@ -32,10 +32,145 @@
     {
       "id": "huggingface",
       "status": "ok",
-      "items": 57
+      "items": 60
     }
   ],
   "items": [
+    {
+      "id": "f6091344b2401a42",
+      "title": "How we detect frontier model misalignment",
+      "date": "2026-10-29",
+      "discoveredAt": "2026-10-30T01:05:54.015844Z",
+      "category": "Agents",
+      "summary": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before…",
+      "whyItMatters": "Useful context when reviewing agent workflows; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+      "relatedTopicSlugs": [
+        "agents"
+      ]
+    },
+    {
+      "id": "ecd132fdee5bb3a1",
+      "title": "Equipping healthcare professionals with practical AI skills",
+      "date": "2026-10-29",
+      "discoveredAt": "2026-10-30T01:05:54.015844Z",
+      "category": "Models",
+      "summary": "Built by clinicians at Google, the new Google AI for Healthcare Professionals Certificate helps healthcare professionals prioritize patients.",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "Google",
+      "sourceUrl": "https://blog.google/",
+      "articleUrl": "https://blog.google/innovation-and-ai/technology/health/google-ai-for-healthcare-professionals-certificate",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "d08d978bbfba5ef9",
+      "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+      "date": "2026-10-29",
+      "discoveredAt": "2026-10-30T01:05:54.015844Z",
+      "category": "Models",
+      "summary": "An official source announcement. Read the original for details.",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "Hugging Face",
+      "sourceUrl": "https://huggingface.co/blog",
+      "articleUrl": "https://huggingface.co/blog/announcing-project-protostar",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "bdbe600b6d77eef3",
+      "title": "Unlocking Tensor Core Performance for Machine Learning Interatomic Potentials",
+      "date": "2026-10-29",
+      "discoveredAt": "2026-10-30T01:05:54.015844Z",
+      "category": "Research",
+      "summary": "Atomistic simulations help researchers understand how molecules and materials behave, from chemical reactions and phase transitions to mechanical…",
+      "whyItMatters": "Useful context when reviewing research directions; check the original announcement for scope and limitations.",
+      "sourceName": "NVIDIA Developer",
+      "sourceUrl": "https://developer.nvidia.com/blog/",
+      "articleUrl": "https://developer.nvidia.com/blog/unlocking-tensor-core-performance-for-machine-learning-interatomic-potentials",
+      "relatedTopicSlugs": [
+        "research"
+      ]
+    },
+    {
+      "id": "7bd9fc9bcad92302",
+      "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+      "date": "2026-10-29",
+      "discoveredAt": "2026-10-30T01:05:54.015844Z",
+      "category": "Multimodal",
+      "summary": "An official source announcement. Read the original for details.",
+      "whyItMatters": "Useful context when reviewing multimodal workflows; check the original announcement for scope and limitations.",
+      "sourceName": "Hugging Face",
+      "sourceUrl": "https://huggingface.co/blog",
+      "articleUrl": "https://huggingface.co/blog/anydecisionmodel",
+      "relatedTopicSlugs": [
+        "multimodal"
+      ]
+    },
+    {
+      "id": "6350c93a86bfd249",
+      "title": "An updated Model Spec for more capable and beneficial AI",
+      "date": "2026-10-29",
+      "discoveredAt": "2026-10-30T01:05:54.015844Z",
+      "category": "Models",
+      "summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency,…",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/updated-model-spec",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "53acd431e6198f1e",
+      "title": "Granite Switch 4.1.1 — Update models like you update software",
+      "date": "2026-10-29",
+      "discoveredAt": "2026-10-30T01:05:54.015844Z",
+      "category": "Models",
+      "summary": "An official source announcement. Read the original for details.",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "Hugging Face",
+      "sourceUrl": "https://huggingface.co/blog",
+      "articleUrl": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "4db7d6705b0c6554",
+      "title": "Partnering with Singapore to bring frontier AI to public health",
+      "date": "2026-10-29",
+      "discoveredAt": "2026-10-30T01:05:54.015844Z",
+      "category": "Research",
+      "summary": "Google announced a new research hub and initiatives to support clinicians, advance research, and help Singaporeans live healthier…",
+      "whyItMatters": "Useful context when reviewing research directions; check the original announcement for scope and limitations.",
+      "sourceName": "Google",
+      "sourceUrl": "https://blog.google/",
+      "articleUrl": "https://blog.google/innovation-and-ai/technology/health/google-for-health-summit-singapore",
+      "relatedTopicSlugs": [
+        "research"
+      ]
+    },
+    {
+      "id": "29bc528be96d062b",
+      "title": "Microsoft Research Focus – Edition #97",
+      "date": "2026-10-29",
+      "discoveredAt": "2026-10-30T01:05:54.015844Z",
+      "category": "Coding",
+      "summary": "Host Sowbhagya Suresh shares some of the latest news and cutting-edge research from across Microsoft—from understanding the challenges…",
+      "whyItMatters": "Useful context when reviewing coding workflows; check the original announcement for scope and limitations.",
+      "sourceName": "Microsoft Research",
+      "sourceUrl": "https://www.microsoft.com/en-us/research/blog/",
+      "articleUrl": "https://www.microsoft.com/en-us/research/podcast/microsoft-research-focus-edition-97",
+      "relatedTopicSlugs": [
+        "tools-actions"
+      ]
+    },
     {
       "id": "ca0cd2c061bb0ee3",
       "title": "Gemini 4 Carbon: our next frontier model",
@@ -2151,143 +2286,6 @@
       "sourceName": "OpenAI",
       "sourceUrl": "https://openai.com/news/",
       "articleUrl": "https://openai.com/index/polimill",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "2e2112352f81d9c7",
-      "title": "GigaPath-Flash and GigaTIME-Flash: Toward population-scale discovery with efficient pathology foundation models",
-      "date": "2026-08-31",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Models",
-      "summary": "What if pathology foundation models could do more with less? GigaPath-Flash and GigaTIME-Flash cut computational demands while maintaining…",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "Microsoft Research",
-      "sourceUrl": "https://www.microsoft.com/en-us/research/blog/",
-      "articleUrl": "https://www.microsoft.com/en-us/research/blog/gigapath-flash-and-gigatime-flash-toward-population-scale-discovery-with-efficient-pathology-foundation-models",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "api-identity",
-      "title": "OpenAI API adds generally available certificate-based identity options",
-      "date": "2026-08-29",
-      "discoveredAt": "2026-09-10T00:00:00Z",
-      "category": "Safety",
-      "summary": "OpenAI announced general availability of mutual TLS and X.509 workload identity federation. Configuration and access remain subject to organisation permissions.",
-      "whyItMatters": "Production teams can review these options when designing service authentication.",
-      "sourceName": "OpenAI API changelog",
-      "sourceUrl": "https://developers.openai.com/api/docs/changelog",
-      "articleUrl": "https://developers.openai.com/api/docs/changelog",
-      "relatedTopicSlugs": [
-        "safety",
-        "production"
-      ],
-      "curated": true
-    },
-    {
-      "id": "a333ecf672f61f6f",
-      "title": "Supporting Thailand’s next generation of AI startups",
-      "date": "2026-08-28",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Models",
-      "summary": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes…",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "352638b27787dee0",
-      "title": "Deploy an Open Model from Checkpoint to Inference in Two Commands with NVIDIA TensorRT Model Connect",
-      "date": "2026-08-28",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Models",
-      "summary": "Open AI models are evolving faster than ever, but bringing them into native applications can still require model-specific…",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/deploy-an-open-model-from-checkpoint-to-inference-in-two-commands-with-nvidia-tensorrt-model-connect",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "ae5e7c1d56a2c1fe",
-      "title": "NVIDIA NVLink Fusion Brings NVHBM to Next-Generation AI Infrastructure",
-      "date": "2026-08-26",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Models",
-      "summary": "AI factories must support increasingly large models and more complex reasoning workloads. To keep up with the insatiable…",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/nvidia-nvlink-fusion-brings-nvhbm-to-next-generation-ai-infrastructure",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "6d96622907b89d5e",
-      "title": "Experiment with Qwen3.8-Flash-Next on NVIDIA GB300 NVL72 for Agentic Coding",
-      "date": "2026-08-26",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Evaluation",
-      "summary": "Alibaba released the model weights for Qwen3.8-Flash-Next as a preview of the upcoming Qwen4 architecture for developers to…",
-      "whyItMatters": "Useful context when reviewing evaluation methods; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/experiment-with-qwen3-8-flash-next-on-nvidia-gb300-nvl72-for-agentic-coding",
-      "relatedTopicSlugs": [
-        "evaluation"
-      ]
-    },
-    {
-      "id": "5b1239458c977992",
-      "title": "The Hugging Face incident and the road ahead",
-      "date": "2026-08-26",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Safety",
-      "summary": "OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model…",
-      "whyItMatters": "Useful context when reviewing system safeguards; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
-      "relatedTopicSlugs": [
-        "safety"
-      ]
-    },
-    {
-      "id": "517759872e9ab547",
-      "title": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
-      "date": "2026-08-26",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Models",
-      "summary": "An official source announcement. Read the original for details.",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "Hugging Face",
-      "sourceUrl": "https://huggingface.co/blog",
-      "articleUrl": "https://huggingface.co/blog/train-multi-vector-encoder",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "45e1a99fef7bbcb0",
-      "title": "Learning never stops: How AI makes learning continuous",
-      "date": "2026-08-26",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Models",
-      "summary": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that…",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/learning-never-stops",
       "relatedTopicSlugs": [
         "foundations"
       ]
