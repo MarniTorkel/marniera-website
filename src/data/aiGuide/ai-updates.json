@@ -1,23 +1,23 @@
 {
   "version": 1,
-  "lastUpdated": "2026-10-30T01:05:54Z",
-  "lastAttempt": "2026-10-30T01:05:54Z",
+  "lastUpdated": "2026-10-31T00:50:40Z",
+  "lastAttempt": "2026-10-31T00:50:40Z",
   "status": "ok",
   "sourceStatus": [
     {
       "id": "openai",
       "status": "ok",
-      "items": 266
+      "items": 264
     },
     {
       "id": "mcp",
       "status": "ok",
-      "items": 15
+      "items": 16
     },
     {
       "id": "google",
       "status": "ok",
-      "items": 6
+      "items": 4
     },
     {
       "id": "microsoft",
@@ -27,7 +27,7 @@
     {
       "id": "nvidia",
       "status": "ok",
-      "items": 46
+      "items": 47
     },
     {
       "id": "huggingface",
@@ -36,6 +36,66 @@
     }
   ],
   "items": [
+    {
+      "id": "d96003a141be848c",
+      "title": "Build a Validated Kubernetes Runtime for NVIDIA Dynamo",
+      "date": "2026-10-30",
+      "discoveredAt": "2026-10-31T00:50:40.806107Z",
+      "category": "Models",
+      "summary": "Teams building AI applications need a repeatable path from a model configuration to a working inference endpoint. NVIDIA…",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "NVIDIA Developer",
+      "sourceUrl": "https://developer.nvidia.com/blog/",
+      "articleUrl": "https://developer.nvidia.com/blog/build-a-validated-kubernetes-runtime-for-nvidia-dynamo",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "8ab3e6c4c69f30d9",
+      "title": "From synthetic enterprise data evaluations to real Microsoft Copilot AI confidence",
+      "date": "2026-10-30",
+      "discoveredAt": "2026-10-31T00:50:40.806107Z",
+      "category": "Evaluation",
+      "summary": "Evaluating Microsoft Copilot at enterprise scale requires test data that captures the full complexity of real organizations, yet…",
+      "whyItMatters": "Useful context when reviewing evaluation methods; check the original announcement for scope and limitations.",
+      "sourceName": "Microsoft Research",
+      "sourceUrl": "https://www.microsoft.com/en-us/research/blog/",
+      "articleUrl": "https://www.microsoft.com/en-us/research/blog/from-synthetic-enterprise-data-evaluations-to-real-microsoft-copilot-ai-confidence",
+      "relatedTopicSlugs": [
+        "evaluation"
+      ]
+    },
+    {
+      "id": "471eebfd4acec0e2",
+      "title": "Build Specialized Agents on a Stack You Control with NVIDIA NemoClaw",
+      "date": "2026-10-30",
+      "discoveredAt": "2026-10-31T00:50:40.806107Z",
+      "category": "Coding",
+      "summary": "Building an autonomous agent requires a model, a harness, and domain-specific tools. To deploy an agent more securely,…",
+      "whyItMatters": "Useful context when reviewing coding workflows; check the original announcement for scope and limitations.",
+      "sourceName": "NVIDIA Developer",
+      "sourceUrl": "https://developer.nvidia.com/blog/",
+      "articleUrl": "https://developer.nvidia.com/blog/build-specialized-agents-on-a-stack-you-control-with-nvidia-nemoclaw",
+      "relatedTopicSlugs": [
+        "tools-actions"
+      ]
+    },
+    {
+      "id": "199a7cb8e5e41dfb",
+      "title": "Run AI Models for Edge Application Development with Just a Few Commands",
+      "date": "2026-10-30",
+      "discoveredAt": "2026-10-31T00:50:40.806107Z",
+      "category": "Coding",
+      "summary": "AI is expanding beyond the data center as developers build a new generation of agents to act at…",
+      "whyItMatters": "Useful context when reviewing coding workflows; check the original announcement for scope and limitations.",
+      "sourceName": "NVIDIA Developer",
+      "sourceUrl": "https://developer.nvidia.com/blog/",
+      "articleUrl": "https://developer.nvidia.com/blog/run-ai-models-for-edge-application-development-with-just-a-few-commands",
+      "relatedTopicSlugs": [
+        "tools-actions"
+      ]
+    },
     {
       "id": "f6091344b2401a42",
       "title": "How we detect frontier model misalignment",
@@ -1282,6 +1342,21 @@
       ]
     },
     {
+      "id": "c012dbf18a079c7e",
+      "title": "The Official Ruby SDK for MCP Reaches Tier 1",
+      "date": "2026-09-29",
+      "discoveredAt": "2026-10-31T00:50:40.806107Z",
+      "category": "Protocols",
+      "summary": "The official Ruby SDK for the Model Context Protocol is now a Tier 1 SDK under the MCP…",
+      "whyItMatters": "Useful context when reviewing interoperability; check the original announcement for scope and limitations.",
+      "sourceName": "Model Context Protocol",
+      "sourceUrl": "https://blog.modelcontextprotocol.io/",
+      "articleUrl": "https://blog.modelcontextprotocol.io/posts/ruby-sdk-tier-1",
+      "relatedTopicSlugs": [
+        "protocols"
+      ]
+    },
+    {
       "id": "77806d163920d1cd",
       "title": "Lower the Cost of Building and Running Visual AI Agents with NVIDIA VSS Blueprint 3.3",
       "date": "2026-09-29",
@@ -2213,81 +2288,6 @@
       "articleUrl": "https://openai.com/index/path-to-astra",
       "relatedTopicSlugs": [
         "safety"
-      ]
-    },
-    {
-      "id": "bfd7a023886ecc65",
-      "title": "Building an Adaptive Agentic Cybersecurity System with NVIDIA Nemotron",
-      "date": "2026-09-01",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Safety",
-      "summary": "AI is changing the pace of cybersecurity. Agentic systems can coordinate work and pursue complex objectives over long…",
-      "whyItMatters": "Useful context when reviewing system safeguards; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/building-an-adaptive-agentic-cybersecurity-system-with-nvidia-nemotron",
-      "relatedTopicSlugs": [
-        "safety"
-      ]
-    },
-    {
-      "id": "2d26985aace4a33c",
-      "title": "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
-      "date": "2026-09-01",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "AI Strategy",
-      "summary": "See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and…",
-      "whyItMatters": "Useful context when reviewing AI adoption and governance; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/gilbert-tobin",
-      "relatedTopicSlugs": [
-        "production"
-      ]
-    },
-    {
-      "id": "20c7a36d5639f29f",
-      "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
-      "date": "2026-09-01",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Models",
-      "summary": "An official source announcement. Read the original for details.",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "Hugging Face",
-      "sourceUrl": "https://huggingface.co/blog",
-      "articleUrl": "https://huggingface.co/blog/webgpu-kernels",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "e4c974f4809ec27e",
-      "title": "Run NVIDIA BioNeMo NIM Microservices for Protein Structure Prediction in Claude Science",
-      "date": "2026-08-31",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Agents",
-      "summary": "Agentic AI is changing how research is done. AI scientists can read papers, propose hypotheses, call models, and…",
-      "whyItMatters": "Useful context when reviewing agent workflows; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/run-nvidia-bionemo-nim-microservices-for-protein-structure-prediction-in-claude-science",
-      "relatedTopicSlugs": [
-        "agents"
-      ]
-    },
-    {
-      "id": "35cb4e05732affc6",
-      "title": "Polimill builds Japan's next-generation public AI infrastructure",
-      "date": "2026-08-31",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Models",
-      "summary": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/polimill",
-      "relatedTopicSlugs": [
-        "foundations"
       ]
     }
   ]
