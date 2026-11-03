@@ -1,23 +1,23 @@
 {
   "version": 1,
-  "lastUpdated": "2026-11-02T00:48:12Z",
-  "lastAttempt": "2026-11-02T00:48:12Z",
+  "lastUpdated": "2026-11-03T02:56:32Z",
+  "lastAttempt": "2026-11-03T02:56:32Z",
   "status": "ok",
   "sourceStatus": [
     {
       "id": "openai",
       "status": "ok",
-      "items": 264
+      "items": 266
     },
     {
       "id": "mcp",
       "status": "ok",
-      "items": 16
+      "items": 15
     },
     {
       "id": "google",
       "status": "ok",
-      "items": 4
+      "items": 5
     },
     {
       "id": "microsoft",
@@ -27,7 +27,7 @@
     {
       "id": "nvidia",
       "status": "ok",
-      "items": 47
+      "items": 49
     },
     {
       "id": "huggingface",
@@ -36,6 +36,81 @@
     }
   ],
   "items": [
+    {
+      "id": "e048cfb9ec85fb97",
+      "title": "Build World Models for Interactive Simulation with NVIDIA Cosmos",
+      "date": "2026-11-02",
+      "discoveredAt": "2026-11-03T02:56:32.730341Z",
+      "category": "Coding",
+      "summary": "Physical AI developers working with world models face two distinct challenges: adapting models to their sensors, tasks, and…",
+      "whyItMatters": "Useful context when reviewing coding workflows; check the original announcement for scope and limitations.",
+      "sourceName": "NVIDIA Developer",
+      "sourceUrl": "https://developer.nvidia.com/blog/",
+      "articleUrl": "https://developer.nvidia.com/blog/build-world-models-for-interactive-simulation-with-nvidia-cosmos",
+      "relatedTopicSlugs": [
+        "tools-actions"
+      ]
+    },
+    {
+      "id": "7a370cb359fc5b50",
+      "title": "The latest AI news we announced in October 2026",
+      "date": "2026-11-02",
+      "discoveredAt": "2026-11-03T02:56:32.730341Z",
+      "category": "Models",
+      "summary": "Here are Google’s latest AI updates from October 2026",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "Google",
+      "sourceUrl": "https://blog.google/",
+      "articleUrl": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "4594408c21adb767",
+      "title": "Support New AI Frameworks Faster Using NVIDIA Workload Map",
+      "date": "2026-11-02",
+      "discoveredAt": "2026-11-03T02:56:32.730341Z",
+      "category": "Models",
+      "summary": "NVIDIA DSX AI Factory Platform brings together technologies to help the ecosystem design, build, and operate more efficient…",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "NVIDIA Developer",
+      "sourceUrl": "https://developer.nvidia.com/blog/",
+      "articleUrl": "https://developer.nvidia.com/blog/support-new-ai-frameworks-faster-using-nvidia-workload-map",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "3ea4af6ff6332c2f",
+      "title": "Making Kubernetes AI-Ready for NVIDIA Vera Rubin on Day One",
+      "date": "2026-11-02",
+      "discoveredAt": "2026-11-03T02:56:32.730341Z",
+      "category": "Models",
+      "summary": "Configuring and optimizing Kubernetes for new GPU hardware such as NVIDIA Vera Rubin is complex and error-prone. Drivers,…",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "NVIDIA Developer",
+      "sourceUrl": "https://developer.nvidia.com/blog/",
+      "articleUrl": "https://developer.nvidia.com/blog/making-kubernetes-ai-ready-for-nvidia-vera-rubin-on-day-one",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "34a6d0eb0dceec3b",
+      "title": "LifeVal",
+      "date": "2026-11-02",
+      "discoveredAt": "2026-11-03T02:56:32.730341Z",
+      "category": "Evaluation",
+      "summary": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing…",
+      "whyItMatters": "Useful context when reviewing evaluation methods; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/lifeval",
+      "relatedTopicSlugs": [
+        "evaluation"
+      ]
+    },
     {
       "id": "d96003a141be848c",
       "title": "Build a Validated Kubernetes Runtime for NVIDIA Dynamo",
@@ -2213,81 +2288,6 @@
       "articleUrl": "https://openai.com/index/playco-game-prototyping-with-astra",
       "relatedTopicSlugs": [
         "foundations"
-      ]
-    },
-    {
-      "id": "56c0a4aa4ec714d2",
-      "title": "How to Carry User Identity Across Federated Kubernetes and AI Platforms",
-      "date": "2026-09-03",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Models",
-      "summary": "Modern AI platforms are no longer a single application behind one login screen. A user may start in…",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/how-to-carry-user-identity-across-federated-kubernetes-and-ai-platforms",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "401a458475702424",
-      "title": "Safety overview: GPT-6 Astra",
-      "date": "2026-09-03",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Safety",
-      "summary": "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of…",
-      "whyItMatters": "Useful context when reviewing system safeguards; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/safety-overview-gpt-6-astra",
-      "relatedTopicSlugs": [
-        "safety"
-      ]
-    },
-    {
-      "id": "b8ef8ad621afcf08",
-      "title": "Co-Designing AI Models Using Speculative Decoding for Faster LLM Inference",
-      "date": "2026-09-02",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Coding",
-      "summary": "This post is the third in a series on AI model co-design. It explores how to accelerate LLM…",
-      "whyItMatters": "Useful context when reviewing coding workflows; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/co-designing-ai-models-using-speculative-decoding-for-faster-llm-inference",
-      "relatedTopicSlugs": [
-        "tools-actions"
-      ]
-    },
-    {
-      "id": "db7baa8501dd053d",
-      "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
-      "date": "2026-09-01",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Evaluation",
-      "summary": "An official source announcement. Read the original for details.",
-      "whyItMatters": "Useful context when reviewing evaluation methods; check the original announcement for scope and limitations.",
-      "sourceName": "Hugging Face",
-      "sourceUrl": "https://huggingface.co/blog",
-      "articleUrl": "https://huggingface.co/blog/allenai/benchmirt",
-      "relatedTopicSlugs": [
-        "evaluation"
-      ]
-    },
-    {
-      "id": "d6ebf82781f6c2f4",
-      "title": "Path to Astra: critical capabilities and frontier safeguards",
-      "date": "2026-09-01",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Safety",
-      "summary": "Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with…",
-      "whyItMatters": "Useful context when reviewing system safeguards; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/path-to-astra",
-      "relatedTopicSlugs": [
-        "safety"
       ]
     }
   ]
