@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "lastUpdated": "2026-11-03T02:56:32Z",
-  "lastAttempt": "2026-11-03T02:56:32Z",
+  "lastUpdated": "2026-11-04T01:26:30Z",
+  "lastAttempt": "2026-11-04T01:26:30Z",
   "status": "ok",
   "sourceStatus": [
     {
       "id": "openai",
       "status": "ok",
-      "items": 266
+      "items": 268
     },
     {
       "id": "mcp",
@@ -17,7 +17,7 @@
     {
       "id": "google",
       "status": "ok",
-      "items": 5
+      "items": 6
     },
     {
       "id": "microsoft",
@@ -32,10 +32,130 @@
     {
       "id": "huggingface",
       "status": "ok",
-      "items": 60
+      "items": 62
     }
   ],
   "items": [
+    {
+      "id": "d2f3a92c576475ac",
+      "title": "How Cisco defends at machine speed with OpenAI",
+      "date": "2026-11-03",
+      "discoveredAt": "2026-11-04T01:26:30.325376Z",
+      "category": "Safety",
+      "summary": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive…",
+      "whyItMatters": "Useful context when reviewing system safeguards; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/cisco-cyber",
+      "relatedTopicSlugs": [
+        "safety"
+      ]
+    },
+    {
+      "id": "d1af62893b975e88",
+      "title": "Advancing research and partnering with universities in Singapore",
+      "date": "2026-11-03",
+      "discoveredAt": "2026-11-04T01:26:30.325376Z",
+      "category": "Research",
+      "summary": "Google is investing in new research grants and capacity-building initiatives to advance AI for science and support the…",
+      "whyItMatters": "Useful context when reviewing research directions; check the original announcement for scope and limitations.",
+      "sourceName": "Google",
+      "sourceUrl": "https://blog.google/",
+      "articleUrl": "https://blog.google/innovation-and-ai/technology/research/partnering-singapore-advance-scientific-discovery",
+      "relatedTopicSlugs": [
+        "research"
+      ]
+    },
+    {
+      "id": "c426f5146f7d8c06",
+      "title": "AI in the learning era",
+      "date": "2026-11-03",
+      "discoveredAt": "2026-11-04T01:26:30.325376Z",
+      "category": "Models",
+      "summary": "Read announcements from Google’s 2026 AI in the Learning Era event.",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "Google",
+      "sourceUrl": "https://blog.google/",
+      "articleUrl": "https://blog.google/products-and-platforms/products/education/ai-learning-era-2026",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "bf4a44701f9995ab",
+      "title": "Palette: teaching a small model to build decks in your design language",
+      "date": "2026-11-03",
+      "discoveredAt": "2026-11-04T01:26:30.325376Z",
+      "category": "Models",
+      "summary": "An official source announcement. Read the original for details.",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "Hugging Face",
+      "sourceUrl": "https://huggingface.co/blog",
+      "articleUrl": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "8b58bec55667cec5",
+      "title": "StateBench: Testing how language models track state changes over long documents",
+      "date": "2026-11-03",
+      "discoveredAt": "2026-11-04T01:26:30.325376Z",
+      "category": "Models",
+      "summary": "An official source announcement. Read the original for details.",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "Hugging Face",
+      "sourceUrl": "https://huggingface.co/blog",
+      "articleUrl": "https://huggingface.co/blog/allenai/statebench",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "74a870de65282129",
+      "title": "Learn the rules: The hacker mindset",
+      "date": "2026-11-03",
+      "discoveredAt": "2026-11-04T01:26:30.325376Z",
+      "category": "Safety",
+      "summary": "Research Manager Mike Walker reflects on a career spanning hacker culture, cybersecurity, and AI, sharing lessons about trust,…",
+      "whyItMatters": "Useful context when reviewing system safeguards; check the original announcement for scope and limitations.",
+      "sourceName": "Microsoft Research",
+      "sourceUrl": "https://www.microsoft.com/en-us/research/blog/",
+      "articleUrl": "https://www.microsoft.com/en-us/research/podcast/learn-the-rules-the-hacker-mindset",
+      "relatedTopicSlugs": [
+        "safety"
+      ]
+    },
+    {
+      "id": "5e1a1bde7e57b614",
+      "title": "Expanding AI educator training to new countries",
+      "date": "2026-11-03",
+      "discoveredAt": "2026-11-04T01:26:30.325376Z",
+      "category": "Models",
+      "summary": "A celebration of educator stories from Malaysia, India, Philippines, and the UK, plus new GES sessions and expansion…",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "Google",
+      "sourceUrl": "https://blog.google/",
+      "articleUrl": "https://blog.google/products-and-platforms/products/education/google-ai-educator-series-global-expansion-november-2026",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "11309ac571e58874",
+      "title": "Transformers Model Integration Contracts",
+      "date": "2026-11-03",
+      "discoveredAt": "2026-11-04T01:26:30.325376Z",
+      "category": "Models",
+      "summary": "An official source announcement. Read the original for details.",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "Hugging Face",
+      "sourceUrl": "https://huggingface.co/blog",
+      "articleUrl": "https://huggingface.co/blog/transformers-mic",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
     {
       "id": "e048cfb9ec85fb97",
       "title": "Build World Models for Interactive Simulation with NVIDIA Cosmos",
@@ -49,6 +169,21 @@
       "articleUrl": "https://developer.nvidia.com/blog/build-world-models-for-interactive-simulation-with-nvidia-cosmos",
       "relatedTopicSlugs": [
         "tools-actions"
+      ]
+    },
+    {
+      "id": "a5f4e9e061ed75b5",
+      "title": "Preparing our next security sprint to harden OpenAI",
+      "date": "2026-11-02",
+      "discoveredAt": "2026-11-04T01:26:30.325376Z",
+      "category": "Safety",
+      "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using…",
+      "whyItMatters": "Useful context when reviewing system safeguards; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+      "relatedTopicSlugs": [
+        "safety"
       ]
     },
     {
@@ -334,6 +469,21 @@
       "articleUrl": "https://openai.com/index/legora",
       "relatedTopicSlugs": [
         "agents"
+      ]
+    },
+    {
+      "id": "698fdd9d84509152",
+      "title": "Evernote turns AI-driven discovery into paid subscriptions",
+      "date": "2026-10-28",
+      "discoveredAt": "2026-11-04T01:26:30.325376Z",
+      "category": "Models",
+      "summary": "Evernote used ChatGPT Ads to introduce its note-taking app to people working with AI. The team tracked how…",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/ads/customers/evernote",
+      "relatedTopicSlugs": [
+        "foundations"
       ]
     },
     {
@@ -2137,158 +2287,6 @@
         "evaluation"
       ],
       "curated": true
-    },
-    {
-      "id": "cache-diagnostics",
-      "title": "Prompt cache diagnostics become generally available",
-      "date": "2026-09-08",
-      "discoveredAt": "2026-09-10T00:00:00Z",
-      "category": "Evaluation",
-      "summary": "OpenAI added generally available prompt-cache diagnostics to the Responses API for supported models. The diagnostics help compare cache reuse and investigate misses.",
-      "whyItMatters": "Cache behaviour can now be investigated as part of cost and latency optimisation.",
-      "sourceName": "OpenAI API changelog",
-      "sourceUrl": "https://developers.openai.com/api/docs/changelog",
-      "articleUrl": "https://developers.openai.com/api/docs/changelog",
-      "relatedTopicSlugs": [
-        "optimisation",
-        "evaluation"
-      ],
-      "curated": true
-    },
-    {
-      "id": "3ef73075f3cf0eba",
-      "title": "Our new contrail avoidance trial in Asia-Pacific",
-      "date": "2026-09-07",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Models",
-      "summary": "We’re partnering with Cathay Pacific to test our AI-powered contrail mitigation technology on ultra-long-haul flights.",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "Google",
-      "sourceUrl": "https://blog.google/",
-      "articleUrl": "https://blog.google/innovation-and-ai/models-and-research/google-research/contrail-avoidance-ultra-long-haul-flights",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "2d1063284c820932",
-      "title": "Supporting independent journalism in Ukraine",
-      "date": "2026-09-07",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Models",
-      "summary": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent…",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "28a340af00849580",
-      "title": "Research acceleration: The view inside OpenAI",
-      "date": "2026-09-06",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Coding",
-      "summary": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity,…",
-      "whyItMatters": "Useful context when reviewing coding workflows; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/research-acceleration-view-inside-openai",
-      "relatedTopicSlugs": [
-        "tools-actions"
-      ]
-    },
-    {
-      "id": "006448a0b113da80",
-      "title": "Frontier Reasoning Reaches the Edge: How to Deploy and Optimize Models on NVIDIA Jetson",
-      "date": "2026-09-04",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Agents",
-      "summary": "Running reasoning and agentic AI at the edge has been harder than it needs to be. Until recently,…",
-      "whyItMatters": "Useful context when reviewing agent workflows; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/frontier-reasoning-reaches-the-edge-how-to-deploy-and-optimize-models-on-nvidia-jetson",
-      "relatedTopicSlugs": [
-        "agents"
-      ]
-    },
-    {
-      "id": "ea1af38f4f3fe6f4",
-      "title": "GPT-6 Astra: A new generation of intelligence",
-      "date": "2026-09-03",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Safety",
-      "summary": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity,…",
-      "whyItMatters": "Useful context when reviewing system safeguards; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/gpt-6-astra",
-      "relatedTopicSlugs": [
-        "safety"
-      ]
-    },
-    {
-      "id": "e1c3b39f242a07d1",
-      "title": "Training a coding model to paint watercolours with TRL and OpenEnv",
-      "date": "2026-09-03",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Coding",
-      "summary": "An official source announcement. Read the original for details.",
-      "whyItMatters": "Useful context when reviewing coding workflows; check the original announcement for scope and limitations.",
-      "sourceName": "Hugging Face",
-      "sourceUrl": "https://huggingface.co/blog",
-      "articleUrl": "https://huggingface.co/blog/train-to-paint-with-code",
-      "relatedTopicSlugs": [
-        "tools-actions"
-      ]
-    },
-    {
-      "id": "767e1e799503602d",
-      "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
-      "date": "2026-09-03",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Models",
-      "summary": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and…",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/daybreak-for-frontline-defenders",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "6f61ab2b6ce827ee",
-      "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
-      "date": "2026-09-03",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Models",
-      "summary": "An official source announcement. Read the original for details.",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "Hugging Face",
-      "sourceUrl": "https://huggingface.co/blog",
-      "articleUrl": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "64e3b9a706905a62",
-      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
-      "date": "2026-09-03",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Models",
-      "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer…",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/playco-game-prototyping-with-astra",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
     }
   ]
 }
