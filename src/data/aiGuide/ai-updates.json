@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastUpdated": "2026-11-04T01:26:30Z",
-  "lastAttempt": "2026-11-04T01:26:30Z",
+  "lastUpdated": "2026-11-05T01:29:10Z",
+  "lastAttempt": "2026-11-05T01:29:10Z",
   "status": "ok",
   "sourceStatus": [
     {
@@ -17,7 +17,7 @@
     {
       "id": "google",
       "status": "ok",
-      "items": 6
+      "items": 5
     },
     {
       "id": "microsoft",
@@ -36,6 +36,36 @@
     }
   ],
   "items": [
+    {
+      "id": "b5d8ef5465976f9e",
+      "title": "Use NVIDIA NeMo to Turn Agent Failures into Tests and Harness Fixes",
+      "date": "2026-11-04",
+      "discoveredAt": "2026-11-05T01:29:10.545377Z",
+      "category": "Evaluation",
+      "summary": "Turn production evidence into prioritized issues and custom evaluations that help you improve prompts, tools, models, memory, skills,…",
+      "whyItMatters": "Useful context when reviewing evaluation methods; check the original announcement for scope and limitations.",
+      "sourceName": "NVIDIA Developer",
+      "sourceUrl": "https://developer.nvidia.com/blog/",
+      "articleUrl": "https://developer.nvidia.com/blog/use-nvidia-nemo-to-turn-agent-failures-into-tests-and-harness-fixes",
+      "relatedTopicSlugs": [
+        "evaluation"
+      ]
+    },
+    {
+      "id": "7f85075b463f8a74",
+      "title": "NVIDIA CUDA 13.5 Brings NVIDIA Vera Rubin GA Support",
+      "date": "2026-11-04",
+      "discoveredAt": "2026-11-05T01:29:10.545377Z",
+      "category": "Models",
+      "summary": "As artificial intelligence and accelerated computing continue to push the boundaries of what's possible, the latest NVIDIA CUDA…",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "NVIDIA Developer",
+      "sourceUrl": "https://developer.nvidia.com/blog/",
+      "articleUrl": "https://developer.nvidia.com/blog/nvidia-cuda-13-5-brings-nvidia-vera-rubin-ga-support",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
     {
       "id": "d2f3a92c576475ac",
       "title": "How Cisco defends at machine speed with OpenAI",
@@ -2255,38 +2285,6 @@
       "relatedTopicSlugs": [
         "foundations"
       ]
-    },
-    {
-      "id": "25db0a5954682389",
-      "title": "When to Use Encode-Prefill-Decode Disaggregation to Accelerate Multimodal Model Serving",
-      "date": "2026-09-09",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Multimodal",
-      "summary": "Encode-prefill-decode (EPD) disaggregation is an inference optimization technique for multimodal models that separates the vision encoder stage from…",
-      "whyItMatters": "Useful context when reviewing multimodal workflows; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/when-to-use-encode-prefill-decode-disaggregation-to-accelerate-multimodal-model-serving",
-      "relatedTopicSlugs": [
-        "multimodal"
-      ]
-    },
-    {
-      "id": "image-models",
-      "title": "OpenAI adds two image generation models",
-      "date": "2026-09-08",
-      "discoveredAt": "2026-09-10T00:00:00Z",
-      "category": "Multimodal",
-      "summary": "OpenAI released GPT Image 2.5 Sunburst and Flare. Both are available through the Image API and the Responses API image-generation tool.",
-      "whyItMatters": "Image workflows have new options to evaluate against their own editing and generation requirements.",
-      "sourceName": "OpenAI API changelog",
-      "sourceUrl": "https://developers.openai.com/api/docs/changelog",
-      "articleUrl": "https://developers.openai.com/api/docs/changelog",
-      "relatedTopicSlugs": [
-        "multimodal",
-        "evaluation"
-      ],
-      "curated": true
     }
   ]
 }
