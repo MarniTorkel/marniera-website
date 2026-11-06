@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastUpdated": "2026-11-05T01:29:10Z",
-  "lastAttempt": "2026-11-05T01:29:10Z",
+  "lastUpdated": "2026-11-06T01:35:44Z",
+  "lastAttempt": "2026-11-06T01:35:44Z",
   "status": "ok",
   "sourceStatus": [
     {
@@ -27,15 +27,105 @@
     {
       "id": "nvidia",
       "status": "ok",
-      "items": 49
+      "items": 48
     },
     {
       "id": "huggingface",
       "status": "ok",
-      "items": 62
+      "items": 63
     }
   ],
   "items": [
+    {
+      "id": "e7b2301fcc6f5c04",
+      "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+      "date": "2026-11-05",
+      "discoveredAt": "2026-11-06T01:35:44.994375Z",
+      "category": "Safety",
+      "summary": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized…",
+      "whyItMatters": "Useful context when reviewing system safeguards; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/introducing-gpt-6-cyber",
+      "relatedTopicSlugs": [
+        "safety"
+      ]
+    },
+    {
+      "id": "cd3c3260bb0b08d5",
+      "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
+      "date": "2026-11-05",
+      "discoveredAt": "2026-11-06T01:35:44.994375Z",
+      "category": "Models",
+      "summary": "An official source announcement. Read the original for details.",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "Hugging Face",
+      "sourceUrl": "https://huggingface.co/blog",
+      "articleUrl": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "aefbd8e8a0bdbf1d",
+      "title": "Setting a new standard for responsible AI infrastructure",
+      "date": "2026-11-05",
+      "discoveredAt": "2026-11-06T01:35:44.994375Z",
+      "category": "AI Strategy",
+      "summary": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and…",
+      "whyItMatters": "Useful context when reviewing AI adoption and governance; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+      "relatedTopicSlugs": [
+        "production"
+      ]
+    },
+    {
+      "id": "ac6198ff6205cd70",
+      "title": "Formally verifying agent-written full-stack web apps with PDD Kit",
+      "date": "2026-11-05",
+      "discoveredAt": "2026-11-06T01:35:44.994375Z",
+      "category": "Coding",
+      "summary": "AI agents can generate code at a scale that’s hard for humans to review line-by-line. PDD Kit helps…",
+      "whyItMatters": "Useful context when reviewing coding workflows; check the original announcement for scope and limitations.",
+      "sourceName": "Microsoft Research",
+      "sourceUrl": "https://www.microsoft.com/en-us/research/blog/",
+      "articleUrl": "https://www.microsoft.com/en-us/research/blog/formally-verifying-agent-written-full-stack-web-apps-with-pdd-kit",
+      "relatedTopicSlugs": [
+        "tools-actions"
+      ]
+    },
+    {
+      "id": "8bcab1321b03cbe1",
+      "title": "Franklin Templeton uses OpenAI to support investment research",
+      "date": "2026-11-05",
+      "discoveredAt": "2026-11-06T01:35:44.994375Z",
+      "category": "Research",
+      "summary": "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and…",
+      "whyItMatters": "Useful context when reviewing research directions; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/franklin-templeton",
+      "relatedTopicSlugs": [
+        "research"
+      ]
+    },
+    {
+      "id": "2b080b4281e3d5fd",
+      "title": "Generate longer AI videos with Omni 1.2 Flash in Google Vids at no cost.",
+      "date": "2026-11-05",
+      "discoveredAt": "2026-11-06T01:35:44.994375Z",
+      "category": "Multimodal",
+      "summary": "Create longer AI videos in Google Vids with the new Omni 1.2 Flash model. Generate 15-second clips and…",
+      "whyItMatters": "Useful context when reviewing multimodal workflows; check the original announcement for scope and limitations.",
+      "sourceName": "Google",
+      "sourceUrl": "https://blog.google/",
+      "articleUrl": "https://blog.google/products-and-platforms/products/workspace/omni-1-2-flash-google-vids",
+      "relatedTopicSlugs": [
+        "multimodal"
+      ]
+    },
     {
       "id": "b5d8ef5465976f9e",
       "title": "Use NVIDIA NeMo to Turn Agent Failures into Tests and Harness Fixes",
@@ -2192,96 +2282,6 @@
       "sourceName": "NVIDIA Developer",
       "sourceUrl": "https://developer.nvidia.com/blog/",
       "articleUrl": "https://developer.nvidia.com/blog/how-full-stack-nim-optimizations-deliver-2-5x-more-users-on-nemotron-3-ultra",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "6e377bc530708a04",
-      "title": "Introducing ChatGPT for Financial Services",
-      "date": "2026-09-10",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Models",
-      "summary": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/introducing-chatgpt-financial-services",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "61adb385d2c1f2a1",
-      "title": "Introducing the Agents API",
-      "date": "2026-09-10",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Agents",
-      "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for…",
-      "whyItMatters": "Useful context when reviewing agent workflows; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/introducing-the-agents-api",
-      "relatedTopicSlugs": [
-        "agents"
-      ]
-    },
-    {
-      "id": "e504ee6ecf7a3c6c",
-      "title": "Tackle your to-do list with new features in our Google AI plans.",
-      "date": "2026-09-09",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Models",
-      "summary": "Subscribers can try Google Pics and Sheets canvas — plus, new voice features in Gmail, Docs, and Keep.",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "Google",
-      "sourceUrl": "https://blog.google/",
-      "articleUrl": "https://blog.google/products-and-platforms/products/google-one/fall-2026-ai-plan-updates",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "8b6d689e8b06f59a",
-      "title": "GPT-6 Astra: The next generation in intelligence for work",
-      "date": "2026-09-09",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Models",
-      "summary": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and…",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/gpt-6-astra-next-generation-work",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "3a0bab7848e5fb3a",
-      "title": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
-      "date": "2026-09-09",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Models",
-      "summary": "An official source announcement. Read the original for details.",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "Hugging Face",
-      "sourceUrl": "https://huggingface.co/blog",
-      "articleUrl": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "3830ef09bcb8006f",
-      "title": "A new deep learning model maps global methane emissions from space.",
-      "date": "2026-09-09",
-      "discoveredAt": "2026-09-11T05:08:10.847620Z",
-      "category": "Models",
-      "summary": "Google and NASA JPL developed an AI model to map and quantify global methane emissions from space using…",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "Google",
-      "sourceUrl": "https://blog.google/",
-      "articleUrl": "https://blog.google/innovation-and-ai/models-and-research/google-research/mapping-global-methane-emissions-from-space",
       "relatedTopicSlugs": [
         "foundations"
       ]
