@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "lastUpdated": "2026-11-09T00:57:22Z",
-  "lastAttempt": "2026-11-09T00:57:22Z",
+  "lastUpdated": "2026-11-10T03:36:58Z",
+  "lastAttempt": "2026-11-10T03:36:58Z",
   "status": "ok",
   "sourceStatus": [
     {
       "id": "openai",
       "status": "ok",
-      "items": 268
+      "items": 270
     },
     {
       "id": "mcp",
@@ -17,7 +17,7 @@
     {
       "id": "google",
       "status": "ok",
-      "items": 5
+      "items": 6
     },
     {
       "id": "microsoft",
@@ -32,10 +32,55 @@
     {
       "id": "huggingface",
       "status": "ok",
-      "items": 62
+      "items": 61
     }
   ],
   "items": [
+    {
+      "id": "fb29e2836ac92ba4",
+      "title": "Our newest TPUs: 8tx and 8i Max, built for the agentic era",
+      "date": "2026-11-09",
+      "discoveredAt": "2026-11-10T03:36:58.468431Z",
+      "category": "Agents",
+      "summary": "We’ve expanded our eighth generation TPU portfolio with TPU 8tx and TPU 8i Max, marking four new TPU…",
+      "whyItMatters": "Useful context when reviewing agent workflows; check the original announcement for scope and limitations.",
+      "sourceName": "Google",
+      "sourceUrl": "https://blog.google/",
+      "articleUrl": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx",
+      "relatedTopicSlugs": [
+        "agents"
+      ]
+    },
+    {
+      "id": "7a5b4867a6f883ed",
+      "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+      "date": "2026-11-09",
+      "discoveredAt": "2026-11-10T03:36:58.468431Z",
+      "category": "Safety",
+      "summary": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when…",
+      "whyItMatters": "Useful context when reviewing system safeguards; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/control-room",
+      "relatedTopicSlugs": [
+        "safety"
+      ]
+    },
+    {
+      "id": "46628edc382b4827",
+      "title": "CodeRabbit scales agentic software development and ships 20x more",
+      "date": "2026-11-09",
+      "discoveredAt": "2026-11-10T03:36:58.468431Z",
+      "category": "Agents",
+      "summary": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software…",
+      "whyItMatters": "Useful context when reviewing agent workflows; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/coderabbit-codex-daybreak",
+      "relatedTopicSlugs": [
+        "agents"
+      ]
+    },
     {
       "id": "a9c41c4e7990e1af",
       "title": "Accelerating Reinforcement Learning Weight Refit with the Reshard Collective",
@@ -2239,51 +2284,6 @@
       "articleUrl": "https://developer.nvidia.com/blog/translating-cuda-tile-operations-from-python-to-rust-using-agentic-ai",
       "relatedTopicSlugs": [
         "agents"
-      ]
-    },
-    {
-      "id": "0a364d5d05a36c38",
-      "title": "Our framework for reporting model misalignment",
-      "date": "2026-09-16",
-      "discoveredAt": "2026-10-06T01:46:33.104168Z",
-      "category": "Models",
-      "summary": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning…",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/model-misalignment-reporting-framework",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "cc74158a13e9093b",
-      "title": "Dense vs. MoE Models: Active Parameters, Throughput, and When to Choose Each",
-      "date": "2026-09-15",
-      "discoveredAt": "2026-10-06T01:46:33.104168Z",
-      "category": "Models",
-      "summary": "How can a 30B-parameter model activate only 3B parameters per token, and still use the capacity of the…",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/dense-vs-moe-models-active-parameters-throughput-and-when-to-choose-each",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "418119ce5902761a",
-      "title": "How Fyxer built an AI executive assistant people trust",
-      "date": "2026-09-14",
-      "discoveredAt": "2026-10-06T01:46:33.104168Z",
-      "category": "Models",
-      "summary": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each…",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/fyxer",
-      "relatedTopicSlugs": [
-        "foundations"
       ]
     }
   ]
