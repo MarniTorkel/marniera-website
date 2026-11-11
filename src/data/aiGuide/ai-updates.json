@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "lastUpdated": "2026-11-10T03:36:58Z",
-  "lastAttempt": "2026-11-10T03:36:58Z",
+  "lastUpdated": "2026-11-11T01:15:35Z",
+  "lastAttempt": "2026-11-11T01:15:35Z",
   "status": "ok",
   "sourceStatus": [
     {
       "id": "openai",
       "status": "ok",
-      "items": 270
+      "items": 272
     },
     {
       "id": "mcp",
@@ -17,7 +17,7 @@
     {
       "id": "google",
       "status": "ok",
-      "items": 6
+      "items": 5
     },
     {
       "id": "microsoft",
@@ -32,10 +32,160 @@
     {
       "id": "huggingface",
       "status": "ok",
-      "items": 61
+      "items": 62
     }
   ],
   "items": [
+    {
+      "id": "f84004084180a5f0",
+      "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
+      "date": "2026-11-10",
+      "discoveredAt": "2026-11-11T01:15:35.096562Z",
+      "category": "Models",
+      "summary": "Google and Adobe are integrating creative and productivity tools. Edit PDFs in Drive and use Adobe AI in…",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "Google",
+      "sourceUrl": "https://blog.google/",
+      "articleUrl": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "d10d1f84b7a7d9fa",
+      "title": "Running AV Reasoning Models Within Onboard Compute and Latency Limits",
+      "date": "2026-11-10",
+      "discoveredAt": "2026-11-11T01:15:35.096562Z",
+      "category": "Coding",
+      "summary": "Autonomous vehicle (AV) developers need reasoning models that can operate within the compute and latency constraints of an…",
+      "whyItMatters": "Useful context when reviewing coding workflows; check the original announcement for scope and limitations.",
+      "sourceName": "NVIDIA Developer",
+      "sourceUrl": "https://developer.nvidia.com/blog/",
+      "articleUrl": "https://developer.nvidia.com/blog/running-av-reasoning-models-within-onboard-compute-and-latency-limits",
+      "relatedTopicSlugs": [
+        "tools-actions"
+      ]
+    },
+    {
+      "id": "ca1420c4ccc44770",
+      "title": "Start and Restore GPU Workloads in Seconds with NVIDIA Snapshot",
+      "date": "2026-11-10",
+      "discoveredAt": "2026-11-11T01:15:35.096562Z",
+      "category": "Models",
+      "summary": "NVIDIA Snapshot, a new open-source component of the NVIDIA DSX AI Factory Platform, makes initialized GPU workloads reusable…",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "NVIDIA Developer",
+      "sourceUrl": "https://developer.nvidia.com/blog/",
+      "articleUrl": "https://developer.nvidia.com/blog/start-and-restore-gpu-workloads-in-seconds-with-nvidia-snapshot",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "be08f758721060f1",
+      "title": "Closing the AI guidance gap in education",
+      "date": "2026-11-10",
+      "discoveredAt": "2026-11-11T01:15:35.096562Z",
+      "category": "Research",
+      "summary": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
+      "whyItMatters": "Useful context when reviewing research directions; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/closing-ai-guidance-gap-education",
+      "relatedTopicSlugs": [
+        "research"
+      ]
+    },
+    {
+      "id": "a6521515913ccae2",
+      "title": "Work at the Frontier: AI’s effect on freelance work",
+      "date": "2026-11-10",
+      "discoveredAt": "2026-11-11T01:15:35.096562Z",
+      "category": "Research",
+      "summary": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets…",
+      "whyItMatters": "Useful context when reviewing research directions; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/ai-effect-on-freelance-work",
+      "relatedTopicSlugs": [
+        "research"
+      ]
+    },
+    {
+      "id": "8ef537752925a297",
+      "title": "Agent Substrate: Advancing Kubernetes for Agents at Scale",
+      "date": "2026-11-10",
+      "discoveredAt": "2026-11-11T01:15:35.096562Z",
+      "category": "Agents",
+      "summary": "AI agents spend most of their time idle, waiting on a human prompt, a tool result or a…",
+      "whyItMatters": "Useful context when reviewing agent workflows; check the original announcement for scope and limitations.",
+      "sourceName": "NVIDIA Developer",
+      "sourceUrl": "https://developer.nvidia.com/blog/",
+      "articleUrl": "https://developer.nvidia.com/blog/agent-substrate-advancing-kubernetes-for-agents-at-scale",
+      "relatedTopicSlugs": [
+        "agents"
+      ]
+    },
+    {
+      "id": "60c933f4c5b85849",
+      "title": "Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents",
+      "date": "2026-11-10",
+      "discoveredAt": "2026-11-11T01:15:35.096562Z",
+      "category": "Agents",
+      "summary": "Microsoft researchers have discovered “Lazarus,” a backdoor technique that can reprogram dormant neurons in an AI model, causing…",
+      "whyItMatters": "Useful context when reviewing agent workflows; check the original announcement for scope and limitations.",
+      "sourceName": "Microsoft Research",
+      "sourceUrl": "https://www.microsoft.com/en-us/research/blog/",
+      "articleUrl": "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents",
+      "relatedTopicSlugs": [
+        "agents"
+      ]
+    },
+    {
+      "id": "5a17ad77cb5d30b0",
+      "title": "Decision Models in Hugging Face",
+      "date": "2026-11-10",
+      "discoveredAt": "2026-11-11T01:15:35.096562Z",
+      "category": "Models",
+      "summary": "An official source announcement. Read the original for details.",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "Hugging Face",
+      "sourceUrl": "https://huggingface.co/blog",
+      "articleUrl": "https://huggingface.co/blog/decision",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "406ae07c950113c7",
+      "title": "Introducing the Multimodal Knowledge Agent benchmark",
+      "date": "2026-11-10",
+      "discoveredAt": "2026-11-11T01:15:35.096562Z",
+      "category": "Evaluation",
+      "summary": "We’re launching Multimodal Knowledge Agent, a new benchmark to evaluate how agents reason across visually-complex multimodal tasks.",
+      "whyItMatters": "Useful context when reviewing evaluation methods; check the original announcement for scope and limitations.",
+      "sourceName": "Google",
+      "sourceUrl": "https://blog.google/",
+      "articleUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/multimodal-knowledge-agent-benchmark",
+      "relatedTopicSlugs": [
+        "evaluation"
+      ]
+    },
+    {
+      "id": "3bf2949888145ab9",
+      "title": "Gemini 4 Carbon is now available for developers.",
+      "date": "2026-11-10",
+      "discoveredAt": "2026-11-11T01:15:35.096562Z",
+      "category": "Safety",
+      "summary": "Starting today, developers can build with Gemini 4 Carbon, our strongest model with frontier performance in cybersecurity and…",
+      "whyItMatters": "Useful context when reviewing system safeguards; check the original announcement for scope and limitations.",
+      "sourceName": "Google",
+      "sourceUrl": "https://blog.google/",
+      "articleUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-4-carbon-developers",
+      "relatedTopicSlugs": [
+        "safety"
+      ]
+    },
     {
       "id": "fb29e2836ac92ba4",
       "title": "Our newest TPUs: 8tx and 8i Max, built for the agentic era",
@@ -2134,156 +2284,6 @@
       "articleUrl": "https://developer.nvidia.com/blog/how-to-evaluate-ai-agents-from-tool-calls-to-task-completion",
       "relatedTopicSlugs": [
         "evaluation"
-      ]
-    },
-    {
-      "id": "840b7f95584cdc2c",
-      "title": "Expanding OpenAI Academy with new learning paths",
-      "date": "2026-09-21",
-      "discoveredAt": "2026-10-06T01:46:33.104168Z",
-      "category": "Coding",
-      "summary": "Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical…",
-      "whyItMatters": "Useful context when reviewing coding workflows; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
-      "relatedTopicSlugs": [
-        "tools-actions"
-      ]
-    },
-    {
-      "id": "6e231a94e23ef7a3",
-      "title": "Simplifying Model Serving Across Multiple GPUs with NVIDIA TensorRT Multi-Device Integration in NVIDIA Dynamo-Triton",
-      "date": "2026-09-21",
-      "discoveredAt": "2026-10-06T01:46:33.104168Z",
-      "category": "Models",
-      "summary": "The compute and memory demands of generative AI increasingly exceed what a single GPU can provide. NVIDIA TensorRT…",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/simplifying-model-serving-across-multiple-gpus-with-nvidia-tensorrt-multi-device-integration-in-nvidia-dynamo-triton",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "20bc4b14fff339a7",
-      "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
-      "date": "2026-09-21",
-      "discoveredAt": "2026-10-06T01:46:33.104168Z",
-      "category": "Multimodal",
-      "summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools…",
-      "whyItMatters": "Useful context when reviewing multimodal workflows; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
-      "relatedTopicSlugs": [
-        "multimodal"
-      ]
-    },
-    {
-      "id": "164896b1cddd2fb2",
-      "title": "Improving synthesis prediction of small molecules at scale with RetroChimera",
-      "date": "2026-09-21",
-      "discoveredAt": "2026-10-06T01:46:33.104168Z",
-      "category": "Models",
-      "summary": "Custom-made molecules are advancing medicine, materials, and agriculture, but producing them is slow and expensive. A new Nature…",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "Microsoft Research",
-      "sourceUrl": "https://www.microsoft.com/en-us/research/blog/",
-      "articleUrl": "https://www.microsoft.com/en-us/research/blog/improving-synthesis-prediction-of-small-molecules-at-scale-with-retrochimera",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "78d4ea376212d963",
-      "title": "Introducing the Australian Youth Safety Blueprint",
-      "date": "2026-09-18",
-      "discoveredAt": "2026-10-06T01:46:33.104168Z",
-      "category": "Safety",
-      "summary": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower…",
-      "whyItMatters": "Useful context when reviewing system safeguards; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/australian-youth-safety-blueprint",
-      "relatedTopicSlugs": [
-        "safety"
-      ]
-    },
-    {
-      "id": "786db77eec6368a5",
-      "title": "Benchmarking LLM Inference at Scale with AIPerf",
-      "date": "2026-09-18",
-      "discoveredAt": "2026-10-06T01:46:33.104168Z",
-      "category": "Evaluation",
-      "summary": "You’re deploying a model on a system. It starts up, prompts are getting responses. Now the hard question:…",
-      "whyItMatters": "Useful context when reviewing evaluation methods; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/benchmarking-llm-inference-at-scale-with-aiperf",
-      "relatedTopicSlugs": [
-        "evaluation"
-      ]
-    },
-    {
-      "id": "e9e0e71f58eacdf0",
-      "title": "TensorRT Edge-LLM Completes the MLPerf Edge Agentic Benchmark 6.4x Faster on Jetson AGX Thor",
-      "date": "2026-09-16",
-      "discoveredAt": "2026-10-06T01:46:33.104168Z",
-      "category": "Evaluation",
-      "summary": "AI agents are moving from cloud data centers to vehicles, robots, and other edge devices. Unlike a chatbot…",
-      "whyItMatters": "Useful context when reviewing evaluation methods; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/tensorrt-edge-llm-completes-the-mlperf-edge-agentic-benchmark-6-4x-faster-on-jetson-agx-thor",
-      "relatedTopicSlugs": [
-        "evaluation"
-      ]
-    },
-    {
-      "id": "d92874996a8836d5",
-      "title": "Reimagining advertising with AI",
-      "date": "2026-09-16",
-      "discoveredAt": "2026-10-06T01:46:33.104168Z",
-      "category": "Agents",
-      "summary": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and…",
-      "whyItMatters": "Useful context when reviewing agent workflows; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/reimagining-advertising-with-ai",
-      "relatedTopicSlugs": [
-        "agents"
-      ]
-    },
-    {
-      "id": "c3839c37d106a5e4",
-      "title": "How workers are unlocking new ways of working",
-      "date": "2026-09-16",
-      "discoveredAt": "2026-10-06T01:46:33.104168Z",
-      "category": "Research",
-      "summary": "New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become recurring…",
-      "whyItMatters": "Useful context when reviewing research directions; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/unlocking-new-ways-of-working",
-      "relatedTopicSlugs": [
-        "research"
-      ]
-    },
-    {
-      "id": "26c64eae3d801954",
-      "title": "Translating CUDA Tile Operations from Python to Rust Using Agentic AI",
-      "date": "2026-09-16",
-      "discoveredAt": "2026-10-06T01:46:33.104168Z",
-      "category": "Agents",
-      "summary": "cuTile Rust (cutile-rs) is a tile-based system for safe, idiomatic GPU kernel authoring in the Rust programming language.…",
-      "whyItMatters": "Useful context when reviewing agent workflows; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/translating-cuda-tile-operations-from-python-to-rust-using-agentic-ai",
-      "relatedTopicSlugs": [
-        "agents"
       ]
     }
   ]
