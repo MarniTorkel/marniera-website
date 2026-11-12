@@ -1,18 +1,18 @@
 {
   "version": 1,
-  "lastUpdated": "2026-11-11T01:15:35Z",
-  "lastAttempt": "2026-11-11T01:15:35Z",
+  "lastUpdated": "2026-11-12T02:17:51Z",
+  "lastAttempt": "2026-11-12T02:17:51Z",
   "status": "ok",
   "sourceStatus": [
     {
       "id": "openai",
       "status": "ok",
-      "items": 272
+      "items": 273
     },
     {
       "id": "mcp",
       "status": "ok",
-      "items": 15
+      "items": 20
     },
     {
       "id": "google",
@@ -32,10 +32,85 @@
     {
       "id": "huggingface",
       "status": "ok",
-      "items": 62
+      "items": 64
     }
   ],
   "items": [
+    {
+      "id": "fe4d6dee1fa42aff",
+      "title": "A More Predictable Release Cycle for MCP",
+      "date": "2026-11-11",
+      "discoveredAt": "2026-11-12T02:17:51.516969Z",
+      "category": "Protocols",
+      "summary": "We’ve spent a lot of time over the past two years talking about ways to improve MCP, add…",
+      "whyItMatters": "Useful context when reviewing interoperability; check the original announcement for scope and limitations.",
+      "sourceName": "Model Context Protocol",
+      "sourceUrl": "https://blog.modelcontextprotocol.io/",
+      "articleUrl": "https://blog.modelcontextprotocol.io/posts/mcp-release-cycle",
+      "relatedTopicSlugs": [
+        "protocols"
+      ]
+    },
+    {
+      "id": "cdca78e37a734f1f",
+      "title": "Get certified as a Google Cloud Professional Agentic Architect.",
+      "date": "2026-11-11",
+      "discoveredAt": "2026-11-12T02:17:51.516969Z",
+      "category": "Agents",
+      "summary": "Today we announced Google Cloud's new Professional Agentic Architect certification.",
+      "whyItMatters": "Useful context when reviewing agent workflows; check the original announcement for scope and limitations.",
+      "sourceName": "Google",
+      "sourceUrl": "https://blog.google/",
+      "articleUrl": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/professional-agentic-architect",
+      "relatedTopicSlugs": [
+        "agents"
+      ]
+    },
+    {
+      "id": "c773c78f3a71343a",
+      "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+      "date": "2026-11-11",
+      "discoveredAt": "2026-11-12T02:17:51.516969Z",
+      "category": "Agents",
+      "summary": "An official source announcement. Read the original for details.",
+      "whyItMatters": "Useful context when reviewing agent workflows; check the original announcement for scope and limitations.",
+      "sourceName": "Hugging Face",
+      "sourceUrl": "https://huggingface.co/blog",
+      "articleUrl": "https://huggingface.co/blog/qvac/botpsy",
+      "relatedTopicSlugs": [
+        "agents"
+      ]
+    },
+    {
+      "id": "a6b266d758c3a40f",
+      "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+      "date": "2026-11-11",
+      "discoveredAt": "2026-11-12T02:17:51.516969Z",
+      "category": "Models",
+      "summary": "An official source announcement. Read the original for details.",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "Hugging Face",
+      "sourceUrl": "https://huggingface.co/blog",
+      "articleUrl": "https://huggingface.co/blog/token-pooling",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "43d8b024ec1a8ae0",
+      "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+      "date": "2026-11-11",
+      "discoveredAt": "2026-11-12T02:17:51.516969Z",
+      "category": "Multimodal",
+      "summary": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
+      "whyItMatters": "Useful context when reviewing multimodal workflows; check the original announcement for scope and limitations.",
+      "sourceName": "Google",
+      "sourceUrl": "https://blog.google/",
+      "articleUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api",
+      "relatedTopicSlugs": [
+        "multimodal"
+      ]
+    },
     {
       "id": "f84004084180a5f0",
       "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
@@ -49,6 +124,36 @@
       "articleUrl": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration",
       "relatedTopicSlugs": [
         "foundations"
+      ]
+    },
+    {
+      "id": "e73297bd68d37caa",
+      "title": "Singapore Airlines elevates travel & work with OpenAI technology",
+      "date": "2026-11-10",
+      "discoveredAt": "2026-11-12T02:17:51.516969Z",
+      "category": "Models",
+      "summary": "Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity,…",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/singapore-airlines-travel-work",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "e15edfc989c974db",
+      "title": "Exploring File Uploads and Downloads in MCP",
+      "date": "2026-11-10",
+      "discoveredAt": "2026-11-12T02:17:51.516969Z",
+      "category": "Protocols",
+      "summary": "The Model Context Protocol (MCP) started out as a simple way to connect models to tools, and that…",
+      "whyItMatters": "Useful context when reviewing interoperability; check the original announcement for scope and limitations.",
+      "sourceName": "Model Context Protocol",
+      "sourceUrl": "https://blog.modelcontextprotocol.io/",
+      "articleUrl": "https://blog.modelcontextprotocol.io/posts/exploring-file-uploads-and-downloads-in-mcp",
+      "relatedTopicSlugs": [
+        "protocols"
       ]
     },
     {
@@ -124,6 +229,21 @@
       "articleUrl": "https://developer.nvidia.com/blog/agent-substrate-advancing-kubernetes-for-agents-at-scale",
       "relatedTopicSlugs": [
         "agents"
+      ]
+    },
+    {
+      "id": "654287147948738e",
+      "title": "Cogent and OpenAI build cyber defense factories for enterprises",
+      "date": "2026-11-10",
+      "discoveredAt": "2026-11-12T02:17:51.516969Z",
+      "category": "Safety",
+      "summary": "Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents.",
+      "whyItMatters": "Useful context when reviewing system safeguards; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/cogent-security",
+      "relatedTopicSlugs": [
+        "safety"
       ]
     },
     {
@@ -2162,126 +2282,6 @@
       "sourceName": "NVIDIA Developer",
       "sourceUrl": "https://developer.nvidia.com/blog/",
       "articleUrl": "https://developer.nvidia.com/blog/how-swe-serve-exposes-the-gap-between-local-tests-and-live-serving",
-      "relatedTopicSlugs": [
-        "evaluation"
-      ]
-    },
-    {
-      "id": "1bbe59b57dbe5602",
-      "title": "Offloaded inference for real-world physical AI robotics",
-      "date": "2026-09-23",
-      "discoveredAt": "2026-10-06T01:46:33.104168Z",
-      "category": "Research",
-      "summary": "Robots are getting smarter, but how can their hardware match that growth? New Microsoft Research findings show that…",
-      "whyItMatters": "Useful context when reviewing research directions; check the original announcement for scope and limitations.",
-      "sourceName": "Microsoft Research",
-      "sourceUrl": "https://www.microsoft.com/en-us/research/blog/",
-      "articleUrl": "https://www.microsoft.com/en-us/research/blog/offloaded-inference-for-real-world-physical-ai-robotics",
-      "relatedTopicSlugs": [
-        "research"
-      ]
-    },
-    {
-      "id": "efc173aba8fa5118",
-      "title": "What’s New for Game Developers: DLSS 5 with 3D-Guided Neural Rendering, NVIDIA ACE Updates, and New RTX Kit Capabilities",
-      "date": "2026-09-22",
-      "discoveredAt": "2026-10-06T01:46:33.104168Z",
-      "category": "Coding",
-      "summary": "NVIDIA DLSS 5 introduces DLSS 3D-Guided Neural Rendering and granular controls that help game developers add lifelike lighting…",
-      "whyItMatters": "Useful context when reviewing coding workflows; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/whats-new-for-game-developers-dlss-5-with-3d-guided-neural-rendering-nvidia-ace-updates-and-new-rtx-kit-capabilities",
-      "relatedTopicSlugs": [
-        "tools-actions"
-      ]
-    },
-    {
-      "id": "aae93c4df65dcaf2",
-      "title": "Priorities and principles for effective third party assessments",
-      "date": "2026-09-22",
-      "discoveredAt": "2026-10-06T01:46:33.104168Z",
-      "category": "Safety",
-      "summary": "OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and…",
-      "whyItMatters": "Useful context when reviewing system safeguards; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/priorities-principles-third-party-assessments",
-      "relatedTopicSlugs": [
-        "safety"
-      ]
-    },
-    {
-      "id": "9ef04b38325438c5",
-      "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
-      "date": "2026-09-22",
-      "discoveredAt": "2026-10-06T01:46:33.104168Z",
-      "category": "Agents",
-      "summary": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half…",
-      "whyItMatters": "Useful context when reviewing agent workflows; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
-      "relatedTopicSlugs": [
-        "agents"
-      ]
-    },
-    {
-      "id": "5e0c0725477e62ec",
-      "title": "Enabling Private High-Performance Production AI Inference with NVIDIA Confidential Computing",
-      "date": "2026-09-22",
-      "discoveredAt": "2026-10-06T01:46:33.104168Z",
-      "category": "AI Strategy",
-      "summary": "As large language model (LLM) inference increasingly processes sensitive information and proprietary model context across personal, enterprise, and…",
-      "whyItMatters": "Useful context when reviewing AI adoption and governance; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/enabling-private-high-performance-production-ai-inference-with-nvidia-confidential-computing",
-      "relatedTopicSlugs": [
-        "production"
-      ]
-    },
-    {
-      "id": "3617f29d12c64790",
-      "title": "Introducing GPT-6 Sol and Luna",
-      "date": "2026-09-22",
-      "discoveredAt": "2026-10-06T01:46:33.104168Z",
-      "category": "Models",
-      "summary": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of…",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "b9a971bba5a9a909",
-      "title": "Building standards for the next phase of AI",
-      "date": "2026-09-21",
-      "discoveredAt": "2026-10-06T01:46:33.104168Z",
-      "category": "Safety",
-      "summary": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve…",
-      "whyItMatters": "Useful context when reviewing system safeguards; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/building-standards-next-phase-ai",
-      "relatedTopicSlugs": [
-        "safety"
-      ]
-    },
-    {
-      "id": "a8fddc819ced0a16",
-      "title": "How to Evaluate AI Agents From Tool Calls to Task Completion",
-      "date": "2026-09-21",
-      "discoveredAt": "2026-10-06T01:46:33.104168Z",
-      "category": "Evaluation",
-      "summary": "When you ship an AI agent, the key question is whether it can execute a chain of work…",
-      "whyItMatters": "Useful context when reviewing evaluation methods; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/how-to-evaluate-ai-agents-from-tool-calls-to-task-completion",
       "relatedTopicSlugs": [
         "evaluation"
       ]
