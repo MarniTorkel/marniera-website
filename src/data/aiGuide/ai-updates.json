@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "lastUpdated": "2026-11-12T02:17:51Z",
-  "lastAttempt": "2026-11-12T02:17:51Z",
+  "lastUpdated": "2026-11-13T01:52:43Z",
+  "lastAttempt": "2026-11-13T01:52:43Z",
   "status": "ok",
   "sourceStatus": [
     {
       "id": "openai",
       "status": "ok",
-      "items": 273
+      "items": 275
     },
     {
       "id": "mcp",
@@ -17,7 +17,7 @@
     {
       "id": "google",
       "status": "ok",
-      "items": 5
+      "items": 4
     },
     {
       "id": "microsoft",
@@ -32,10 +32,100 @@
     {
       "id": "huggingface",
       "status": "ok",
-      "items": 64
+      "items": 65
     }
   ],
   "items": [
+    {
+      "id": "ec493db3cb58b8f4",
+      "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
+      "date": "2026-11-12",
+      "discoveredAt": "2026-11-13T01:52:43.424034Z",
+      "category": "Models",
+      "summary": "An official source announcement. Read the original for details.",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "Hugging Face",
+      "sourceUrl": "https://huggingface.co/blog",
+      "articleUrl": "https://huggingface.co/blog/3d-lora-finetuning",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "b0606f5b431c32d6",
+      "title": "Introducing Gemini 4 Hydrogen",
+      "date": "2026-11-12",
+      "discoveredAt": "2026-11-13T01:52:43.424034Z",
+      "category": "Agents",
+      "summary": "Today, we’re introducing Gemini 4 Hydrogen, our daily driver for agentic workflows",
+      "whyItMatters": "Useful context when reviewing agent workflows; check the original announcement for scope and limitations.",
+      "sourceName": "Google",
+      "sourceUrl": "https://blog.google/",
+      "articleUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen",
+      "relatedTopicSlugs": [
+        "agents"
+      ]
+    },
+    {
+      "id": "a80e21b2a6ecda1a",
+      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+      "date": "2026-11-12",
+      "discoveredAt": "2026-11-13T01:52:43.424034Z",
+      "category": "Coding",
+      "summary": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes…",
+      "whyItMatters": "Useful context when reviewing coding workflows; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/business/customer-stories/amplitude",
+      "relatedTopicSlugs": [
+        "tools-actions"
+      ]
+    },
+    {
+      "id": "a46b368f4d8ec0db",
+      "title": "Microsoft Research Focus – Edition #98",
+      "date": "2026-11-12",
+      "discoveredAt": "2026-11-13T01:52:43.424034Z",
+      "category": "Coding",
+      "summary": "What's new in research at Microsoft? Host Anson Ho explores the latest, including AI-powered universal translation, a breakthrough…",
+      "whyItMatters": "Useful context when reviewing coding workflows; check the original announcement for scope and limitations.",
+      "sourceName": "Microsoft Research",
+      "sourceUrl": "https://www.microsoft.com/en-us/research/blog/",
+      "articleUrl": "https://www.microsoft.com/en-us/research/podcast/microsoft-research-focus-edition-98",
+      "relatedTopicSlugs": [
+        "tools-actions"
+      ]
+    },
+    {
+      "id": "8b0cea6038145f63",
+      "title": "Gemini 4 Hydrogen: everyday coding and agentic workflows for developers",
+      "date": "2026-11-12",
+      "discoveredAt": "2026-11-13T01:52:43.424034Z",
+      "category": "Coding",
+      "summary": "Build faster with Gemini 4 Hydrogen, Google’s new model for cost-efficient agentic coding and debugging. Start building in…",
+      "whyItMatters": "Useful context when reviewing coding workflows; check the original announcement for scope and limitations.",
+      "sourceName": "Google",
+      "sourceUrl": "https://blog.google/",
+      "articleUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-hydrogen",
+      "relatedTopicSlugs": [
+        "tools-actions"
+      ]
+    },
+    {
+      "id": "57772823731239e0",
+      "title": "Supporting research on AI and children’s safety",
+      "date": "2026-11-12",
+      "discoveredAt": "2026-11-13T01:52:43.424034Z",
+      "category": "Safety",
+      "summary": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure…",
+      "whyItMatters": "Useful context when reviewing system safeguards; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/children-first-declaration",
+      "relatedTopicSlugs": [
+        "safety"
+      ]
+    },
     {
       "id": "fe4d6dee1fa42aff",
       "title": "A More Predictable Release Cycle for MCP",
@@ -2194,96 +2284,6 @@
       "articleUrl": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
       "relatedTopicSlugs": [
         "foundations"
-      ]
-    },
-    {
-      "id": "dc3016f48bd62dc7",
-      "title": "Sam Altman’s remarks at the United Nations Security Council",
-      "date": "2026-09-23",
-      "discoveredAt": "2026-10-06T01:46:33.104168Z",
-      "category": "Safety",
-      "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations…",
-      "whyItMatters": "Useful context when reviewing system safeguards; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/sam-altman-un-security-council-remarks",
-      "relatedTopicSlugs": [
-        "safety"
-      ]
-    },
-    {
-      "id": "cf36c36f73da1bab",
-      "title": "Introducing NV-Reason-CT Open 3D CT VLM for Radiologist Chain-of-Thought Reasoning",
-      "date": "2026-09-23",
-      "discoveredAt": "2026-10-06T01:46:33.104168Z",
-      "category": "Models",
-      "summary": "Radiology AI has made remarkable strides in detecting abnormalities across chest X-rays, pathology slides, and 2D scans. Yet…",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/introducing-nv-reason-ct-open-3d-ct-vlm-for-radiologist-chain-of-thought-reasoning",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "ce68d26eab350cb9",
-      "title": "Introducing MentalHealthBench",
-      "date": "2026-09-23",
-      "discoveredAt": "2026-10-06T01:46:33.104168Z",
-      "category": "Evaluation",
-      "summary": "MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations.",
-      "whyItMatters": "Useful context when reviewing evaluation methods; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/introducing-mentalhealthbench",
-      "relatedTopicSlugs": [
-        "evaluation"
-      ]
-    },
-    {
-      "id": "ce3c4530cf7b9799",
-      "title": "Manage Kubernetes Node Fleets with NodeWright",
-      "date": "2026-09-23",
-      "discoveredAt": "2026-10-06T01:46:33.104168Z",
-      "category": "Safety",
-      "summary": "Kubernetes manages what runs on your nodes. Managing the nodes themselves is the challenge: kernel settings, system packages,…",
-      "whyItMatters": "Useful context when reviewing system safeguards; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/manage-kubernetes-node-fleets-with-nodewright",
-      "relatedTopicSlugs": [
-        "safety"
-      ]
-    },
-    {
-      "id": "7b30b232a41e5719",
-      "title": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
-      "date": "2026-09-23",
-      "discoveredAt": "2026-10-06T01:46:33.104168Z",
-      "category": "Models",
-      "summary": "Learn how Airbnb is expanding access to GPT-6 Astra and OpenAI frontier models to help engineering teams solve…",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/airbnb-gpt-6-astra",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "435d43e96c75ca8a",
-      "title": "How SWE-Serve Exposes the Gap Between Local Tests and Live Serving",
-      "date": "2026-09-23",
-      "discoveredAt": "2026-10-06T01:46:33.104168Z",
-      "category": "Evaluation",
-      "summary": "An AI coding agent’s patch can pass tests yet fail when the server loads a real model and…",
-      "whyItMatters": "Useful context when reviewing evaluation methods; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/how-swe-serve-exposes-the-gap-between-local-tests-and-live-serving",
-      "relatedTopicSlugs": [
-        "evaluation"
       ]
     }
   ]
