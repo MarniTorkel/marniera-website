@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastUpdated": "2026-11-13T01:52:43Z",
-  "lastAttempt": "2026-11-13T01:52:43Z",
+  "lastUpdated": "2026-11-14T01:28:31Z",
+  "lastAttempt": "2026-11-14T01:28:31Z",
   "status": "ok",
   "sourceStatus": [
     {
@@ -27,7 +27,7 @@
     {
       "id": "nvidia",
       "status": "ok",
-      "items": 48
+      "items": 47
     },
     {
       "id": "huggingface",
@@ -36,6 +36,36 @@
     }
   ],
   "items": [
+    {
+      "id": "7bc5bdb75dd73a0c",
+      "title": "When One GPU Isn’t Enough: Serving GLM-5.3 Across Two NVIDIA DGX Stations with vLLM",
+      "date": "2026-11-13",
+      "discoveredAt": "2026-11-14T01:28:31.555952Z",
+      "category": "Models",
+      "summary": "Running a frontier-scale model locally means keeping all its weights in GPU memory; the largest models no longer…",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "NVIDIA Developer",
+      "sourceUrl": "https://developer.nvidia.com/blog/",
+      "articleUrl": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "7b5ed6bba8925271",
+      "title": "Introducing ChatGPT Wallet",
+      "date": "2026-11-13",
+      "discoveredAt": "2026-11-14T01:28:31.555952Z",
+      "category": "Agents",
+      "summary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with…",
+      "whyItMatters": "Useful context when reviewing agent workflows; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/introducing-chatgpt-wallet",
+      "relatedTopicSlugs": [
+        "agents"
+      ]
+    },
     {
       "id": "ec493db3cb58b8f4",
       "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
@@ -2252,36 +2282,6 @@
       "sourceName": "Hugging Face",
       "sourceUrl": "https://huggingface.co/blog",
       "articleUrl": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "2a37bfbd333f8402",
-      "title": "Efficient MoE Training for Biological Foundation Models",
-      "date": "2026-09-24",
-      "discoveredAt": "2026-10-06T01:46:33.104168Z",
-      "category": "Models",
-      "summary": "As language models grow, scaling dense architectures becomes increasingly expensive. In a dense transformer, every token passes through…",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/efficient-moe-training-for-biological-foundation-models",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "eca70179c8f92a94",
-      "title": "Grab and OpenAI bring practical AI skills to Southeast Asia",
-      "date": "2026-09-23",
-      "discoveredAt": "2026-10-06T01:46:33.104168Z",
-      "category": "Models",
-      "summary": "OpenAI and Grab launch GO Forward with AI, a regional programme helping 30,000 partners build practical AI skills…",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
       "relatedTopicSlugs": [
         "foundations"
       ]
