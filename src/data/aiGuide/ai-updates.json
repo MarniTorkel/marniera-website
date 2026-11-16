@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "lastUpdated": "2026-11-15T01:05:24Z",
-  "lastAttempt": "2026-11-15T01:05:24Z",
+  "lastUpdated": "2026-11-16T01:05:11Z",
+  "lastAttempt": "2026-11-16T01:05:11Z",
   "status": "ok",
   "sourceStatus": [
     {
       "id": "openai",
       "status": "ok",
-      "items": 274
+      "items": 276
     },
     {
       "id": "mcp",
@@ -36,6 +36,36 @@
     }
   ],
   "items": [
+    {
+      "id": "7674b58e2ecdd34b",
+      "title": "A step toward defining the Standard Model on a lattice",
+      "date": "2026-11-15",
+      "discoveredAt": "2026-11-16T01:05:11.854814Z",
+      "category": "Models",
+      "summary": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea…",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "54e42e31b78342d8",
+      "title": "Our new blog for science",
+      "date": "2026-11-15",
+      "discoveredAt": "2026-11-16T01:05:11.854814Z",
+      "category": "Research",
+      "summary": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance…",
+      "whyItMatters": "Useful context when reviewing research directions; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/our-new-blog-for-science",
+      "relatedTopicSlugs": [
+        "research"
+      ]
+    },
     {
       "id": "7bc5bdb75dd73a0c",
       "title": "When One GPU Isn’t Enough: Serving GLM-5.3 Across Two NVIDIA DGX Stations with vLLM",
@@ -2252,36 +2282,6 @@
       "sourceName": "OpenAI",
       "sourceUrl": "https://openai.com/news/",
       "articleUrl": "https://openai.com/index/wayfair",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "681593dd6f53419c",
-      "title": "Lowe’s answers millions of home improvement questions with OpenAI",
-      "date": "2026-09-25",
-      "discoveredAt": "2026-10-10T00:56:06.950762Z",
-      "category": "Models",
-      "summary": "Lowe’s uses OpenAI models to power Mylow and Mylow Companion, helping customers and associates answer 25M+ questions and…",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/lowes",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "f5dbb73965844059",
-      "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
-      "date": "2026-09-24",
-      "discoveredAt": "2026-10-06T01:46:33.104168Z",
-      "category": "Models",
-      "summary": "An official source announcement. Read the original for details.",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "Hugging Face",
-      "sourceUrl": "https://huggingface.co/blog",
-      "articleUrl": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
       "relatedTopicSlugs": [
         "foundations"
       ]
