@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "lastUpdated": "2026-11-16T01:05:11Z",
-  "lastAttempt": "2026-11-16T01:05:11Z",
+  "lastUpdated": "2026-11-17T03:56:46Z",
+  "lastAttempt": "2026-11-17T03:56:46Z",
   "status": "ok",
   "sourceStatus": [
     {
       "id": "openai",
       "status": "ok",
-      "items": 276
+      "items": 281
     },
     {
       "id": "mcp",
@@ -17,25 +17,175 @@
     {
       "id": "google",
       "status": "ok",
-      "items": 4
+      "items": 5
     },
     {
       "id": "microsoft",
       "status": "ok",
-      "items": 7
+      "items": 8
     },
     {
       "id": "nvidia",
       "status": "ok",
-      "items": 47
+      "items": 48
     },
     {
       "id": "huggingface",
       "status": "ok",
-      "items": 65
+      "items": 66
     }
   ],
   "items": [
+    {
+      "id": "f6e2a4ded1472f56",
+      "title": "More ways to move care forward with ChatGPT for Healthcare",
+      "date": "2026-11-16",
+      "discoveredAt": "2026-11-17T03:56:46.628968Z",
+      "category": "Agents",
+      "summary": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real…",
+      "whyItMatters": "Useful context when reviewing agent workflows; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+      "relatedTopicSlugs": [
+        "agents"
+      ]
+    },
+    {
+      "id": "a9ea443b32518f80",
+      "title": "TokenEconomizer: Learning from Experience to Make AI Coding Agents More Efficient",
+      "date": "2026-11-16",
+      "discoveredAt": "2026-11-17T03:56:46.628968Z",
+      "category": "Coding",
+      "summary": "AI coding agents can waste time and tokens relearning the same lessons. TokenEconomizer is an open-source plugin that…",
+      "whyItMatters": "Useful context when reviewing coding workflows; check the original announcement for scope and limitations.",
+      "sourceName": "Microsoft Research",
+      "sourceUrl": "https://www.microsoft.com/en-us/research/blog/",
+      "articleUrl": "https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient",
+      "relatedTopicSlugs": [
+        "tools-actions"
+      ]
+    },
+    {
+      "id": "8a0d7a2433db2238",
+      "title": "Our first phase of embedded assessments",
+      "date": "2026-11-16",
+      "discoveredAt": "2026-11-17T03:56:46.628968Z",
+      "category": "Safety",
+      "summary": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards,…",
+      "whyItMatters": "Useful context when reviewing system safeguards; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+      "relatedTopicSlugs": [
+        "safety"
+      ]
+    },
+    {
+      "id": "6a8670bc5998a54c",
+      "title": "New AI training performance benchmarks for Google TPUs",
+      "date": "2026-11-16",
+      "discoveredAt": "2026-11-17T03:56:46.628968Z",
+      "category": "Evaluation",
+      "summary": "In the latest MLPerf Training v6.1 benchmark round, Google Cloud published 10 results across seventh-generation Ironwood TPUs and…",
+      "whyItMatters": "Useful context when reviewing evaluation methods; check the original announcement for scope and limitations.",
+      "sourceName": "Google",
+      "sourceUrl": "https://blog.google/",
+      "articleUrl": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/training-performance-benchmarks-tpus",
+      "relatedTopicSlugs": [
+        "evaluation"
+      ]
+    },
+    {
+      "id": "5246678ef369641c",
+      "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
+      "date": "2026-11-16",
+      "discoveredAt": "2026-11-17T03:56:46.628968Z",
+      "category": "Models",
+      "summary": "An official source announcement. Read the original for details.",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "Hugging Face",
+      "sourceUrl": "https://huggingface.co/blog",
+      "articleUrl": "https://huggingface.co/blog/openrouter",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "44be1a76ea2aae9a",
+      "title": "NVIDIA Vera Rubin NVL72 Achieves up to 2x Blackwell Ultra Performance in MLPerf Training v6.1",
+      "date": "2026-11-16",
+      "discoveredAt": "2026-11-17T03:56:46.628968Z",
+      "category": "Agents",
+      "summary": "As AI agents tackle increasingly complex workflows, reducing time-to-train is critical for rapidly iterating on both models and…",
+      "whyItMatters": "Useful context when reviewing agent workflows; check the original announcement for scope and limitations.",
+      "sourceName": "NVIDIA Developer",
+      "sourceUrl": "https://developer.nvidia.com/blog/",
+      "articleUrl": "https://developer.nvidia.com/blog/nvidia-vera-rubin-nvl72-achieves-up-to-2x-blackwell-ultra-performance-in-mlperf-training-v6-1",
+      "relatedTopicSlugs": [
+        "agents"
+      ]
+    },
+    {
+      "id": "362758169350eaec",
+      "title": "New Google AdMob AI tools help app creators build, fix, and grow faster",
+      "date": "2026-11-16",
+      "discoveredAt": "2026-11-17T03:56:46.628968Z",
+      "category": "Safety",
+      "summary": "New Google AdMob AI tools help app developers fix setups fast, protect brand safety, and automate monetization in…",
+      "whyItMatters": "Useful context when reviewing system safeguards; check the original announcement for scope and limitations.",
+      "sourceName": "Google",
+      "sourceUrl": "https://blog.google/",
+      "articleUrl": "https://blog.google/products/publisher-connections/new-google-admob-tools",
+      "relatedTopicSlugs": [
+        "safety"
+      ]
+    },
+    {
+      "id": "14696e55170d827a",
+      "title": "Ask Maps is coming to Europe.",
+      "date": "2026-11-16",
+      "discoveredAt": "2026-11-17T03:56:46.628968Z",
+      "category": "Models",
+      "summary": "Ask Maps is the biggest update to Google Maps in over a decade. Powered by the world’s freshest…",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "Google",
+      "sourceUrl": "https://blog.google/",
+      "articleUrl": "https://blog.google/products-and-platforms/products/maps/ask-maps-is-coming-to-europe",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "0afae93103c895d7",
+      "title": "Broadening access to AI for scientists",
+      "date": "2026-11-16",
+      "discoveredAt": "2026-11-17T03:56:46.628968Z",
+      "category": "Models",
+      "summary": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier…",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "0794e610c9182c7e",
+      "title": "Post-Training NVIDIA Nemotron to Increase Accuracy in Your Scientific Domain",
+      "date": "2026-11-16",
+      "discoveredAt": "2026-11-17T03:56:46.628968Z",
+      "category": "Agents",
+      "summary": "Agentic AI is reshaping scientific research and innovation. Researchers communicate complex scientific hypotheses in natural language and let…",
+      "whyItMatters": "Useful context when reviewing agent workflows; check the original announcement for scope and limitations.",
+      "sourceName": "NVIDIA Developer",
+      "sourceUrl": "https://developer.nvidia.com/blog/",
+      "articleUrl": "https://developer.nvidia.com/blog/post-training-nvidia-nemotron-to-increase-accuracy-in-your-scientific-domain",
+      "relatedTopicSlugs": [
+        "agents"
+      ]
+    },
     {
       "id": "7674b58e2ecdd34b",
       "title": "A step toward defining the Standard Model on a lattice",
@@ -2134,156 +2284,6 @@
       "articleUrl": "https://www.microsoft.com/en-us/research/blog/forecasting-space-weather-risks-on-power-grids",
       "relatedTopicSlugs": [
         "research"
-      ]
-    },
-    {
-      "id": "b6ba55dc3def8855",
-      "title": "Helping small businesses put AI to work",
-      "date": "2026-09-30",
-      "discoveredAt": "2026-10-06T01:46:33.104168Z",
-      "category": "Models",
-      "summary": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside…",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "8bd106e1bf51ab43",
-      "title": "Google's AI ranks #1 for predicting flu hospitalizations.",
-      "date": "2026-09-30",
-      "discoveredAt": "2026-10-06T01:46:33.104168Z",
-      "category": "Models",
-      "summary": "Google’s science AI model was the best at forecasting flu-related hospital admissions, the Centers for Disease Control announced.",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "Google",
-      "sourceUrl": "https://blog.google/",
-      "articleUrl": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-science-ai-flu-forecasts",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "769b091e9e4a65f5",
-      "title": "Disrupting a coordinated model-distillation campaign",
-      "date": "2026-09-30",
-      "discoveredAt": "2026-10-06T01:46:33.104168Z",
-      "category": "Models",
-      "summary": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "ec6bee6d34361f8d",
-      "title": "Introducing Quine: An AI research system designed for the complexity of biology",
-      "date": "2026-09-29",
-      "discoveredAt": "2026-10-06T01:46:33.104168Z",
-      "category": "Multimodal",
-      "summary": "Biology doesn't operate in silos, and neither should the AI representation of it. Quine is an early-stage research…",
-      "whyItMatters": "Useful context when reviewing multimodal workflows; check the original announcement for scope and limitations.",
-      "sourceName": "Microsoft Research",
-      "sourceUrl": "https://www.microsoft.com/en-us/research/blog/",
-      "articleUrl": "https://www.microsoft.com/en-us/research/blog/introducing-quine-an-ai-research-system-designed-for-the-complexity-of-biology",
-      "relatedTopicSlugs": [
-        "multimodal"
-      ]
-    },
-    {
-      "id": "c012dbf18a079c7e",
-      "title": "The Official Ruby SDK for MCP Reaches Tier 1",
-      "date": "2026-09-29",
-      "discoveredAt": "2026-10-31T00:50:40.806107Z",
-      "category": "Protocols",
-      "summary": "The official Ruby SDK for the Model Context Protocol is now a Tier 1 SDK under the MCP…",
-      "whyItMatters": "Useful context when reviewing interoperability; check the original announcement for scope and limitations.",
-      "sourceName": "Model Context Protocol",
-      "sourceUrl": "https://blog.modelcontextprotocol.io/",
-      "articleUrl": "https://blog.modelcontextprotocol.io/posts/ruby-sdk-tier-1",
-      "relatedTopicSlugs": [
-        "protocols"
-      ]
-    },
-    {
-      "id": "77806d163920d1cd",
-      "title": "Lower the Cost of Building and Running Visual AI Agents with NVIDIA VSS Blueprint 3.3",
-      "date": "2026-09-29",
-      "discoveredAt": "2026-10-06T01:46:33.104168Z",
-      "category": "Multimodal",
-      "summary": "Vision-language models have made it possible to build visual AI agents that understand video at production scale. The…",
-      "whyItMatters": "Useful context when reviewing multimodal workflows; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/lower-the-cost-of-building-and-running-visual-ai-agents-with-nvidia-vss-blueprint-3-3",
-      "relatedTopicSlugs": [
-        "multimodal"
-      ]
-    },
-    {
-      "id": "4926436b304adba1",
-      "title": "AI Native by Design: Lessons Learned from Building NVIDIA TensorRT Model Connect",
-      "date": "2026-09-29",
-      "discoveredAt": "2026-10-06T01:46:33.104168Z",
-      "category": "Coding",
-      "summary": "Parallel work, model-family isolation, reversible changes, and GPU-backed validation shaped an open source project designed around coding agents…",
-      "whyItMatters": "Useful context when reviewing coding workflows; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/ai-native-by-design-lessons-learned-from-building-nvidia-tensorrt-model-connect",
-      "relatedTopicSlugs": [
-        "tools-actions"
-      ]
-    },
-    {
-      "id": "8004da34b378c83f",
-      "title": "Add Runtime Controls to AI Agents with NVIDIA OpenShell",
-      "date": "2026-09-28",
-      "discoveredAt": "2026-10-06T01:46:33.104168Z",
-      "category": "Agents",
-      "summary": "AI agents can be given a goal, write code, use tools, and keep working as new information becomes…",
-      "whyItMatters": "Useful context when reviewing agent workflows; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/add-runtime-controls-to-ai-agents-with-nvidia-openshell",
-      "relatedTopicSlugs": [
-        "agents"
-      ]
-    },
-    {
-      "id": "44bd9695c2b594b6",
-      "title": "NVIDIA Open Agent Safety Platform: A Reference for Continuous In-Silicon Agent Monitoring",
-      "date": "2026-09-28",
-      "discoveredAt": "2026-10-06T01:46:33.104168Z",
-      "category": "Safety",
-      "summary": "To understand where agentic AI stands today, consider the last seismic shift in technology: the rise of the…",
-      "whyItMatters": "Useful context when reviewing system safeguards; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/nvidia-open-agent-safety-platform-a-reference-for-continuous-in-silicon-agent-monitoring",
-      "relatedTopicSlugs": [
-        "safety"
-      ]
-    },
-    {
-      "id": "e0aba156b9ba0388",
-      "title": "Wayfair boosts catalog accuracy and support speed with OpenAI",
-      "date": "2026-09-25",
-      "discoveredAt": "2026-10-06T01:46:33.104168Z",
-      "category": "Models",
-      "summary": "Wayfair uses OpenAI models to improve ecommerce support and product catalog accuracy, automating ticket triage and enhancing millions…",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/wayfair",
-      "relatedTopicSlugs": [
-        "foundations"
       ]
     }
   ]
