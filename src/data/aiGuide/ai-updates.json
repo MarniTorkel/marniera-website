@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "lastUpdated": "2026-11-17T03:56:46Z",
-  "lastAttempt": "2026-11-17T03:56:46Z",
+  "lastUpdated": "2026-11-18T02:55:59Z",
+  "lastAttempt": "2026-11-18T02:55:59Z",
   "status": "ok",
   "sourceStatus": [
     {
       "id": "openai",
       "status": "ok",
-      "items": 281
+      "items": 282
     },
     {
       "id": "mcp",
@@ -17,17 +17,17 @@
     {
       "id": "google",
       "status": "ok",
-      "items": 5
+      "items": 6
     },
     {
       "id": "microsoft",
       "status": "ok",
-      "items": 8
+      "items": 9
     },
     {
       "id": "nvidia",
       "status": "ok",
-      "items": 48
+      "items": 46
     },
     {
       "id": "huggingface",
@@ -36,6 +36,66 @@
     }
   ],
   "items": [
+    {
+      "id": "b555b8dad093815b",
+      "title": "Can AI help build a healthier future?",
+      "date": "2026-11-17",
+      "discoveredAt": "2026-11-18T02:55:59.397647Z",
+      "category": "Research",
+      "summary": "What can AI enable in medicine, and how do we get there? Microsoft Research lead Doug Burger, Microsoft…",
+      "whyItMatters": "Useful context when reviewing research directions; check the original announcement for scope and limitations.",
+      "sourceName": "Microsoft Research",
+      "sourceUrl": "https://www.microsoft.com/en-us/research/blog/",
+      "articleUrl": "https://www.microsoft.com/en-us/research/podcast/can-ai-help-build-a-healthier-future",
+      "relatedTopicSlugs": [
+        "research"
+      ]
+    },
+    {
+      "id": "99839fa8867daab5",
+      "title": "Temporary threads are now available in AI Mode in Search.",
+      "date": "2026-11-17",
+      "discoveredAt": "2026-11-18T02:55:59.397647Z",
+      "category": "Models",
+      "summary": "Google AI Mode now offers temporary threads for private searches. Keep your history clean and avoid personalization. Try…",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "Google",
+      "sourceUrl": "https://blog.google/",
+      "articleUrl": "https://blog.google/products-and-platforms/products/search/temporary-threads-ai-mode",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "7110a17b538ca7f7",
+      "title": "Introducing OpenAI for Chile",
+      "date": "2026-11-17",
+      "discoveredAt": "2026-11-18T02:55:59.397647Z",
+      "category": "AI Strategy",
+      "summary": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help…",
+      "whyItMatters": "Useful context when reviewing AI adoption and governance; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/introducing-openai-for-chile",
+      "relatedTopicSlugs": [
+        "production"
+      ]
+    },
+    {
+      "id": "3427657899c7b01a",
+      "title": "Read the EmbeddingGemma 2 technical report.",
+      "date": "2026-11-17",
+      "discoveredAt": "2026-11-18T02:55:59.397647Z",
+      "category": "Multimodal",
+      "summary": "The Google EmbeddingGemma 2 technical report details our new multimodal model, covering its unified vector space and compact…",
+      "whyItMatters": "Useful context when reviewing multimodal workflows; check the original announcement for scope and limitations.",
+      "sourceName": "Google",
+      "sourceUrl": "https://blog.google/",
+      "articleUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2-technical-report",
+      "relatedTopicSlugs": [
+        "multimodal"
+      ]
+    },
     {
       "id": "f6e2a4ded1472f56",
       "title": "More ways to move care forward with ChatGPT for Healthcare",
@@ -52,6 +112,21 @@
       ]
     },
     {
+      "id": "c7c5c9f575c90511",
+      "title": "Outpace automated cyber threats with security built for nonstop defense.",
+      "date": "2026-11-16",
+      "discoveredAt": "2026-11-18T02:55:59.397647Z",
+      "category": "Safety",
+      "summary": "See how bad actors are shifting to autonomous attacks and how Google AI Threat Defense uses Gemini to…",
+      "whyItMatters": "Useful context when reviewing system safeguards; check the original announcement for scope and limitations.",
+      "sourceName": "Google",
+      "sourceUrl": "https://blog.google/",
+      "articleUrl": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gtig-ai-threat-tracker-q4-2026",
+      "relatedTopicSlugs": [
+        "safety"
+      ]
+    },
+    {
       "id": "a9ea443b32518f80",
       "title": "TokenEconomizer: Learning from Experience to Make AI Coding Agents More Efficient",
       "date": "2026-11-16",
@@ -64,6 +139,21 @@
       "articleUrl": "https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient",
       "relatedTopicSlugs": [
         "tools-actions"
+      ]
+    },
+    {
+      "id": "928b6dbb476ef18d",
+      "title": "How Revolut raises ambition without lowering the bar",
+      "date": "2026-11-16",
+      "discoveredAt": "2026-11-18T02:55:59.397647Z",
+      "category": "Safety",
+      "summary": "Discover how Revolut uses OpenAI models and Codex to cut coding time by 30–60%, scale financial crime investigations,…",
+      "whyItMatters": "Useful context when reviewing system safeguards; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/business/customer-stories/revolut",
+      "relatedTopicSlugs": [
+        "safety"
       ]
     },
     {
@@ -1039,6 +1129,21 @@
       "articleUrl": "https://developer.nvidia.com/blog/build-a-validated-kubernetes-runtime-for-nvidia-dynamo",
       "relatedTopicSlugs": [
         "foundations"
+      ]
+    },
+    {
+      "id": "c012dbf18a079c7e",
+      "title": "The Official Ruby SDK for MCP Reaches Tier 1",
+      "date": "2026-10-30",
+      "discoveredAt": "2026-11-18T02:55:59.397647Z",
+      "category": "Protocols",
+      "summary": "The official Ruby SDK for Model Context Protocol is now a Tier 1 SDK, as defined in our…",
+      "whyItMatters": "Useful context when reviewing interoperability; check the original announcement for scope and limitations.",
+      "sourceName": "Model Context Protocol",
+      "sourceUrl": "https://blog.modelcontextprotocol.io/",
+      "articleUrl": "https://blog.modelcontextprotocol.io/posts/ruby-sdk-tier-1",
+      "relatedTopicSlugs": [
+        "protocols"
       ]
     },
     {
@@ -2177,111 +2282,6 @@
       "sourceName": "OpenAI",
       "sourceUrl": "https://openai.com/news/",
       "articleUrl": "https://openai.com/index/jump-trading",
-      "relatedTopicSlugs": [
-        "research"
-      ]
-    },
-    {
-      "id": "d7640ece796db4a2",
-      "title": "I replaced traditional coding tests with real conversations about how my students solve problems using AI.",
-      "date": "2026-10-05",
-      "discoveredAt": "2026-10-06T01:46:33.104168Z",
-      "category": "Evaluation",
-      "summary": "Replace coding tests with AI-driven interviews using Google Gemini in Colab. See how this professor evaluates student judgment.…",
-      "whyItMatters": "Useful context when reviewing evaluation methods; check the original announcement for scope and limitations.",
-      "sourceName": "Google",
-      "sourceUrl": "https://blog.google/",
-      "articleUrl": "https://blog.google/products-and-platforms/products/education/gemini-google-colab",
-      "relatedTopicSlugs": [
-        "evaluation"
-      ]
-    },
-    {
-      "id": "57bb81d3a538c716",
-      "title": "Building advertising for the way people use AI",
-      "date": "2026-10-05",
-      "discoveredAt": "2026-10-06T01:46:33.104168Z",
-      "category": "Models",
-      "summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability…",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "dae74581fd5e22f3",
-      "title": "A model guide for the GPT-6 family",
-      "date": "2026-10-02",
-      "discoveredAt": "2026-10-06T01:46:33.104168Z",
-      "category": "Models",
-      "summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare…",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/practical-guide-building-gpt-6",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "73506d2172e7f1d2",
-      "title": "The latest AI news we announced in September 2026",
-      "date": "2026-10-02",
-      "discoveredAt": "2026-10-06T01:46:33.104168Z",
-      "category": "Models",
-      "summary": "Here are Google’s latest AI updates from September 2026",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "Google",
-      "sourceUrl": "https://blog.google/",
-      "articleUrl": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "2424f4f97cd01a2d",
-      "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
-      "date": "2026-10-02",
-      "discoveredAt": "2026-10-06T01:46:33.104168Z",
-      "category": "Models",
-      "summary": "An official source announcement. Read the original for details.",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "Hugging Face",
-      "sourceUrl": "https://huggingface.co/blog",
-      "articleUrl": "https://huggingface.co/blog/allenai/astabrief",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "ef174fcec51dd633",
-      "title": "Build Local AI Apps with C++ and NVIDIA TensorRT RTX Samples",
-      "date": "2026-10-01",
-      "discoveredAt": "2026-10-06T01:46:33.104168Z",
-      "category": "Models",
-      "summary": "Adding AI models to local applications requires a portable model format, a reliable runtime, and acceleration that works…",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/build-local-ai-apps-with-c-and-nvidia-tensorrt-rtx-samples",
-      "relatedTopicSlugs": [
-        "foundations"
-      ]
-    },
-    {
-      "id": "ec9fcf622222154b",
-      "title": "Forecasting space weather risks on power grids",
-      "date": "2026-09-30",
-      "discoveredAt": "2026-10-06T01:46:33.104168Z",
-      "category": "Research",
-      "summary": "Extreme space-weather events can damage power systems on Earth and degrade GPS accuracy and satellite operations. A new…",
-      "whyItMatters": "Useful context when reviewing research directions; check the original announcement for scope and limitations.",
-      "sourceName": "Microsoft Research",
-      "sourceUrl": "https://www.microsoft.com/en-us/research/blog/",
-      "articleUrl": "https://www.microsoft.com/en-us/research/blog/forecasting-space-weather-risks-on-power-grids",
       "relatedTopicSlugs": [
         "research"
       ]
