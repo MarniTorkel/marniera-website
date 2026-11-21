@@ -1,23 +1,23 @@
 {
   "version": 1,
-  "lastUpdated": "2026-11-20T02:22:04Z",
-  "lastAttempt": "2026-11-20T02:22:04Z",
+  "lastUpdated": "2026-11-21T02:23:03Z",
+  "lastAttempt": "2026-11-21T02:23:03Z",
   "status": "ok",
   "sourceStatus": [
     {
       "id": "openai",
       "status": "ok",
-      "items": 279
+      "items": 281
     },
     {
       "id": "mcp",
       "status": "ok",
-      "items": 20
+      "items": 19
     },
     {
       "id": "google",
       "status": "ok",
-      "items": 6
+      "items": 5
     },
     {
       "id": "microsoft",
@@ -32,10 +32,55 @@
     {
       "id": "huggingface",
       "status": "ok",
-      "items": 66
+      "items": 67
     }
   ],
   "items": [
+    {
+      "id": "cfca140b33bdbdd1",
+      "title": "Combatting adversarial distillation",
+      "date": "2026-11-20",
+      "discoveredAt": "2026-11-21T02:23:03.480204Z",
+      "category": "Safety",
+      "summary": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+      "whyItMatters": "Useful context when reviewing system safeguards; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/combatting-adversarial-distillation",
+      "relatedTopicSlugs": [
+        "safety"
+      ]
+    },
+    {
+      "id": "ce9344180804f91d",
+      "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+      "date": "2026-11-20",
+      "discoveredAt": "2026-11-21T02:23:03.480204Z",
+      "category": "Models",
+      "summary": "An official source announcement. Read the original for details.",
+      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
+      "sourceName": "Hugging Face",
+      "sourceUrl": "https://huggingface.co/blog",
+      "articleUrl": "https://huggingface.co/blog/harness-adapters-at-scale",
+      "relatedTopicSlugs": [
+        "foundations"
+      ]
+    },
+    {
+      "id": "8c8f5712562bcbe0",
+      "title": "Can AI help scientists identify promising drug candidates?",
+      "date": "2026-11-20",
+      "discoveredAt": "2026-11-21T02:23:03.480204Z",
+      "category": "Evaluation",
+      "summary": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early…",
+      "whyItMatters": "Useful context when reviewing evaluation methods; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/introducing-medchembench",
+      "relatedTopicSlugs": [
+        "evaluation"
+      ]
+    },
     {
       "id": "e9f3216c42cdeae2",
       "title": "Reducing Rollout Bottlenecks in Reinforcement Learning with NVIDIA Dynamo",
@@ -2239,51 +2284,6 @@
       "articleUrl": "https://developer.nvidia.com/blog/replayssm-rethinking-state-storage-for-faster-hybrid-model-decoding",
       "relatedTopicSlugs": [
         "tools-actions"
-      ]
-    },
-    {
-      "id": "d62b5ff681103c30",
-      "title": "Simulating student learning for better AI tutoring",
-      "date": "2026-10-12",
-      "discoveredAt": "2026-10-13T02:36:00.511500Z",
-      "category": "Evaluation",
-      "summary": "StudentSim is a research system for evaluating and improving AI tutoring tools before they are tested with learners.…",
-      "whyItMatters": "Useful context when reviewing evaluation methods; check the original announcement for scope and limitations.",
-      "sourceName": "Microsoft Research",
-      "sourceUrl": "https://www.microsoft.com/en-us/research/blog/",
-      "articleUrl": "https://www.microsoft.com/en-us/research/blog/simulating-student-learning-for-better-ai-tutoring",
-      "relatedTopicSlugs": [
-        "evaluation"
-      ]
-    },
-    {
-      "id": "385d92e7b0f96749",
-      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-      "date": "2026-10-09",
-      "discoveredAt": "2026-10-10T00:56:06.950762Z",
-      "category": "Agents",
-      "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to…",
-      "whyItMatters": "Useful context when reviewing agent workflows; check the original announcement for scope and limitations.",
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/news/",
-      "articleUrl": "https://openai.com/index/asana-browser-agent",
-      "relatedTopicSlugs": [
-        "agents"
-      ]
-    },
-    {
-      "id": "b97fbe8e35de9dd0",
-      "title": "The model that didn't exist, so you made it yourself",
-      "date": "2026-10-08",
-      "discoveredAt": "2026-10-09T01:15:14.188010Z",
-      "category": "Models",
-      "summary": "An official source announcement. Read the original for details.",
-      "whyItMatters": "Useful context when reviewing model choices; check the original announcement for scope and limitations.",
-      "sourceName": "Hugging Face",
-      "sourceUrl": "https://huggingface.co/blog",
-      "articleUrl": "https://huggingface.co/blog/building-with-ml-intern",
-      "relatedTopicSlugs": [
-        "foundations"
       ]
     }
   ]
