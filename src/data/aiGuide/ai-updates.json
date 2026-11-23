@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "lastUpdated": "2026-11-22T01:22:47Z",
-  "lastAttempt": "2026-11-22T01:22:47Z",
+  "lastUpdated": "2026-11-23T01:47:31Z",
+  "lastAttempt": "2026-11-23T01:47:31Z",
   "status": "ok",
   "sourceStatus": [
     {
       "id": "openai",
       "status": "ok",
-      "items": 281
+      "items": 282
     },
     {
       "id": "mcp",
@@ -36,6 +36,21 @@
     }
   ],
   "items": [
+    {
+      "id": "bc7bbf471a4fd0d3",
+      "title": "Perplexity and Intelligence",
+      "date": "2026-11-22",
+      "discoveredAt": "2026-11-23T01:47:31.260881Z",
+      "category": "Evaluation",
+      "summary": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to…",
+      "whyItMatters": "Useful context when reviewing evaluation methods; check the original announcement for scope and limitations.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/news/",
+      "articleUrl": "https://openai.com/index/perplexity-and-intelligence",
+      "relatedTopicSlugs": [
+        "evaluation"
+      ]
+    },
     {
       "id": "cfca140b33bdbdd1",
       "title": "Combatting adversarial distillation",
@@ -2267,21 +2282,6 @@
       "sourceName": "NVIDIA Developer",
       "sourceUrl": "https://developer.nvidia.com/blog/",
       "articleUrl": "https://developer.nvidia.com/blog/nvidia-runai-is-now-open-source-as-part-of-nvidia-dsx-ai-factory-platform",
-      "relatedTopicSlugs": [
-        "tools-actions"
-      ]
-    },
-    {
-      "id": "f31f8f506dba29ad",
-      "title": "ReplaySSM: Rethinking State Storage for Faster Hybrid-Model Decoding",
-      "date": "2026-10-12",
-      "discoveredAt": "2026-10-13T02:36:00.511500Z",
-      "category": "Coding",
-      "summary": "Hybrid models interleave state-space model (SSM) layers with a few attention layers. NVIDIA Nemotron 3, Qwen3.5 through Qwen3.8,…",
-      "whyItMatters": "Useful context when reviewing coding workflows; check the original announcement for scope and limitations.",
-      "sourceName": "NVIDIA Developer",
-      "sourceUrl": "https://developer.nvidia.com/blog/",
-      "articleUrl": "https://developer.nvidia.com/blog/replayssm-rethinking-state-storage-for-faster-hybrid-model-decoding",
       "relatedTopicSlugs": [
         "tools-actions"
       ]
