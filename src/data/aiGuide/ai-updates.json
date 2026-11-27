@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastUpdated": "2026-11-26T03:36:41Z",
-  "lastAttempt": "2026-11-26T03:36:41Z",
+  "lastUpdated": "2026-11-27T03:39:34Z",
+  "lastAttempt": "2026-11-27T03:39:34Z",
   "status": "ok",
   "sourceStatus": [
     {
@@ -32,10 +32,25 @@
     {
       "id": "huggingface",
       "status": "ok",
-      "items": 67
+      "items": 68
     }
   ],
   "items": [
+    {
+      "id": "633171cff16bd784",
+      "title": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
+      "date": "2026-11-26",
+      "discoveredAt": "2026-11-27T03:39:34.176276Z",
+      "category": "Evaluation",
+      "summary": "An official source announcement. Read the original for details.",
+      "whyItMatters": "Useful context when reviewing evaluation methods; check the original announcement for scope and limitations.",
+      "sourceName": "Hugging Face",
+      "sourceUrl": "https://huggingface.co/blog",
+      "articleUrl": "https://huggingface.co/blog/training-swarms",
+      "relatedTopicSlugs": [
+        "evaluation"
+      ]
+    },
     {
       "id": "099f4a60defd9782",
       "title": "How to Optimize NVFP4 Attention on NVIDIA RTX Blackwell Through Register Recycling",
@@ -2269,21 +2284,6 @@
       "articleUrl": "https://blog.google/innovation-and-ai/models-and-research/quantum-computing/magic-state-cultivation-quantum-computing",
       "relatedTopicSlugs": [
         "research"
-      ]
-    },
-    {
-      "id": "5541c106758136b6",
-      "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
-      "date": "2026-10-15",
-      "discoveredAt": "2026-10-15T23:42:19.944288Z",
-      "category": "Multimodal",
-      "summary": "An official source announcement. Read the original for details.",
-      "whyItMatters": "Useful context when reviewing multimodal workflows; check the original announcement for scope and limitations.",
-      "sourceName": "Hugging Face",
-      "sourceUrl": "https://huggingface.co/blog",
-      "articleUrl": "https://huggingface.co/blog/meta-muse-spark-open",
-      "relatedTopicSlugs": [
-        "multimodal"
       ]
     }
   ]
